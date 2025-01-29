@@ -1,0 +1,23 @@
+[Default Applications]
+x-scheme-handler/jetbrains=jetbrains-toolbox.desktop
+x-scheme-handler/mailto=brave-browser.desktop
+message/rfc822=userapp-Thunderbird-IANTQ2.desktop
+x-scheme-handler/mid=userapp-Thunderbird-IANTQ2.desktop
+text/x-log=code-oss.desktop
+text/plain=code.desktop
+application/x-tiled-tsx=code-oss.desktop
+x-scheme-handler/tonsite=org.telegram.desktop.desktop
+text/x-csrc=code-oss.desktop
+image/x-skencil=code-oss.desktop
+application/vnd.ms-publisher=code.desktop
+
+[Added Associations]
+x-scheme-handler/mailto=userapp-Thunderbird-IANTQ2.desktop;
+x-scheme-handler/mid=userapp-Thunderbird-IANTQ2.desktop;
+text/x-log=code-oss.desktop;
+text/plain=code-oss.desktop;code.desktop;
+application/x-tiled-tsx=code-oss.desktop;
+x-scheme-handler/tonsite=org.telegram.desktop.desktop;
+text/x-csrc=code-oss.desktop;
+image/x-skencil=code-oss.desktop;
+application/vnd.ms-publisher=code.desktop;

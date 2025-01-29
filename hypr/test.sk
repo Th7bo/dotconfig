@@ -1,0 +1,14 @@
+on join:
+    kill {-PlayerInfo::%uuid of player%}
+    spawn a text display at player:
+        set {-PlayerInfo::%uuid of player%} to entity
+        set tag "transformation" of nbt of entity to nbt compound from "{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0.6f,0f],scale:[0.8f,0.8f,0.8f]}"
+        set tag "billboard" of nbt of entity to "vertical"
+        set tag "alignment" of nbt of entity to "center"
+        set tag "background" of nbt of entity to 16777215
+        make entity ride player
+    while player is online:
+        wait 3 ticks
+        set display text of {-PlayerInfo::%uuid of player%} to "aaaaa","aaaaa","aaaa"
+on quit:
+    kill {-PlayerInfo::%uuid of player%}
