@@ -1,6 +1,6 @@
 [Desktop Entry]
 Type=Application
-Exec=/opt/discord/Discord
+Exec=env XDG_SESSION_TYPE=x11 /usr/bin/discord
 Hidden=false
 NoDisplay=false
 Name=Discord
