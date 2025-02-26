@@ -1,0 +1,39 @@
+2025-02-25 20:55:35.854 [info] (Client) Warning: Pylance and Python extension have different versions of shared dependencies. 
+Pylance Extension: 2025.2.1
+    vscode-languageclient: ^10.0.0-next.12
+    vscode-languageserver-protocol: ^3.17.6-next.10
+    vscode-jsonrpc: ^9.0.0-next.5
+Python Extension: 2024.5.1
+    vscode-languageclient: 8.1.0
+    vscode-languageserver-protocol: 3.17.3
+    vscode-jsonrpc: 8.0.2-next.1
+
+This may cause instability in Pylance.
+
+You are using a Pylance release build. Please make sure you have the latest release Pylance and Python extensions versions installed.
+2025-02-25 20:55:36.430 [info] [Info  - 8:55:36 PM] (6455) Server root directory: file:///home/zen/.cursor/extensions/ms-python.vscode-pylance-2025.2.1/dist
+2025-02-25 20:55:36.431 [info] [Info  - 8:55:36 PM] (6455) Pylance language server 2025.2.1 (pyright version 1.1.393, commit 3763156f) starting
+2025-02-25 20:55:36.435 [info] [Error - 8:55:36 PM] Server initialization failed.
+2025-02-25 20:55:36.435 [info]   Message: Request initialize failed with message: You may install and use any number of copies of the software only with Microsoft Visual Studio, Visual Studio for Mac, Visual Studio Code, Azure DevOps, Team Foundation Server, and successor Microsoft products and services (collectively, the “Visual Studio Products and Services”) to develop and test your applications. The software is licensed, not sold. This agreement only gives you some rights to use the software. Microsoft reserves all other rights. You may not: work around any technical limitations in the software that only allow you to use it in certain ways; reverse engineer, decompile or disassemble the software, or otherwise attempt to derive the source code for the software, except and to the extent required by third party licensing terms governing use of certain open source components that may be included in the software; remove, minimize, block, or modify any notices of Microsoft or its suppliers in the software; use the software in any way that is against the law or to create or propagate malware; or share, publish, distribute, or lease the software (except for any distributable code, subject to the terms above), provide the software as a stand-alone offering for others to use, or transfer the software or this agreement to any third party.
+
+
+  Code: -32603 
+2025-02-25 20:55:36.435 [info] [Error - 8:55:36 PM] Pylance client: couldn't create connection to server.
+2025-02-25 20:55:36.435 [info]   Message: Request initialize failed with message: You may install and use any number of copies of the software only with Microsoft Visual Studio, Visual Studio for Mac, Visual Studio Code, Azure DevOps, Team Foundation Server, and successor Microsoft products and services (collectively, the “Visual Studio Products and Services”) to develop and test your applications. The software is licensed, not sold. This agreement only gives you some rights to use the software. Microsoft reserves all other rights. You may not: work around any technical limitations in the software that only allow you to use it in certain ways; reverse engineer, decompile or disassemble the software, or otherwise attempt to derive the source code for the software, except and to the extent required by third party licensing terms governing use of certain open source components that may be included in the software; remove, minimize, block, or modify any notices of Microsoft or its suppliers in the software; use the software in any way that is against the law or to create or propagate malware; or share, publish, distribute, or lease the software (except for any distributable code, subject to the terms above), provide the software as a stand-alone offering for others to use, or transfer the software or this agreement to any third party.
+
+
+  Code: -32603 
+2025-02-25 20:55:41.099 [info] (Client) Pylance async client (2024.8.1) started with python extension (2024.12.3)
+2025-02-25 20:55:41.494 [info] [Info  - 8:55:41 PM] (6937) Pylance language server 2024.8.1 (pyright version 1.1.373, commit ee424479) starting
+2025-02-25 20:55:41.494 [info] [Info  - 8:55:41 PM] (6937) Server root directory: file:///home/zen/.cursor/extensions/ms-python.vscode-pylance-2024.8.1/dist
+2025-02-25 20:55:41.498 [info] [Info  - 8:55:41 PM] (6937) Starting service instance "heapdump"
+2025-02-25 20:55:41.537 [info] [Info  - 8:55:41 PM] (6937) Setting pythonPath for service "heapdump": "/bin/python"
+2025-02-25 20:55:41.537 [info] [Info  - 8:55:41 PM] (6937) Setting environmentName for service "heapdump": "3.13.1 (global)"
+2025-02-25 20:55:41.537 [info] [Info  - 8:55:41 PM] (6937) No include entries specified; assuming /home/zen/Desktop/heapdump
+2025-02-25 20:55:41.538 [info] [Info  - 8:55:41 PM] (6937) Auto-excluding **/node_modules
+2025-02-25 20:55:41.538 [info] [Info  - 8:55:41 PM] (6937) Auto-excluding **/__pycache__
+2025-02-25 20:55:41.538 [info] [Info  - 8:55:41 PM] (6937) Auto-excluding **/.*
+2025-02-25 20:55:41.558 [info] [Info  - 8:55:41 PM] (6937) Assuming Python version 3.13.1.final.0
+2025-02-25 20:55:41.599 [info] [Info  - 8:55:41 PM] (6937) Found 1 source file
+2025-02-25 20:55:41.857 [info] [Info  - 8:55:41 PM] (6937) Background analysis(1) root directory: file:///home/zen/.cursor/extensions/ms-python.vscode-pylance-2024.8.1/dist
+2025-02-25 20:55:41.858 [info] [Info  - 8:55:41 PM] (6937) Background analysis(1) started

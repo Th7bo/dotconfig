@@ -1,0 +1,13 @@
+(2025-02-25T19:54:41.627Z) [info] [extension] Extension activation started: 1740513281621
+(2025-02-25T19:54:41.658Z) [info] [extension] KV storage migration: partitionMigration started
+(2025-02-25T19:54:41.666Z) [info] [extension] KV storage migration: partitionMigration completed
+(2025-02-25T19:54:41.668Z) [info] [extension] Extension activation completed: 1740513281668
+(2025-02-25T19:54:41.668Z) [info] [extension] Extension activation took 47ms
+(2025-02-25T19:54:41.668Z) [info] [extension:tabs:factory] creating a new request tab using the identity: {"tabIdentity":{"to":"/auth-tab"}}
+(2025-02-25T19:55:24.769Z) [info] [extension:tabs:factory:tab] dispose the tab
+(2025-02-25T19:55:27.528Z) [info] [extension] Extension activation started: 1740513327523
+(2025-02-25T19:55:27.566Z) [info] [extension] Extension activation completed: 1740513327566
+(2025-02-25T19:55:27.566Z) [info] [extension] Extension activation took 43ms
+(2025-02-25T19:55:40.251Z) [info] [extension] Extension activation started: 1740513340246
+(2025-02-25T19:55:40.292Z) [info] [extension] Extension activation completed: 1740513340292
+(2025-02-25T19:55:40.292Z) [info] [extension] Extension activation took 46ms

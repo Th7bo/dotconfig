@@ -1,0 +1,20 @@
+2025-02-26 19:18:14.385 [info] Extension host with pid 3478 started
+2025-02-26 19:18:14.385 [info] Skipping acquiring lock for /home/zen/.config/Cursor/User/workspaceStorage/13a598ae326568d1a3ff95561d26bb80.
+2025-02-26 19:18:15.024 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2025-02-26 19:18:15.055 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: false, activationEvent: 'onCommand:git.api.getRepositories', root cause: vscode.git
+2025-02-26 19:18:15.061 [info] ExtensionService#_doActivateExtension dlasagno.wal-theme, startup: false, activationEvent: '*'
+2025-02-26 19:18:15.081 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2025-02-26 19:18:15.097 [info] ExtensionService#_doActivateExtension VisualStudioExptTeam.vscodeintellicode, startup: false, activationEvent: 'onLanguage:java'
+2025-02-26 19:18:15.374 [info] ExtensionService#_doActivateExtension vscode.git, startup: false, activationEvent: 'onCommand:git.api.getRepositories'
+2025-02-26 19:18:15.434 [info] ExtensionService#_doActivateExtension vscode.github, startup: false, activationEvent: '*'
+2025-02-26 19:18:15.519 [info] Eager extensions activated
+2025-02-26 19:18:15.547 [info] ExtensionService#_doActivateExtension anysphere.cursor-always-local, startup: false, activationEvent: 'onStartupFinished'
+2025-02-26 19:18:15.687 [info] ExtensionService#_doActivateExtension anysphere.cursor-retrieval, startup: false, activationEvent: 'onStartupFinished'
+2025-02-26 19:18:15.829 [info] ExtensionService#_doActivateExtension anysphere.cursor-shadow-workspace, startup: false, activationEvent: 'onStartupFinished'
+2025-02-26 19:18:15.866 [info] ExtensionService#_doActivateExtension anysphere.cursor-tokenize, startup: false, activationEvent: 'onStartupFinished'
+2025-02-26 19:18:16.011 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2025-02-26 19:18:16.013 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2025-02-26 19:18:16.030 [info] ExtensionService#_doActivateExtension esbenp.prettier-vscode, startup: false, activationEvent: 'onStartupFinished'
+2025-02-26 19:18:16.091 [info] ExtensionService#_doActivateExtension naumovs.color-highlight, startup: false, activationEvent: 'onStartupFinished'
+2025-02-26 19:18:16.097 [info] ExtensionService#_doActivateExtension Postman.postman-for-vscode, startup: false, activationEvent: 'onStartupFinished'
+2025-02-26 19:18:16.427 [info] ExtensionService#_doActivateExtension streetsidesoftware.code-spell-checker, startup: false, activationEvent: 'onStartupFinished'

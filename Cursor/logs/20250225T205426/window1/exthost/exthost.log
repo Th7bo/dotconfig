@@ -1,0 +1,112 @@
+2025-02-25 20:54:29.523 [info] Extension host with pid 5769 started
+2025-02-25 20:54:29.551 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: false, activationEvent: '*', root cause: vscode.git
+2025-02-25 20:54:29.556 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2025-02-25 20:54:29.582 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2025-02-25 20:54:29.623 [info] ExtensionService#_doActivateExtension vscode.git, startup: false, activationEvent: '*'
+2025-02-25 20:54:29.675 [info] ExtensionService#_doActivateExtension vscode.github, startup: false, activationEvent: '*'
+2025-02-25 20:54:29.746 [info] Eager extensions activated
+2025-02-25 20:54:29.752 [info] ExtensionService#_doActivateExtension anysphere.cursor-always-local, startup: false, activationEvent: 'onStartupFinished'
+2025-02-25 20:54:29.889 [info] ExtensionService#_doActivateExtension anysphere.cursor-retrieval, startup: false, activationEvent: 'onStartupFinished'
+2025-02-25 20:54:30.018 [info] ExtensionService#_doActivateExtension anysphere.cursor-shadow-workspace, startup: false, activationEvent: 'onStartupFinished'
+2025-02-25 20:54:30.054 [info] ExtensionService#_doActivateExtension anysphere.cursor-tokenize, startup: false, activationEvent: 'onStartupFinished'
+2025-02-25 20:54:30.200 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2025-02-25 20:54:30.205 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2025-02-25 20:54:41.128 [info] ExtensionService#_doActivateExtension dlasagno.wal-theme, startup: false, activationEvent: '*'
+2025-02-25 20:54:41.140 [info] ExtensionService#_doActivateExtension esbenp.prettier-vscode, startup: false, activationEvent: 'onStartupFinished'
+2025-02-25 20:54:41.193 [info] ExtensionService#_doActivateExtension naumovs.color-highlight, startup: false, activationEvent: 'onStartupFinished'
+2025-02-25 20:54:41.198 [info] ExtensionService#_doActivateExtension Postman.postman-for-vscode, startup: false, activationEvent: 'onStartupFinished'
+2025-02-25 20:54:41.540 [info] ExtensionService#_doActivateExtension streetsidesoftware.code-spell-checker, startup: false, activationEvent: 'onStartupFinished'
+2025-02-25 20:55:24.754 [info] Extension host terminating: renderer closed the MessagePort
+2025-02-25 20:55:24.769 [error] Error: Webview is disposed
+	at BMt.c (file:///tmp/.mount_cursoraN7I8O/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:180:20888)
+	at get webview (file:///tmp/.mount_cursoraN7I8O/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:180:20055)
+	at Ap.sendMessageToWebview (/home/zen/.cursor/extensions/postman.postman-for-vscode-1.8.1/dist/extension.js:2:6898374)
+	at /home/zen/.cursor/extensions/postman.postman-for-vscode-1.8.1/dist/extension.js:2:7132588
+	at Map.forEach (<anonymous>)
+	at dw.broadcast (/home/zen/.cursor/extensions/postman.postman-for-vscode-1.8.1/dist/extension.js:2:7132573)
+	at /home/zen/.cursor/extensions/postman.postman-for-vscode-1.8.1/dist/extension.js:2:7172337
+	at cH.h (file:///tmp/.mount_cursoraN7I8O/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:138:33046)
+	at cH.g (file:///tmp/.mount_cursoraN7I8O/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:138:32122)
+	at cH.executeCommand (file:///tmp/.mount_cursoraN7I8O/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:138:32029)
+	at Object.executeCommand (file:///tmp/.mount_cursoraN7I8O/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:180:41481)
+	at m.<anonymous> (/home/zen/.cursor/extensions/postman.postman-for-vscode-1.8.1/dist/extension.js:2:6593350)
+	at Generator.next (<anonymous>)
+	at /home/zen/.cursor/extensions/postman.postman-for-vscode-1.8.1/dist/extension.js:2:6586903
+	at new Promise (<anonymous>)
+	at r (/home/zen/.cursor/extensions/postman.postman-for-vscode-1.8.1/dist/extension.js:2:6586637)
+	at m.executeVSCodeCommand (/home/zen/.cursor/extensions/postman.postman-for-vscode-1.8.1/dist/extension.js:2:6593234)
+	at Object.onDidTabClose (/home/zen/.cursor/extensions/postman.postman-for-vscode-1.8.1/dist/extension.js:2:7138315)
+	at p_.value (/home/zen/.cursor/extensions/postman.postman-for-vscode-1.8.1/dist/extension.js:2:6896990)
+	at J.B (file:///tmp/.mount_cursoraN7I8O/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:32:747)
+	at J.fire (file:///tmp/.mount_cursoraN7I8O/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:32:965)
+	at BMt.dispose (file:///tmp/.mount_cursoraN7I8O/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:180:19954)
+	at Ap.dispose (/home/zen/.cursor/extensions/postman.postman-for-vscode-1.8.1/dist/extension.js:2:6897441)
+	at dw._untrackTab (/home/zen/.cursor/extensions/postman.postman-for-vscode-1.8.1/dist/extension.js:2:7132268)
+	at /home/zen/.cursor/extensions/postman.postman-for-vscode-1.8.1/dist/extension.js:2:7132509
+	at Map.forEach (<anonymous>)
+	at dw.dispose (/home/zen/.cursor/extensions/postman.postman-for-vscode-1.8.1/dist/extension.js:2:7132491)
+	at Module.wx (/home/zen/.cursor/extensions/postman.postman-for-vscode-1.8.1/dist/extension.js:2:7194509)
+	at sWt.eb (file:///tmp/.mount_cursoraN7I8O/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:142:11770)
+	at file:///tmp/.mount_cursoraN7I8O/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:142:9919
+	at Array.map (<anonymous>)
+	at sWt.$ (file:///tmp/.mount_cursoraN7I8O/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:142:9907)
+	at sWt.terminate (file:///tmp/.mount_cursoraN7I8O/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:142:10150)
+	at hut.terminate (file:///tmp/.mount_cursoraN7I8O/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:143:1435)
+	at Hr (file:///tmp/.mount_cursoraN7I8O/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:198:15168)
+	at MessagePortMain.<anonymous> (file:///tmp/.mount_cursoraN7I8O/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:198:11698)
+	at MessagePortMain.emit (node:events:518:28)
+	at MessagePortMain.emit (node:domain:489:12)
+	at MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:2949) postman-for-vscode.auth.cancel {"value":"Postman.postman-for-vscode","_lower":"postman.postman-for-vscode"}
+2025-02-25 20:55:24.775 [info] Extension host with pid 5769 exiting with code 0
+2025-02-25 20:55:26.288 [info] Extension host with pid 6373 started
+2025-02-25 20:55:26.289 [info] Skipping acquiring lock for /home/zen/.config/Cursor/User/workspaceStorage/feab0894c182619375bcf7e061744591.
+2025-02-25 20:55:26.307 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2025-02-25 20:55:26.335 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2025-02-25 20:55:26.384 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2025-02-25 20:55:26.386 [info] ExtensionService#_doActivateExtension dlasagno.wal-theme, startup: true, activationEvent: '*'
+2025-02-25 20:55:26.403 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2025-02-25 20:55:26.452 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2025-02-25 20:55:26.533 [info] Eager extensions activated
+2025-02-25 20:55:26.550 [info] ExtensionService#_doActivateExtension anysphere.cursor-always-local, startup: false, activationEvent: 'onStartupFinished'
+2025-02-25 20:55:26.672 [info] ExtensionService#_doActivateExtension anysphere.cursor-retrieval, startup: false, activationEvent: 'onStartupFinished'
+2025-02-25 20:55:26.784 [info] ExtensionService#_doActivateExtension anysphere.cursor-shadow-workspace, startup: false, activationEvent: 'onStartupFinished'
+2025-02-25 20:55:26.818 [info] ExtensionService#_doActivateExtension anysphere.cursor-tokenize, startup: false, activationEvent: 'onStartupFinished'
+2025-02-25 20:55:26.953 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2025-02-25 20:55:26.955 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2025-02-25 20:55:26.969 [info] ExtensionService#_doActivateExtension esbenp.prettier-vscode, startup: false, activationEvent: 'onStartupFinished'
+2025-02-25 20:55:27.020 [info] ExtensionService#_doActivateExtension naumovs.color-highlight, startup: false, activationEvent: 'onStartupFinished'
+2025-02-25 20:55:27.025 [info] ExtensionService#_doActivateExtension Postman.postman-for-vscode, startup: false, activationEvent: 'onStartupFinished'
+2025-02-25 20:55:27.350 [info] ExtensionService#_doActivateExtension streetsidesoftware.code-spell-checker, startup: false, activationEvent: 'onStartupFinished'
+2025-02-25 20:55:34.995 [info] ExtensionService#_doActivateExtension anysphere.pyright, startup: false, activationEvent: 'onLanguage:python'
+2025-02-25 20:55:34.997 [info] ExtensionService#_doActivateExtension VisualStudioExptTeam.intellicode-api-usage-examples, startup: false, activationEvent: 'onLanguage:python'
+2025-02-25 20:55:35.093 [info] ExtensionService#_doActivateExtension VisualStudioExptTeam.vscodeintellicode, startup: false, activationEvent: 'onLanguage:python'
+2025-02-25 20:55:35.146 [info] ExtensionService#_doActivateExtension ms-python.python, startup: false, activationEvent: 'onLanguage:python', root cause: ms-python.debugpy
+2025-02-25 20:55:35.498 [info] ExtensionService#_doActivateExtension ms-python.debugpy, startup: false, activationEvent: 'onLanguage:python'
+2025-02-25 20:55:35.536 [info] ExtensionService#_doActivateExtension ms-python.vscode-pylance, startup: false, activationEvent: 'onLanguage:python'
+2025-02-25 20:55:37.419 [info] Extension host terminating: renderer closed the MessagePort
+2025-02-25 20:55:37.436 [info] Extension host with pid 6373 exiting with code 0
+2025-02-25 20:55:38.522 [info] Extension host with pid 6469 started
+2025-02-25 20:55:38.522 [info] Skipping acquiring lock for /home/zen/.config/Cursor/User/workspaceStorage/feab0894c182619375bcf7e061744591.
+2025-02-25 20:55:38.522 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2025-02-25 20:55:38.522 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2025-02-25 20:55:38.522 [info] ExtensionService#_doActivateExtension anysphere.pyright, startup: false, activationEvent: 'onLanguage:python'
+2025-02-25 20:55:38.522 [info] ExtensionService#_doActivateExtension ms-python.python, startup: false, activationEvent: 'onLanguage:python', root cause: ms-python.debugpy
+2025-02-25 20:55:38.522 [info] ExtensionService#_doActivateExtension VisualStudioExptTeam.intellicode-api-usage-examples, startup: false, activationEvent: 'onLanguage:python'
+2025-02-25 20:55:38.522 [info] ExtensionService#_doActivateExtension VisualStudioExptTeam.vscodeintellicode, startup: false, activationEvent: 'onLanguage:python'
+2025-02-25 20:55:38.755 [info] ExtensionService#_doActivateExtension ms-python.debugpy, startup: false, activationEvent: 'onLanguage:python'
+2025-02-25 20:55:38.795 [info] ExtensionService#_doActivateExtension ms-python.vscode-pylance, startup: false, activationEvent: 'onLanguage:python'
+2025-02-25 20:55:39.077 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2025-02-25 20:55:39.079 [info] ExtensionService#_doActivateExtension dlasagno.wal-theme, startup: true, activationEvent: '*'
+2025-02-25 20:55:39.108 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2025-02-25 20:55:39.158 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2025-02-25 20:55:39.225 [info] Eager extensions activated
+2025-02-25 20:55:39.241 [info] ExtensionService#_doActivateExtension anysphere.cursor-always-local, startup: false, activationEvent: 'onStartupFinished'
+2025-02-25 20:55:39.368 [info] ExtensionService#_doActivateExtension anysphere.cursor-retrieval, startup: false, activationEvent: 'onStartupFinished'
+2025-02-25 20:55:39.501 [info] ExtensionService#_doActivateExtension anysphere.cursor-shadow-workspace, startup: false, activationEvent: 'onStartupFinished'
+2025-02-25 20:55:39.534 [info] ExtensionService#_doActivateExtension anysphere.cursor-tokenize, startup: false, activationEvent: 'onStartupFinished'
+2025-02-25 20:55:39.668 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2025-02-25 20:55:39.673 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2025-02-25 20:55:39.688 [info] ExtensionService#_doActivateExtension esbenp.prettier-vscode, startup: false, activationEvent: 'onStartupFinished'
+2025-02-25 20:55:39.750 [info] ExtensionService#_doActivateExtension naumovs.color-highlight, startup: false, activationEvent: 'onStartupFinished'
+2025-02-25 20:55:39.756 [info] ExtensionService#_doActivateExtension Postman.postman-for-vscode, startup: false, activationEvent: 'onStartupFinished'
+2025-02-25 20:55:40.082 [info] ExtensionService#_doActivateExtension streetsidesoftware.code-spell-checker, startup: false, activationEvent: 'onStartupFinished'

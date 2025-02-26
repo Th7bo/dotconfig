@@ -1,0 +1,768 @@
+options:
+    square: ∎ 
+    main: <##34c6eb>
+
+    red: <##ff6166>
+    green: <##61ff76>
+    
+
+on load:
+    registerWeapons()
+
+function registerWeapons():
+    delete {-weapons::*} and {-weapon-names::*}
+    load yaml "./plugins/Skript/data/weapons.yml" as "weapons"
+    loop yaml_getNodes("weapons", ""):
+        add 1 to {_i}
+        set {_weapon} to loop-value in proper case
+        add {_weapon} to {-weapon-names::*}
+        set {-weapons::%{_weapon}%} to {_i}
+        set {-weapons::%{_i}%::name} to {_weapon}
+        loop yaml_getNodes("weapons", loop-value):
+            set {-weapons::%{_i}%::%loop-value-2%} to yaml_getValue("weapons", "%loop-value-1%.%loop-value-2%")
+        
+    unload yaml "./plugins/Skript/data/weapons.yml" 
+
+
+# All data will now be in mongoDB
+
+command /convertweapons:
+	permission: op
+	trigger:
+		loop all offline players:
+			set {storage::weapons::%loop-offline player%::*} to {-storage::weapons::%loop-offline player%::*}
+		send "done" to player
+
+
+function weapons_sort(p: player):
+    stop if {sorting::%{_p}%} is set
+    set {sorting::%{_p}%} to true
+    set {storage::weapons::%{_p}%::*} to {storage::weapons::%{_p}%::*}
+    loop {storage::weapons::%{_p}%::*}:
+        add 1 to {_i}
+        set {_split::*} to split loop-value at "|"
+        set {_baseDamage} to {-weapons::%{_split::1} parsed as number%::damage}
+        set {_baseDamage} to {_baseDamage} * weapon_getRarityMultiFromString({_split::2})
+        set {_sorted::%{_baseDamage}%.%{_i}%} to loop-index
+    set {_sorted::*} to reversed {_sorted::*}
+    set {_weapons::*} to {storage::weapons::%{_p}%::*}
+    loop {_sorted::*}:
+        add 1 to {_z}
+        set {storage::weapons::%{_p}%::%{_z}%} to {_weapons::%loop-value%}
+    wait 1 second
+    delete {sorting::%{_p}%}
+
+on left click:
+    {autohit::%player%} isn't set
+    {-afkkilling::%player%} isn't set
+    if double tag "power" of custom nbt of player's tool is set:
+        set {_power} to weapon_getPower(player, (player's tool))
+
+    else if player's tool is iron sword:
+        set {_power} to 1
+    
+    if player has permission "gamepass.2xswords":
+        add weapon_getPower(player, slot 40 of player's inventory) to {_power}
+    if player has permission "gamepass.2xpower":
+        set {_power} to {_power} * 2
+    if {-enhancer::activated::%player%} is set:
+        set {_power} to {_power} * 2
+    stop if clicked block is set
+    stop if clicked block = any flower
+    stop if clicked block = tall grass or grass or fern or large fern or short grass or mushroom
+    stop if {-afkkilling::%player%} is set
+    stop if player's tool = air
+
+    {_power} > 0
+
+    set {_id} to int tag "id" of custom nbt of player's tool 
+    if {-weapons::%{_id}%::requirement} >= ({-stats::kills::%player%}+0):
+        send title "&4&lKILL REQUIREMENT" with subtitle  "&fRequires <##ff0f0f>☠ %format({-weapons::%{_id}%::requirement})% Kills" to player
+        play sound "block.note_block.bit" with pitch 0.5 to Player
+        stop
+
+    add 1 to {-stats::swings::%player%}
+    power_addPower(player, {_power})
+
+
+
+function weapon_getPower(p: player, item: item) :: number:
+    set {_base} to double tag "power" of custom nbt of {_item}
+    set {_base} to {_base} * weapon_getRarityMulti({_item})
+
+    if string tag "reforgemod;Power" of custom nbt of {_item} = "add":
+        set {_reforge} to (int tag "reforge;Power" of custom nbt of {_item})/100
+    else:
+        set {_reforge} to ((int tag "reforge;Power" of custom nbt of {_item})/100) / -1
+
+    set {_base} to {_base} * (1 + {_reforge})
+    set {_base} to {_base} * (1 + ({-stats::armor::%{_p}%::Power}/100))
+
+    set {_stars} to (int tag "stars" of custom nbt of {_item}) + (int tag "superstars" of custom nbt of {_item})
+    set {_base} to {_base} * (1 + (({_stars} * 5) / 100))
+
+    set {_base} to {_base} * 1.2 if {_p}'s groups contains "pass"
+
+    return {_base}
+
+
+function power_addPower(p: player, amount: number):
+    if metadata value "AttackCooldown" of {_p} isn't set:
+        set metadata value "AttackCooldown" of {_p} to true
+        play sound "entity.player.attack.sweep" with volume 0.2 and pitch 1.4 to {_p}
+
+
+        set {_amount} to {_amount} * (1 + {stats::bestiaryStats::%{_p}%::power}/100)
+
+        set {_amount} to {_amount} * (1 + {-stats::trophyBuff::%{_p}%}/100) if {-stats::trophies::selected::%{_p}%} = "Power"
+
+        set {_amount} to {_amount} * {potions::%{_p}%::Power::multi} if {potions::%{_p}%::Power::Active} is true
+
+        set {_amount} to {_amount} * (1 + {stats::multi::%{_p}%})
+
+        add {_amount} to {-stats::power::%{_p}%}
+        set {_text} to random integer between 60 and 75
+        loop {_text} times:
+            add "&f " to {_add::*}
+        set {_before} to join {_add::*} with ""
+
+        if {tutorial::%{_P}%} = 3:
+            add 1 to {-tempswings::%{_p}%}
+            bossbar({_p}, "tutorial-%{_p}%", "&a&lOBJECTIVE! &fSwing Weapon &d10x Times&f!", cyan, {-tempswings::%{_p}%}, 10)
+            if {-tempswings::%{_p}%} >= 10:
+                set {tutorial::%{_P}%} to 4
+                delete {-tempswings::%{_p}%}
+                tutorial({_P})
+
+        send title " " with subtitle "%{_before} ? ""% &f+%format({_amount})% %fontConverter("power", "<##2a97eb>")%" to {_p}
+        wait {-stats::cooldown::%{_p}%} ? 3 ticks
+        delete metadata value "AttackCooldown" of {_p}
+
+
+
+function weapon_getDrop(p: player, mob: string) :: string:
+    set {_items::*} to ...{-mobs::%{_mob}%::items}
+    set {_chances::*} to getWeights({_p}, ...{-mobs::%{_mob}%::chances})
+    return random_getWeightedPlayer({_p}, {_items::*}, {_chances::*})
+
+        
+
+
+import:
+    dev.lone.itemsadder.api.FontImages.FontImageWrapper
+    net.md_5.bungee.api.ChatColor
+        
+        
+function sendImage(string: string) :: string:
+    set {_image} to new FontImageWrapper({_string}).getString()
+    set {_image} to ChatColor.stripColor({_image})
+    set {_Image} to "%{_image}%"
+    return {_image}
+
+
+function weapon_serialize(item: item) :: string:
+    set {_stars} to (int tag "stars" of custom nbt of {_item}) + (int tag "superstars" of custom nbt of {_item})
+    set {_rarity} to string tag "rarity" of custom nbt of {_item}
+    set {_id} to int tag "id" of custom nbt of {_item}
+    set {_reforge} to int tag "reforged" of custom nbt of {_item}
+    set {_string} to "%{_id}%|%{_rarity} ? "Generic"%|%{_stars} ? 0%|%{_reforge} ? 0%"
+    return {_string}
+
+function weapon_deserialize(string: string) :: item:
+    set {_spl::*} to split {_string} at "|"
+    set {_item} to weapon_createFullItem(({_spl::1} parsed as number), {_spl::2}, ({_spl::3} parsed as number), ({_spl::4} parsed as number))
+    return {_item}
+
+
+function weapon_createItem(id: integer) :: item:
+    set {_c} to weapon_getRarityColor({-weapons::%{_id}%::rarity})
+    set {_rarity} to weapon_getRarityString("Basic")
+    set {_item} to hideFlags(wooden sword named "%weapon_getRarityColor({-weapons::%{_id}%::rarity})%%{-weapons::%{_id}%::name}%" with lore "&f", "%{_c}%ɪɴꜰᴏʀᴍᴀᴛɪᴏɴ", " %{_c}%{@square} &fPower: &b⚔%format(({-weapons::%{_id}%::power} ? {-weapons::%{_id}%::damage}))%", " %{_c}%{@square} &fTier: %{_rarity}%",  "&f", "%weapon_getRarity({-weapons::%{_id}%::rarity})% ᴡᴇᴀᴘᴏɴ")
+    set {_item} to item_addTexture({_item}, {-weapons::%{_id}%::custom texture})
+    set double tag "power" of custom nbt of {_item} to {-weapons::%{_id}%::damage}
+    set string tag "randid" of custom nbt of {_item} to random uuid
+    set int tag "id" of custom nbt of {_item} to {_id}
+    set int tag "randomID" of custom nbt of {_item} to (random integer between 1 and 999999)
+    set string tag "rarity" of custom nbt of {_item} to "Basic"
+    set string tag "rarityType" of custom nbt of {_item} to {-weapons::%{_id}%::rarity}
+
+    set string tag "originalName" of custom nbt of {_item} to name of {_item}
+    set {_item2} to {_item}
+    return {_item2}
+
+function weapon_createFullItem(id: integer, rarity: string, stars: number, reforge: integer) :: item:
+    set {_item} to weapon_createItem({_id})
+    set string tag "rarity" of custom nbt of {_item} to {_rarity}
+    set {_item} to reforge_add({_item}, {-reforge::%{_reforge}%::name})
+
+    if {_stars} >= 5:
+        set int tag "stars" of custom nbt of {_item} to 5
+        set int tag "superstars" of custom nbt of {_item} to {_stars}-5
+    else:
+        set int tag "stars" of custom nbt of {_item} to {_stars}
+    
+    set {_item} to sword_setName({_item})
+
+    return {_item}
+
+
+function weapon_getRarityMulti(item: item) :: number:
+    return 2 if string tag "rarity" of custom nbt of {_item} is "Divine"
+    return 4 if string tag "rarity" of custom nbt of {_item} is "Ultimate"
+    return 8 if string tag "rarity" of custom nbt of {_item} is "Godly"
+    return 16 if string tag "rarity" of custom nbt of {_item} is "Exotic"
+    return 32 if string tag "rarity" of custom nbt of {_item} is "Ancient"
+    return 64 if string tag "rarity" of custom nbt of {_item} is "Immortal"
+    return 1
+function weapon_getRarityMultiFromString(string: string) :: number:
+    return 2 if {_String} is "Divine"
+    return 4 if {_String} is "Ultimate"
+    return 8 if {_String} is "Godly"
+    return 16 if {_String} is "Exotic"
+    return 32 if {_String} is "Ancient"
+    return 64 if {_String} is "Immortal"
+    return 1
+function weapon_getRarityColor(string: string) :: string:
+    return "<##cfc7b4>" if {_string} = "Generic"
+    return "<##73ff69>" if {_string} = "Exceptional"
+    return "<##4775ff>" if {_string} = "Rare"
+    return "<##12f7ff>" if {_string} = "Heroic"
+    return "<##ff2626>" if {_string} = "Mythic"
+    return "<##e9ff26>" if {_string} = "Renowned"
+    return "<##B308FB>" if {_string} = "Ethereal"
+function weapon_getRarity(string: string) :: string:
+    return "<##cfc7b4>ɢᴇɴᴇʀɪᴄ" if {_string} = "Generic"
+    return "<##73ff69>ᴇxᴄᴇᴘᴛɪᴏɴᴀʟ" if {_string} = "Exceptional"
+    return "<##4775ff>ʀᴀʀᴇ" if {_string} = "Rare"
+    return "<##12f7ff>ʜᴇʀᴏɪᴄ" if {_string} = "Heroic"
+    return "<##ff2626>ᴍʏᴛʜɪᴄ" if {_string} = "Mythic"
+    return "<##e9ff26>ʀᴇɴᴏᴡɴᴇᴅ" if {_string} = "Renowned"
+    return "<##B308FB>ᴇ<##C21EFC>ᴛ<##D134FD>ʜ<##E04AFE>ᴇ<##E04AFE>ʀ<##D134FD>ᴇ<##C21EFC>ᴀ<##B308FB>ʟ" if {_string} = "Ethereal"
+function weapon_getRarityString(rarity: string) :: string:
+    return "<##2ADCFF>D<##64E6FF>i<##9FEFFF>v<##D9F9FF>i<##82EBFF>n<##2ADCFF>e" if {_rarity} = "Divine"
+    return "<##FF4A4A>U<##FF5858>l<##FF6666>t<##FF7474>i<##FF8282>m<##FF6F6F>a<##FF5D5D>t<##FF4A4A>e" if {_rarity} = "Ultimate"
+    return "<##FFBC28>G<##FFC546>o<##FFCE63>d<##FFC546>l<##FFBC28>y" if {_rarity} = "Godly"
+    return "<##28FF2E>E<##43FF48>x<##5EFF63>o<##79FF7D>t<##51FF56>i<##28FF2E>c" if {_rarity} = "Exotic"
+    return "<##BE65FF>A<##C97EFF>n<##D397FF>c<##DEB0FF>i<##D397FF>e<##C97EFF>n<##BE65FF>t" if {_rarity} = "Ancient"
+    return "<##6CFFB2>&k;<##2AFF8F>I<##40FF9B>m<##56FFA6>m<##6CFFB2>o<##82FFBD>r<##65FFAE>t<##47FF9E>a<##2AFF8F>l<##6CFFB2>&k;" if {_rarity} = "Immortal"
+    return "&7Basic"
+function weapon_getNextRarity(rarity: string) :: string:
+    return "<##2ADCFF>D<##64E6FF>i<##9FEFFF>v<##D9F9FF>i<##82EBFF>n<##2ADCFF>e" if {_rarity} = "Basic"
+    return "<##FF4A4A>U<##FF5858>l<##FF6666>t<##FF7474>i<##FF8282>m<##FF6F6F>a<##FF5D5D>t<##FF4A4A>e" if {_rarity} = "Divine"
+    return "<##FFBC28>G<##FFC546>o<##FFCE63>d<##FFC546>l<##FFBC28>y" if {_rarity} = "Ultimate"
+    return "<##28FF2E>E<##43FF48>x<##5EFF63>o<##79FF7D>t<##51FF56>i<##28FF2E>c" if {_rarity} = "Godly"
+    return "<##BE65FF>A<##C97EFF>n<##D397FF>c<##DEB0FF>i<##D397FF>e<##C97EFF>n<##BE65FF>t" if {_rarity} = "Exotic"
+    return "<##6CFFB2>&k;<##2AFF8F>I<##40FF9B>m<##56FFA6>m<##6CFFB2>o<##82FFBD>r<##65FFAE>t<##47FF9E>a<##2AFF8F>l<##6CFFB2>&k;" if {_rarity} = "Ancient"
+function weapon_rarityToInt(rarity: string) :: integer:
+    return 0 if {_rarity} = "Basic"
+    return 1 if {_rarity} = "Divine"
+    return 2 if {_rarity} = "Ultimate"
+    return 3 if {_rarity} = "Godly"
+    return 4 if {_rarity} = "Exotic"
+    return 5 if {_rarity} = "Ancient"
+    return 6 if {_rarity} = "Immortal"
+function nextRarityNeeded(rarity: string) :: integer:
+    return 5 if {_rarity} = "Basic"
+    return 5 if {_rarity} = "Divine"
+    return 4 if {_rarity} = "Ultimate"
+    return 4 if {_rarity} = "Godly"
+    return 3 if {_rarity} = "Exotic"
+    return 2 if {_rarity} = "Ancient"
+
+
+function sword_star(tier: integer=1) :: item:
+    if {_tier} = 1:
+        set {_item} to item_addTexture((paper named "<##FFCC42>I<##FED942>t<##FEE642>e<##FDF242>m <##FDF242>S<##FEE642>t<##FED942>a<##FFCC42>r" with lore (fontConverter("weapon modifier", "&8"), "&f", " %fontConverter("information", "<##FFCC42>")%", " <##FFCC42>&l| &fIncreases the base stats", " <##FFCC42>&l| &fof any weapon by &a5%%&f.", "&f", " <##FFCC42>&l| &fUp to &e5 Stars &fcan be applied.", "&f", "&eDrag n' Drop onto any", "&eweapon to apply!")), 10014)
+    else:
+        set {_item} to item_addTexture((paper named "<##FF4242>S<##FF4D48>u<##FF594E>p<##FF6455>e<##FF705B>r <##FF6D59>S<##FF5F52>t<##FF504A>a<##FF4242>r" with lore (fontConverter("weapon modifier", "&8"), "&f", " %fontConverter("information", "<##FF4242>")%", " <##FF4242>&l| &fIncreases the base stats", " <##FF4242>&l| &fof any weapon by &a5%%&f.","&f", " <##FF4242>&l| &fMust have &e5 Regular Stars&f Applied.", " <##FF4242>&l| &fUp to &c5 Super Stars &fcan be applied.", "&f", "&eDrag n' Drop onto any", "&eweapon to apply!")), 10015)
+
+    set int tag "tier" of custom nbt of {_item} to {_tier}
+    return {_item}
+
+
+
+on inventory close:
+
+    wait 3 ticks
+
+    if uncolored name of player's current inventory = "Crafting":
+        delete metadata value "merging" of player
+
+
+
+on inventory click:
+
+    event-inventory = player's inventory
+
+    if int tag "tier" of custom nbt of player's cursor slot is 1 or 2:
+
+        set {_tier} to int tag "tier" of custom nbt of player's cursor slot
+
+        if double tag "power" of custom nbt of event-item is set:
+
+            if {_tier} = 1:
+
+                set {_starCount} to (int tag "stars" of custom nbt of event-item)+0
+
+                if {_starCount} < 5:
+                    set int tag "stars" of custom nbt of event-item to {_starCount} + 1
+                    remove 1 of player's cursor slot from player's cursor slot
+                    set event-slot to sword_setName(event-slot)
+                    star_applySound(player)
+            else:
+                set {_starCount} to (int tag "stars" of custom nbt of event-item)+0
+                set {_superStarCount} to (int tag "superstars" of custom nbt of event-item)+0
+                if {_starCount} < 5:
+                    send " <##ff6257>You need to have 5 normal item stars to apply super stars!" to player
+                    play sound "entity.player.burp" with pitch 0.5 to player
+                    cancel event
+                else:
+                    if {_superStarCount} < 5:
+                        set int tag "superstars" of custom nbt of event-item to {_superstarCount} + 1
+                        remove 1 of player's cursor slot from player's cursor slot
+                        set event-slot to sword_setName(event-slot)    
+                        star_applySound(player)
+
+
+function star_applySound(p: player):
+    set {_pi} to 1.5
+    loop 5 times:
+        play sound "block.note_block.pling" with pitch {_pi} to {_p}
+        add 0.1 to {_pi}
+        wait 1 ticks
+
+function star_setName(item: item) :: item:
+
+    set {_name} to string tag "originalName" of custom nbt of {_item}
+
+    set {_stars} to int tag "stars" of custom nbt of {_item}
+
+    if {_stars} > 0:
+        set name of {_item} to "%{_name}% %getStars({_stars})%"
+
+    return {_item}
+
+
+function weapon_increaseRarityExact(item: item, rarity: string) :: item:
+    set string tag "rarity" of custom nbt of {_item} to {_rarity}
+    set {_item2} to weapon_updateLore({_item})
+    return {_item2}    
+
+function weapon_updateLore(item: item) :: item:
+    set {_rarityy} to string tag "rarityType" of custom nbt of {_item}
+    set {_rarity} to string tag "rarity" of custom nbt of {_item}
+    set {_c} to weapon_getRarityColor({_rarityy})
+    set {_stars} to (int tag "stars" of custom nbt of {_item}) + (int tag "superstars" of custom nbt of {_item})
+    set {_newPower} to (double tag "power" of custom nbt of {_item}) * weapon_getRarityMulti({_item})
+    set {_newPower} to {_newPower} * (1 + (({_stars} * 5) / 100))
+
+    loop lore of {_item}:
+        add 1 to {_i}
+        if uncolored loop-value contains "ɪɴꜰᴏʀᴍᴀᴛɪᴏɴ":
+            set {_nextLine} to {_i}+1
+            set {_after} to {_i}+2
+            exit loop
+
+    set line {_nextLine} of lore of {_item} to " %{_c}%{@square} &fPower: &b⚔%format({_newPower})%"
+    set line {_after} of lore of {_item} to " %{_c}%{@square} &fTier: %weapon_getRarityString({_rarity})%"
+    set {_item2} to {_item}
+    return {_item2}    
+
+function sword_setName(item: item) :: item:
+
+    set {_originalName} to string tag "originalName" of custom nbt of {_item}
+
+    if int tag "reforged" of custom nbt of {_item} is set:
+        set {_i} to int tag "reforged" of custom nbt of {_item}
+        add "<##f0f014>%{-reforge::%{_i}%::name}%" to {_s::*}
+
+    add {_originalName} to {_s::*}
+
+    set {_stars} to (int tag "stars" of custom nbt of {_item}) + (int tag "superstars" of custom nbt of {_item})
+    if {_stars} > 0:
+        add getStars({_stars}) to {_s::*}
+
+    set name of {_item} to (join {_s::*} with " ")
+    set {_item} to weapon_updateLore({_item})
+
+    return {_item}
+
+
+
+function getStars(amount: number) :: string:
+    set {_loopTime} to 5 if {_amount} > 5, else ({_amount})
+    loop {_loopTime} times:
+        add "<##f0f018>★" to {_r::*}
+    if {_amount} > 5:
+        set {_superStars} to {_amount} - 5
+        loop {_superStars} times:
+            set {_r::%loop-iteration%} to "<##f0f08c>★"
+    
+    return join {_r::*} with ""
+
+function weapon_getStorage(p: player) :: integer:
+    add 100 to {_n}
+    add {-stats::extraWeaponStorage::%{_p}%} to {_n}
+    return {_n}
+
+
+command /weapons:
+    trigger:
+
+        weapon_openStorage(player)
+
+
+function weapon_openStorage(p: player, page: number = 1):
+    weapons_sort({_p})
+    create new gui with virtual chest inventory named "&f &f &f &f &f &f &f &f &f &f &r Weapon Storage &f &f &f &f &f &f &f &f &f  &f &f &f &f %size of {storage::weapons::%{_p}%::*}%/%weapon_getStorage({_p})% | Page %{_page}%" with 6 rows:
+
+
+        set {_glass} to gray stained glass pane with no tooltip
+        format gui slot (integers between 0 and 55) with {_glass}
+
+        set {_slots::*} to (integers between 9 and 44)
+
+        unformat gui slot {_slots::*},3,4,5
+
+        if {_p} has permission "gamepass.2xswords":
+            add slot 0 of {_p}'s inventory, slot 40 of {_p}'s inventory to {_equipped::*}
+            set {_max} to 2
+        else:
+            add slot 0 of {_p}'s inventory to {_equipped::*}
+            set {_msg} to "&cPurchase this 2nd slot on /buy!"
+            set {_titleMsg} to " &4&lLOCKED!"
+        format gui slot 3 with {barrier} named "<##ff5145>Unequipped Weapon" with lore "&8ᴇᴍᴘᴛʏ ꜱʟᴏᴛ", "&f", " <##ff5145>ɪɴꜰᴏʀᴍᴀᴛɪᴏɴ", " <##ff5145>{@square} &fThis is currently an empty", " <##ff5145>{@square} &fweapon slot! equip a &dweapon &fto", " <##ff5145>{@square} &fgain &b⚔ Power&f, which is also", " <##ff5145>{@square} &fequal to the &cdamage &fyou", " <##ff5145>{@square} &fdeal towards mobs!", "&f", "&aMore Questions? Check out /discord!"
+        format gui slot 5 with {barrier} named "<##ff5145>Unequipped Weapon%{_titleMsg} ? ""%" with lore "&8ᴇᴍᴘᴛʏ ꜱʟᴏᴛ", "&f", " <##ff5145>ɪɴꜰᴏʀᴍᴀᴛɪᴏɴ", " <##ff5145>{@square} &fThis is currently an empty", " <##ff5145>{@square} &fweapon slot! equip a &dweapon &fto", " <##ff5145>{@square} &fgain &b⚔ Power&f, which is also", " <##ff5145>{@square} &fequal to the &cdamage &fyou", " <##ff5145>{@square} &fdeal towards mobs!", "&f", "&aMore Questions? Check out /discord!", {_msg} ? ""
+        
+
+        set {_msg} to "{@red}Click to Disable Weapon Merging" if metadata value "merging" of {_p} is true, else "{@green}Click to Enable Weapon Merging"
+        set {_title} to "{@red}(Disabled)" if metadata value "merging" of {_p} isn't set, else "{@green}(Enabled)"
+
+        format gui slot 45 with item_addTexture((book and quill named "{@main}Weapon Merging %{_title}%" with lore "&8ɪɴꜰᴏʀᴍᴀᴛɪᴏɴ", "&f", " {@main}ɪɴꜰᴏʀᴍᴀᴛɪᴏɴ", " {@main}{@square} &fThese are all the different", " {@main}{@square} &fweapon tiers that you can", " {@main}{@square} &ffuse your weapons into. Each", " {@main}{@square} &ffusion makes your weapon", " {@main}{@square} &astronger&f!", "&f", " {@main}ꜰᴜꜱɪᴏɴꜱ", " {@main}{@square} &fBasic &f[1x]", " {@main}{@square} %weapon_getNextRarity("Basic")% &f[2x]", " {@main}{@square} %weapon_getNextRarity("Divine")% &f[4x]", " {@main}{@square} %weapon_getNextRarity("Ultimate")% &f[8x]", " {@main}{@square} %weapon_getNextRarity("Godly")% &f[16x]", " {@main}{@square} %weapon_getNextRarity("Exotic")% &f[32x]", " {@main}{@square} %weapon_getNextRarity("Ancient")% &f[64x]", "&f", {_msg}), 10000):
+            play sound "entity.puffer_fish.blow_up" with volume 10 with pitch 1.5 to {_p}
+            if metadata value "merging" of {_p} is true:
+                delete metadata value "merging" of {_p}
+                send " {@red}You have disabled &fWeapon Merging{@red}!" to {_p}
+            else:
+                set metadata value "merging" of {_p} to true
+                send " {@green}You have enabled &fWeapon Merging{@green}!" to {_p}
+            weapon_openStorage({_p}, {_page})
+        
+
+        set {_main} to "{@main}"
+        format gui slot 53 with item_addTexture((paper named "{@main}Mob Bestiary" with lore "%fontConverter("bestiary", "&8")%", "&f", " %fontConverter("information", {_main})%", " {@main}&l| &fThis will take you to", " {@main}&l| &fthe &eMob Bestiaries&f.", " {@main}&l| &fYou can also &cauto delete", " {@main}&L| &fweapons here!", "&f", "&eClick to View Bestiaries"), 10012):
+            bestiary_openMenu({_p})
+
+        format gui slot 52 with item_addTexture((paper named "{@main}Weapon Enchantments" with lore "%fontConverter("enchantments", "&8")%", "&f", " %fontConverter("information", {_main})%", " {@main}&l| &fThis will take you to", " {@main}&l| &fthe &aWeapon Enchantments&f.", " {@main}&l| &fEnchants are &dPermanent", " {@main}&l| &fand apply to &aAll &fweapons!", "&f", "&eClick to View Enchants"), 10013):
+            enchant_openMenu({_p})
+
+
+
+        set {_stat} to "&aActive" if metadata value "autohit" of {_p} is set, else "&cInactive"
+
+        format gui slot 49 with diamond named "<##94ff47>Auto Attack!" with lore "%fontConverter("weapon setting", "&8")%", "&f", " %fontConverter("information", "<##94ff47>")%", " <##94ff47>&l| &fThis will make it so you", " <##94ff47>&l| &fautomatically attack the next", " <##94ff47>&l| &fmob you &ahit&f!", "&f", " <##94ff47>&l| &fStatus: %{_stat}%", "&f", "&eClick to Toggle Setting!":
+            if {_p} has permission "auto-attack" or "fast-auto-attack":
+                if metadata value "autohit" of {_p} is true:
+                    delete metadata value "autohit" of {_p}
+                    send " <##ff3636>You have Disabled Auto Attack!" to {_p}
+                    play sound "block.note_block.pling" with pitch 0.5 to {_p}
+                else:
+                    set metadata value "autohit" of {_p} to true
+                    send " <##75ff12>You have Enabled Auto Attack!" to {_p}
+                    play sound "block.note_block.pling" with pitch 2 to {_p}
+                    if {_p} doesn't have permission "fast-auto-attack":
+                        wait 1 second
+                        send "%nl% <##effc60>Want Faster Auto Swing? Purchase the perk on /buy!%nl%" to {_p}
+                        play sound "block.note_block.bit" to {_p}
+                weapon_openStorage({_p}, {_page})
+            else:
+                editGUI({_p}, 47, ({barrier} named "<##ff5145>Not Unlocked!" with lore "&8ᴇᴍᴘᴛʏ ꜱʟᴏᴛ", "&f", " <##ff5145>ɪɴꜰᴏʀᴍᴀᴛɪᴏɴ", " <##ff5145>&l| &fThis will be unlocked", " <##ff5145>&l| &fonce you reach &eWorld 3&f.", "&f", " <##ff5145>&l| &fPurchasing &bPremium Auto Attack", " <##ff5145>&l| &fgives you faster &eCPS &fthan the", " <##ff5145>&l| &ffree one!", "&f", "&aPurchase @ store.meleesim.net"))
+    
+
+
+        set {_amt} to size of {storage::weapons::%{_p}%::*}
+        format gui slot 50 with item_addTexture((paper named "&aNext Page ->" with lore "&fClick to go to", "&fthe next page" with all item flags), 10001):
+            if {_amt} > {_page}*(size of {_slots::*}):
+                weapon_openStorage({_P}, {_page}+1)
+                play sound "item.book.page_turn" to {_p}
+            else:
+                editGUI({_p},50, (barrier named "&cNo Next Page!" with lore "&fThere is no next page of", "&fweapons for you."))
+                play sound "entity.player.burp" with pitch 0.5 to {_p}
+        format gui slot 48 with item_addTexture((paper named "&c<- Previous Page" with lore "&fClick to go to", "&fthe previous page" with all item flags), 10000):
+            if {_page} > 1:
+                weapon_openStorage({_P}, {_page}-1)    
+                play sound "item.book.page_turn" to {_p}        
+            else:
+                editGUI({_p},48, (barrier named "&cNo Previous Page!" with lore "&fThere is no previous page of", "&fweapons for you."))
+                play sound "entity.player.burp" with pitch 0.5 to {_p}
+
+
+
+        set {_equipped::*} to weapon_equipped({_p})
+
+        set {_extra::3} to 0
+        set {_extra::5} to 40
+
+        loop (3, 5):
+            set {_displayItem::%loop-iteration%} to {_equipped::%loop-iteration%}
+            set {_item::%loop-iteration%} to {_equipped::%loop-iteration%}
+            #send "%{_displayItem::%loop-iteration%}% - %loop-iteration% DISPLAY" to {_p}
+            #send "%{_item::%loop-iteration%}% - %loop-iteration% ITEM" to {_p}
+            set {_l} to "%loop-value%" parsed as number
+            set {_it} to loop-iteration
+
+            continue if {_displayItem::%loop-iteration%} = air
+
+            add "&f", "%smoothLine(35, "&8")%", "&f", "&cLeft-Click &8♮ &fUnequip Weapon" to lore of {_displayItem::%loop-iteration%}
+            set name of {_displayItem::%loop-iteration%} to "%name of {_displayItem::%loop-iteration%}% &f(Main Hand)" if loop-value = 3, else "%name of {_displayItem::%loop-iteration%}% &f(Off Hand)"
+
+
+            format gui slot loop-value with {_displayItem::%loop-iteration%}:
+                add weapon_serialize({_item::%{_it}%}) to {storage::weapons::%{_p}%::*}
+                set slot {_extra::%{_l}%} of {_p}'s inventory to air
+                weapon_openStorage({_p}, {_page})
+
+        set {_page::*} to page {_page} of (indices of {storage::weapons::%{_p}%::*}) with 36 lines
+
+        loop {_page::*}:
+            add 1 to {_i}
+
+            set {_string} to {storage::weapons::%{_p}%::%loop-value%}
+            set {_index} to loop-value
+
+            set {_split::*} to split {storage::weapons::%{_p}%::%loop-value%} at "|"
+            set {_weaponID} to {_split::1} parsed as number
+            set {_rarity} to {_split::2}
+            set {_stars} to ({_split::3} parsed as number)
+            set {_reforge} to ({_split::4} parsed as number)
+
+            set {_item} to weapon_createFullItem({_weaponID}, {_rarity}, {_stars}, {_reforge})
+
+
+            set {_displayItem} to {_item}
+ 
+
+            if metadata value "merging" of {_p} is set:
+                if {_rarity} != "Immortal":
+
+                    set {_count} to size of weapon_getSame({_p}, {_string})
+                    set {_needed} to nextRarityNeeded({_rarity})
+
+                    add "&f", "%smoothLine(35, "&8")%", "&f", "%weapon_getRarityString({_rarity})% &8&l>> %weapon_getNextRarity({_rarity})%", "&a%{_count}% &8/ &c%{_needed}%", "&f" to lore of {_displayItem}
+
+                    if {_count} >= {_needed}:
+                        add "&aLeft-Click &8♮ &fMerge Weapons" to lore of {_displayItem}
+                        enchant {_displayItem} with mending
+                        set {_displayItem} to {_displayItem} with all item flags
+                    else:
+                        add "{@red}Not Enough To Merge!" to lore of {_displayItem}
+
+            else:
+                add "&f", "%smoothLine(35, "&8")%", "&f", "&aLeft-Click &8♮ &fEquip Weapon", "&eRight-Click &8♮ &fWithdraw Weapon", "&cShift Right-Click &8♮ &fDelete Weapon" to lore of {_displayItem}
+
+
+            format gui slot {_slots::%{_i}%} with {_displayItem}:
+
+                if metadata value "merging" of {_p} is set:
+
+                    if lore of {_displayItem} contains "&aLeft-Click &8♮ &fMerge Weapons":
+                        weapon_merge({_p}, {_string})
+                        weapon_openStorage({_p}, {_page})
+                        coolsound({_p})
+                        
+                    stop
+
+                if click action is left mouse button:
+                    set {_availSlots::*} to weapon_availableSlot({_p})
+                    if size of {_availSlots::*} > 0:
+                        set slot {_availSlots::1} of {_p}'s inventory to {_item}
+                        delete {storage::weapons::%{_p}%::%{_index}%}
+                        weapon_openStorage({_p}, {_page})
+
+                        if {tutorial::%{_p}%} = 2:
+                            add 1 to {tutorial::%{_p}%}
+                            tutorial({_p})
+                
+                if click action is right mouse button with shift:
+                    play sound "entity.generic.burn" to {_p}
+                    delete {storage::weapons::%{_p}%::%{_index}%}
+                    weapon_openStorage({_p}, {_page})
+            
+                if click action is right mouse button:
+                    if {_p} can hold {_item}:
+                        play sound "entity.chicken.egg" to {_p}
+                        give {_p} {_item}
+                        delete {storage::weapons::%{_p}%::%{_index}%}
+                        weapon_openStorage({_p}, {_page})
+                    else:
+                        send " <##ff5454>You don't have enough space to withdraw this!" to {_p}
+                        play sound "entity.player.burp" with pitch 0.5 to {_p}
+
+        open last gui to {_p}
+
+on right click:
+    if double tag "power" of custom nbt of player's tool > 0:
+        set {_tool} to 1 of player's tool
+        set {_randId} to string tag "randid" of custom nbt of slot 0 of player's inventory
+        if {_randId} is string tag "randid" of custom nbt of player's tool:
+            cancel event
+            stop
+        if slot 0 of player's inventory is player's tool:
+            cancel event
+        else:
+            if size of {storage::weapons::%player%::*} < weapon_getStorage(player):
+
+                add weapon_serialize(player's tool) to {storage::weapons::%player%::*}
+
+                set player's tool to air
+                send ":green_mark: <##2bff0f>Added %name of {_tool}% <##2bff0f>to your weapon storage. &f&n/weapons" to player
+                #set {-storage::weapons::%player%::*} to {-storage::weapons::%player%::*} 
+                play sound "entity.horse.saddle" to player
+            else:
+                send ":red_mark: <##ff3d3d>Your weapon storage is full!" to player
+
+command /admin-weapons <string> <player> <string>:
+
+    permission: op
+    trigger:
+
+        if arg-1 = "give":
+
+            if {-weapons::%arg-3%} is set:
+                set {_id} to {-weapons::%arg-3%} 
+            else:
+                set {_id} to arg-3 parsed as number
+            
+            if weapon_createItem({_id}) isn't set:
+                send " <##ff4f42>This weapon is invalid! Try putting a Weapon ID Or name!" to player
+                stop
+            
+            give arg-2 weapon_createItem({_id})
+            send " <##72ff5c>You have received a &f'%name of weapon_createItem({_id})%&f'<##72ff5c>." to arg-2
+            send " <##72ff5c>You have given %arg-2% a &f'%name of weapon_createItem({_id})%&f'" to arg-2
+            play sound "block.note_block.pling" with pitch 10 to arg-2
+
+on tab complete of "/admin-weapons":
+    set tab completions for position 1 to "give"
+    set tab completions for position 2 to all players
+    set tab completion for position 3 to {-weapon-names::*}
+
+on right click:
+    if any:
+        player's tool is iron sword
+        double tag "power" of custom nbt of player's tool is set
+    then:
+        target entity isn't interaction
+        {-egg-location::%event-location%} isn't set
+        if player isn't sneaking:
+            enchant_openMenu(player)
+        else if player is sneaking:
+            weapon_openStorage(player)
+
+
+function coolsound(p: player):
+    set {_pitch} to 1
+    loop 3 times:
+        play sound "block.note_block.bit" with pitch {_pitch} to {_p}
+        add 0.2 to {_pitch}
+        wait 3 tick 
+
+function weapon_mergeAll(p: player, string: string):
+    loop {storage::weapons::%{_p}%::*}:
+        weapon_merge({_p}, loop-value)
+        wait 1 tick
+        
+
+function weapon_getSame(p: player, string: string) :: strings:
+    set {_b::*} to split {_string} at "|"
+    loop {storage::weapons::%{_p}%::*}:
+        set {_s::*} to split loop-value at "|"
+        if {_b::1} parsed as number = {_s::1} parsed as number:
+            if {_b::2} = {_s::2}:
+                add loop-value to {_return::*}
+                
+    return {_return::*}
+
+function weapon_merge(p: player, string: string):
+    set {_split::*} to split {_string} at "|"
+    set {_same::*} to weapon_getSame({_p}, {_string})
+    set {_neededPerMerge} to nextRarityNeeded({_split::2})
+    stop if size of {_same::*} < {_neededPerMerge}
+
+    set {_item} to weapon_deserialize({_string})
+    set {_next} to "%uncolored weapon_getNextRarity({_split::2})%"
+    set {_fusedItem} to weapon_increaseRarityExact({_item}, {_next})
+
+    set {_mergingWeapons::*} to first {_neededPerMerge} elements out of {_same::*}
+    loop {_mergingWeapons::*}:
+        remove loop-value from {storage::weapons::%{_p}%::*}
+    add weapon_serialize({_fusedItem}) to {storage::weapons::%{_p}%::*}
+#    weapons_sort({_p})
+
+
+function weapon_availableSlot(p: player) :: numbers:
+    if slot 0 of {_p}'s inventory is air or iron sword:
+        add 0 to {_re::*}
+    if {_p} has permission "gamepass.2xswords":
+        if slot 40 of {_p}'s inventory is air:
+            add 40 to {_re::*}
+    return {_re::*}
+
+function weapon_equipped(p: player) :: items:
+    set {_re::1} to air
+    if slot 0 of {_p}'s inventory isn't air or iron sword:
+        set {_re::1} to slot 0 of {_p}'s inventory
+    if {_p} has permission "gamepass.2xswords":
+        if slot 40 of {_p}'s inventory isn't air:
+            set {_re::2} to slot 40 of {_p}'s inventory
+    return {_re::*}
+
+
+
+
+function weapon_deleteMenu(p: player):
+
+
+    create new gui with virtual chest named " &f &f &f &f &f &f &f &f &r Mass Delete Weapons" with 3 rows:
+
+        format gui slot (integers between 0 and 55) with gray stained glass pane named "&f"
+
+
+        set {_types::*} to "Generic", "Exceptional", "Rare", "Heroic", "Mythic", "Renowned"
+        set {_items::*} to gray dye, lime dye, blue dye, light blue dye, red dye, yellow dye
+
+        set {_slots::*} to 10,11,12,14,15,16
+    
+
+        format gui slot 22 with barrier named "&cGo Back" with lore "&8ʙᴜᴛᴛᴏɴ", "&f", "&cɪɴꜰᴏʀᴍᴀᴛɪᴏɴ", "&c&l| &fThis will take you back", "&c&l| &fto your &aWeapons Menu&f.", "&f", "&c&lCLICK HERE TO", "<##ff8585>Go to the Upgrades Menu!":
+            weapon_openStorage({_p})
+            play sound "item.bucket.fill_powder_snow" with pitch 10 to {_p}
+
+        loop {_items::*}:
+            add 1 to {_i}
+            set {_rarity} to {_types::%{_i}%}
+            set {_C} to weapon_getRarityColor({_rarity})
+
+            set {_weapons::*} to weapon_getSpecificRarity({_p}, {_rarity})
+
+            format gui slot {_slots::%{_i}%} with {_items::%{_i}%} named "&4Mass Delete Weapons" with lore fontConverter("utility button", "&8"), "&f", " %fontConverter("information", {_c})%", " %{_c}%&l| &f%{_rarity}% Weapons: %{_c}%%size of {_weapons::*}%x Weapon(s)", "&f", "&4&lCLICK HERE TO", "&cDelete all %{_rarity}% Weapons!":
+                loop {_weapons::*}:
+                    remove loop-value from {storage::weapons::%{_p}%::*}
+                send " <##8fff93>You have mass deleted &f%{_c}%%size of {_weapons::*}%x <##8fff93>%{_rarity}% Weapon(s)&f." to {_p}
+                play sound "entity.generic.burn" to {_p}
+                
+                weapon_deleteMenu({_p})
+#                set {storage::weapons::%{_p}%::*} to {storage::weapons::%{_p}%::*}
+
+    open last gui to {_p}
+
+
+function weapon_getSpecificRarity(p: player, rarity: string) :: strings:
+
+    loop {storage::weapons::%{_p}%::*}:
+        set {_s::*} to split loop-value at "|"
+        set {_id} to {_s::1} parsed as number
+        if {-weapons::%{_id}%::rarity} = {_rarity}:
+            add loop-value to {_items::*}
+    return {_items::*}
+

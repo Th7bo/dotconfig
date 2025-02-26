@@ -1,0 +1,90 @@
+2025-02-25 20:54:36.319 [info] Getting Manifest... ms-python.python
+2025-02-25 20:54:37.462 [info] Installing extension: ms-python.python {"isMachineScoped":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/zen/.cursor/extensions/extensions.json","path":"/home/zen/.cursor/extensions/extensions.json","scheme":"vscode-userdata"},"installOnlyNewlyAddedFromExtensionPack":true,"isApplicationScoped":false,"productVersion":{"version":"0.45.14","date":"2025-02-19T20:36:48.096Z","vscodeVersion":"1.96.2"}}
+2025-02-25 20:54:37.464 [info] Getting Manifest... ms-python.debugpy
+2025-02-25 20:54:37.910 [info] Getting Manifest... anysphere.pyright
+2025-02-25 20:54:38.264 [info] Installing extension: ms-python.debugpy {"isMachineScoped":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/zen/.cursor/extensions/extensions.json","path":"/home/zen/.cursor/extensions/extensions.json","scheme":"vscode-userdata"},"installOnlyNewlyAddedFromExtensionPack":true,"isApplicationScoped":false,"productVersion":{"version":"0.45.14","date":"2025-02-19T20:36:48.096Z","vscodeVersion":"1.96.2"}}
+2025-02-25 20:54:38.315 [info] Installing extension: anysphere.pyright {"isMachineScoped":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/zen/.cursor/extensions/extensions.json","path":"/home/zen/.cursor/extensions/extensions.json","scheme":"vscode-userdata"},"installOnlyNewlyAddedFromExtensionPack":true,"isApplicationScoped":false,"productVersion":{"version":"0.45.14","date":"2025-02-19T20:36:48.096Z","vscodeVersion":"1.96.2"},"context":{"dependecyOrPackExtensionInstall":true}}
+2025-02-25 20:54:38.318 [info] Started downloading extension: ms-python.python 2024.5.1 file:///home/zen/.config/Cursor/CachedExtensionVSIXs/cursor-ms-python.python-2024.5.1-universal
+2025-02-25 20:54:38.318 [info] Started downloading extension: anysphere.pyright 1.1.327 file:///home/zen/.config/Cursor/CachedExtensionVSIXs/cursor-anysphere.pyright-1.1.327-universal
+2025-02-25 20:54:38.723 [info] Getting Manifest... ms-python.python
+2025-02-25 20:54:39.194 [error] Could not load vsce-sign module Cannot find package '@vscode/vsce-sign' imported from /tmp/.mount_cursoraN7I8O/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js
+2025-02-25 20:54:39.194 [info] Extension signature verification is not done: ms-python.python
+2025-02-25 20:54:39.298 [error] Could not load vsce-sign module Cannot find package '@vscode/vsce-sign' imported from /tmp/.mount_cursoraN7I8O/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js
+2025-02-25 20:54:39.298 [info] Extension signature verification is not done: anysphere.pyright
+2025-02-25 20:54:39.411 [info] Extracted extension to file:///home/zen/.cursor/extensions/ms-python.python-2024.5.1-universal: ms-python.python
+2025-02-25 20:54:39.419 [info] Renamed to /home/zen/.cursor/extensions/ms-python.python-2024.5.1-universal
+2025-02-25 20:54:39.466 [info] Getting Manifest... anysphere.pyright
+2025-02-25 20:54:39.499 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/zen/.cursor/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/zen/.cursor/extensions/extensions.json.vsctmp'
+    at bv.create (file:///tmp/.mount_cursoraN7I8O/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:48:40246)
+    at As (file:///tmp/.mount_cursoraN7I8O/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:48:40353)
+    at oo.ib (file:///tmp/.mount_cursoraN7I8O/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:91:22778)
+    at oo.stat (file:///tmp/.mount_cursoraN7I8O/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:91:16010)
+    at async ru.stat (file:///tmp/.mount_cursoraN7I8O/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:90:86652)
+    at async eu.Ab (file:///tmp/.mount_cursoraN7I8O/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:90:68187)
+2025-02-25 20:54:39.628 [info] Waiting for already requested installing extension anysphere.pyright ms-python.debugpy vscode-userdata:/home/zen/.cursor/extensions/extensions.json
+2025-02-25 20:54:39.633 [info] Started downloading extension: ms-python.debugpy 2024.6.0 file:///home/zen/.config/Cursor/CachedExtensionVSIXs/cursor-ms-python.debugpy-2024.6.0-linux-x64
+2025-02-25 20:54:40.268 [error] Could not load vsce-sign module Cannot find package '@vscode/vsce-sign' imported from /tmp/.mount_cursoraN7I8O/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js
+2025-02-25 20:54:40.269 [info] Extension signature verification is not done: ms-python.debugpy
+2025-02-25 20:54:40.489 [info] Extracted extension to file:///home/zen/.cursor/extensions/ms-python.debugpy-2024.6.0-linux-x64: ms-python.debugpy
+2025-02-25 20:54:40.503 [info] Renamed to /home/zen/.cursor/extensions/ms-python.debugpy-2024.6.0-linux-x64
+2025-02-25 20:54:40.583 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/zen/.cursor/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/zen/.cursor/extensions/extensions.json.vsctmp'
+    at bv.create (file:///tmp/.mount_cursoraN7I8O/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:48:40246)
+    at As (file:///tmp/.mount_cursoraN7I8O/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:48:40353)
+    at oo.ib (file:///tmp/.mount_cursoraN7I8O/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:91:22778)
+    at oo.stat (file:///tmp/.mount_cursoraN7I8O/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:91:16010)
+    at async ru.stat (file:///tmp/.mount_cursoraN7I8O/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:90:86652)
+    at async eu.Ab (file:///tmp/.mount_cursoraN7I8O/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:90:68187)
+2025-02-25 20:54:40.822 [info] Extracted extension to file:///home/zen/.cursor/extensions/anysphere.pyright-1.1.327-universal: anysphere.pyright
+2025-02-25 20:54:40.901 [info] Renamed to /home/zen/.cursor/extensions/anysphere.pyright-1.1.327-universal
+2025-02-25 20:54:40.916 [info] Extension installed successfully: ms-python.python vscode-userdata:/home/zen/.cursor/extensions/extensions.json
+2025-02-25 20:54:40.916 [info] Extension installed successfully: anysphere.pyright vscode-userdata:/home/zen/.cursor/extensions/extensions.json
+2025-02-25 20:54:40.916 [info] Finished waiting for already requested installing extension anysphere.pyright ms-python.debugpy vscode-userdata:/home/zen/.cursor/extensions/extensions.json
+2025-02-25 20:54:40.916 [info] Extension installed successfully: ms-python.debugpy vscode-userdata:/home/zen/.cursor/extensions/extensions.json
+2025-02-25 20:54:40.982 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/zen/.cursor/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/zen/.cursor/extensions/extensions.json.vsctmp'
+    at bv.create (file:///tmp/.mount_cursoraN7I8O/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:48:40246)
+    at As (file:///tmp/.mount_cursoraN7I8O/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:48:40353)
+    at oo.ib (file:///tmp/.mount_cursoraN7I8O/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:91:22778)
+    at oo.stat (file:///tmp/.mount_cursoraN7I8O/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:91:16010)
+    at async ru.stat (file:///tmp/.mount_cursoraN7I8O/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:90:86652)
+    at async eu.Ab (file:///tmp/.mount_cursoraN7I8O/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:90:68187)
+2025-02-25 20:54:40.998 [info] Extensions added from another source dlasagno.wal-theme vscode-userdata:/home/zen/.cursor/extensions/extensions.json
+2025-02-25 20:54:40.998 [info] Extensions added from another source emmanuelbeziat.vscode-great-icons vscode-userdata:/home/zen/.cursor/extensions/extensions.json
+2025-02-25 20:54:40.998 [info] Extensions added from another source esbenp.prettier-vscode vscode-userdata:/home/zen/.cursor/extensions/extensions.json
+2025-02-25 20:54:40.998 [info] Extensions added from another source ms-python.vscode-pylance vscode-userdata:/home/zen/.cursor/extensions/extensions.json
+2025-02-25 20:54:40.998 [info] Extensions added from another source naumovs.color-highlight vscode-userdata:/home/zen/.cursor/extensions/extensions.json
+2025-02-25 20:54:40.998 [info] Extensions added from another source postman.postman-for-vscode vscode-userdata:/home/zen/.cursor/extensions/extensions.json
+2025-02-25 20:54:40.998 [info] Extensions added from another source streetsidesoftware.code-spell-checker vscode-userdata:/home/zen/.cursor/extensions/extensions.json
+2025-02-25 20:54:40.998 [info] Extensions added from another source visualstudioexptteam.intellicode-api-usage-examples vscode-userdata:/home/zen/.cursor/extensions/extensions.json
+2025-02-25 20:54:40.998 [info] Extensions added from another source visualstudioexptteam.vscodeintellicode vscode-userdata:/home/zen/.cursor/extensions/extensions.json
+2025-02-25 20:55:30.511 [info] Getting Manifest... ms-python.vscode-pylance
+2025-02-25 20:55:30.775 [info] Installing extension: ms-python.vscode-pylance {"donotVerifySignature":true,"pinned":false,"productVersion":{"version":"0.45.14","date":"2025-02-19T20:36:48.096Z","vscodeVersion":"1.96.2"},"operation":3,"isApplicationScoped":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/zen/.cursor/extensions/extensions.json","path":"/home/zen/.cursor/extensions/extensions.json","scheme":"vscode-userdata"},"installOnlyNewlyAddedFromExtensionPack":true}
+2025-02-25 20:55:31.512 [info] Getting Manifest... ms-python.python
+2025-02-25 20:55:31.570 [info] Installing extension: ms-python.python {"productVersion":{"version":"0.45.14","date":"2025-02-19T20:36:48.096Z","vscodeVersion":"1.96.2"},"donotVerifySignature":true,"pinned":false,"operation":3,"isApplicationScoped":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/zen/.cursor/extensions/extensions.json","path":"/home/zen/.cursor/extensions/extensions.json","scheme":"vscode-userdata"},"installOnlyNewlyAddedFromExtensionPack":true}
+2025-02-25 20:55:31.884 [info] Getting Manifest... ms-python.python
+2025-02-25 20:55:32.651 [info] Getting Manifest... ms-python.vscode-pylance
+2025-02-25 20:55:32.678 [info] Getting Manifest... ms-python.debugpy
+2025-02-25 20:55:32.841 [info] Started downloading extension: ms-python.python 2024.12.3 file:///home/zen/.config/Cursor/CachedExtensionVSIXs/cursor-ms-python.python-2024.12.3-linux-x64
+2025-02-25 20:55:33.002 [info] Getting Manifest... ms-python.debugpy
+2025-02-25 20:55:33.055 [info] Started downloading extension: ms-python.vscode-pylance 2024.8.1 file:///home/zen/.config/Cursor/CachedExtensionVSIXs/cursor-ms-python.vscode-pylance-2024.8.1
+2025-02-25 20:55:34.547 [info] Extracted extension to file:///home/zen/.cursor/extensions/ms-python.python-2024.12.3-linux-x64: ms-python.python
+2025-02-25 20:55:34.592 [info] Renamed to /home/zen/.cursor/extensions/ms-python.python-2024.12.3-linux-x64
+2025-02-25 20:55:34.605 [info] Marked extension as uninstalled ms-python.python-2024.5.1-universal
+2025-02-25 20:55:34.613 [info] Extension installed successfully: ms-python.python vscode-userdata:/home/zen/.cursor/extensions/extensions.json
+2025-02-25 20:55:34.675 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/zen/.cursor/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/zen/.cursor/extensions/extensions.json.vsctmp'
+    at bv.create (file:///tmp/.mount_cursoraN7I8O/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:48:40246)
+    at As (file:///tmp/.mount_cursoraN7I8O/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:48:40353)
+    at oo.ib (file:///tmp/.mount_cursoraN7I8O/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:91:22778)
+    at oo.stat (file:///tmp/.mount_cursoraN7I8O/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:91:16010)
+    at async ru.stat (file:///tmp/.mount_cursoraN7I8O/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:90:86652)
+    at async eu.Ab (file:///tmp/.mount_cursoraN7I8O/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:90:68187)
+2025-02-25 20:55:37.249 [info] Extracted extension to file:///home/zen/.cursor/extensions/ms-python.vscode-pylance-2024.8.1: ms-python.vscode-pylance
+2025-02-25 20:55:37.392 [info] Renamed to /home/zen/.cursor/extensions/ms-python.vscode-pylance-2024.8.1
+2025-02-25 20:55:37.412 [info] Marked extension as uninstalled ms-python.vscode-pylance-2025.2.1
+2025-02-25 20:55:37.414 [info] Extension installed successfully: ms-python.vscode-pylance vscode-userdata:/home/zen/.cursor/extensions/extensions.json
+2025-02-25 20:55:37.474 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/zen/.cursor/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/zen/.cursor/extensions/extensions.json.vsctmp'
+    at bv.create (file:///tmp/.mount_cursoraN7I8O/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:48:40246)
+    at As (file:///tmp/.mount_cursoraN7I8O/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:48:40353)
+    at oo.ib (file:///tmp/.mount_cursoraN7I8O/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:91:22778)
+    at oo.stat (file:///tmp/.mount_cursoraN7I8O/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:91:16010)
+    at async ru.stat (file:///tmp/.mount_cursoraN7I8O/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:90:86652)
+    at async eu.Ab (file:///tmp/.mount_cursoraN7I8O/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:90:68187)

@@ -1,0 +1,182 @@
+2025-02-25 20:55:35.455 [info] Experiment 'pythonRecommendTensorboardExt' is active
+2025-02-25 20:55:35.455 [info] Experiment 'pythonTerminalEnvVarActivation' is active
+2025-02-25 20:55:35.455 [info] Experiment 'pythonTestAdapter' is active
+2025-02-25 20:55:35.486 [info] Test server listening.
+2025-02-25 20:55:35.494 [info] > conda info --json
+2025-02-25 20:55:35.842 [warning] Retry failed, storage update failed for key PYTHON_GLOBAL_STORAGE_KEYS
+2025-02-25 20:55:35.842 [warning] Retry failed, storage update failed for key PYTHON_GLOBAL_STORAGE_KEYS
+2025-02-25 20:55:35.842 [warning] Retry failed, storage update failed for key PYTHON_GLOBAL_STORAGE_KEYS
+2025-02-25 20:55:35.842 [warning] Retry failed, storage update failed for key PYTHON_GLOBAL_STORAGE_KEYS
+2025-02-25 20:55:35.843 [info] Found: /bin/python --> /bin/python3.13
+2025-02-25 20:55:35.852 [info] Found: /bin/python3 --> /bin/python3.13
+2025-02-25 20:55:35.853 [info] Found: /bin/python3.13 --> /bin/python3.13
+2025-02-25 20:55:35.867 [info] > /bin/python -I ~/.cursor/extensions/ms-python.python-2024.5.1-universal/pythonFiles/get_output_via_markers.py ~/.cursor/extensions/ms-python.python-2024.5.1-universal/pythonFiles/interpreterInfo.py
+2025-02-25 20:55:35.874 [info] Found: /sbin/python --> /sbin/python3.13
+2025-02-25 20:55:35.874 [info] Found: /sbin/python3 --> /sbin/python3.13
+2025-02-25 20:55:35.874 [info] Found: /sbin/python3.13 --> /sbin/python3.13
+2025-02-25 20:55:35.878 [info] Found: /usr/bin/python --> /usr/bin/python3.13
+2025-02-25 20:55:35.878 [info] Found: /usr/bin/python3 --> /usr/bin/python3.13
+2025-02-25 20:55:35.878 [info] Found: /usr/bin/python3.13 --> /usr/bin/python3.13
+2025-02-25 20:55:35.894 [info] Python interpreter path: /bin/python
+2025-02-25 20:55:35.898 [info] Found: /usr/sbin/python --> /usr/sbin/python3.13
+2025-02-25 20:55:35.898 [info] Found: /usr/sbin/python3 --> /usr/sbin/python3.13
+2025-02-25 20:55:35.898 [info] Found: /usr/sbin/python3.13 --> /usr/sbin/python3.13
+2025-02-25 20:55:35.911 [info] > /sbin/python -I ~/.cursor/extensions/ms-python.python-2024.5.1-universal/pythonFiles/get_output_via_markers.py ~/.cursor/extensions/ms-python.python-2024.5.1-universal/pythonFiles/interpreterInfo.py
+2025-02-25 20:55:35.920 [info] > /usr/bin/python -I ~/.cursor/extensions/ms-python.python-2024.5.1-universal/pythonFiles/get_output_via_markers.py ~/.cursor/extensions/ms-python.python-2024.5.1-universal/pythonFiles/interpreterInfo.py
+2025-02-25 20:55:35.941 [info] > /usr/sbin/python -I ~/.cursor/extensions/ms-python.python-2024.5.1-universal/pythonFiles/get_output_via_markers.py ~/.cursor/extensions/ms-python.python-2024.5.1-universal/pythonFiles/interpreterInfo.py
+2025-02-25 20:55:35.989 [warning] Retry failed, storage update failed for key PYTHON_GLOBAL_STORAGE_KEYS
+2025-02-25 20:55:36.439 [error] [
+  'Failed to start language server, Class name = h, completed in 458ms, has a falsy return value, Arg 1: <Uri:/default>, Arg 2: {"id":"/bin/python","sysPrefix":"/usr","envType":"Global","envName":"","envPath":"","path":"/bin/python","architecture":3,"sysVersion":"3.13.1 (main, Dec  4 2024, 18:05:56) [GCC 14.2.1 20240910]","version":{"raw":"3.13.1","major":3,"minor":13,"patch":1,"build":[],"prerelease":["final","0"]},"displayName":"Python 3.13.1 64-bit","detailedDisplayName":"Python 3.13.1 64-bit"}, Arg 3: <argument cannot be serialized for logging>, Return Value: undefined',
+  [s [Error]: Request initialize failed with message: You may install and use any number of copies of the software only with Microsoft Visual Studio, Visual Studio for Mac, Visual Studio Code, Azure DevOps, Team Foundation Server, and successor Microsoft products and services (collectively, the “Visual Studio Products and Services”) to develop and test your applications. The software is licensed, not sold. This agreement only gives you some rights to use the software. Microsoft reserves all other rights. You may not: work around any technical limitations in the software that only allow you to use it in certain ways; reverse engineer, decompile or disassemble the software, or otherwise attempt to derive the source code for the software, except and to the extent required by third party licensing terms governing use of certain open source components that may be included in the software; remove, minimize, block, or modify any notices of Microsoft or its suppliers in the software; use the software in any way that is against the law or to create or propagate malware; or share, publish, distribute, or lease the software (except for any distributable code, subject to the terms above), provide the software as a stand-alone offering for others to use, or transfer the software or this agreement to any third party.
+  
+  
+  	at /home/zen/.cursor/extensions/ms-python.python-2024.5.1-universal/out/client/extension.js:2:2308663
+  	at re (/home/zen/.cursor/extensions/ms-python.python-2024.5.1-universal/out/client/extension.js:2:2308957)
+  	at /home/zen/.cursor/extensions/ms-python.python-2024.5.1-universal/out/client/extension.js:2:2303741
+  	at Immediate.<anonymous> (/home/zen/.cursor/extensions/ms-python.python-2024.5.1-universal/out/client/extension.js:2:2303761)
+  	at process.processImmediate (node:internal/timers:483:21)] {
+    code: -32603,
+    data: undefined
+  }
+]
+2025-02-25 20:55:36.439 [error] [
+  'Starting language server, Class name = p, completed in 463ms, has a falsy return value, , Return Value: undefined',
+  [s [Error]: Request initialize failed with message: You may install and use any number of copies of the software only with Microsoft Visual Studio, Visual Studio for Mac, Visual Studio Code, Azure DevOps, Team Foundation Server, and successor Microsoft products and services (collectively, the “Visual Studio Products and Services”) to develop and test your applications. The software is licensed, not sold. This agreement only gives you some rights to use the software. Microsoft reserves all other rights. You may not: work around any technical limitations in the software that only allow you to use it in certain ways; reverse engineer, decompile or disassemble the software, or otherwise attempt to derive the source code for the software, except and to the extent required by third party licensing terms governing use of certain open source components that may be included in the software; remove, minimize, block, or modify any notices of Microsoft or its suppliers in the software; use the software in any way that is against the law or to create or propagate malware; or share, publish, distribute, or lease the software (except for any distributable code, subject to the terms above), provide the software as a stand-alone offering for others to use, or transfer the software or this agreement to any third party.
+  
+  
+  	at /home/zen/.cursor/extensions/ms-python.python-2024.5.1-universal/out/client/extension.js:2:2308663
+  	at re (/home/zen/.cursor/extensions/ms-python.python-2024.5.1-universal/out/client/extension.js:2:2308957)
+  	at /home/zen/.cursor/extensions/ms-python.python-2024.5.1-universal/out/client/extension.js:2:2303741
+  	at Immediate.<anonymous> (/home/zen/.cursor/extensions/ms-python.python-2024.5.1-universal/out/client/extension.js:2:2303761)
+  	at process.processImmediate (node:internal/timers:483:21)] {
+    code: -32603,
+    data: undefined
+  }
+]
+2025-02-25 20:55:36.440 [error] [
+  'Failed to start language server, Class name = p, completed in 463ms, has a falsy return value, Arg 1: <Uri:/default>, Arg 2: {"id":"/bin/python","sysPrefix":"/usr","envType":"Global","envName":"","envPath":"","path":"/bin/python","architecture":3,"sysVersion":"3.13.1 (main, Dec  4 2024, 18:05:56) [GCC 14.2.1 20240910]","version":{"raw":"3.13.1","major":3,"minor":13,"patch":1,"build":[],"prerelease":["final","0"]},"displayName":"Python 3.13.1 64-bit","detailedDisplayName":"Python 3.13.1 64-bit"}, Return Value: undefined',
+  [s [Error]: Request initialize failed with message: You may install and use any number of copies of the software only with Microsoft Visual Studio, Visual Studio for Mac, Visual Studio Code, Azure DevOps, Team Foundation Server, and successor Microsoft products and services (collectively, the “Visual Studio Products and Services”) to develop and test your applications. The software is licensed, not sold. This agreement only gives you some rights to use the software. Microsoft reserves all other rights. You may not: work around any technical limitations in the software that only allow you to use it in certain ways; reverse engineer, decompile or disassemble the software, or otherwise attempt to derive the source code for the software, except and to the extent required by third party licensing terms governing use of certain open source components that may be included in the software; remove, minimize, block, or modify any notices of Microsoft or its suppliers in the software; use the software in any way that is against the law or to create or propagate malware; or share, publish, distribute, or lease the software (except for any distributable code, subject to the terms above), provide the software as a stand-alone offering for others to use, or transfer the software or this agreement to any third party.
+  
+  
+  	at /home/zen/.cursor/extensions/ms-python.python-2024.5.1-universal/out/client/extension.js:2:2308663
+  	at re (/home/zen/.cursor/extensions/ms-python.python-2024.5.1-universal/out/client/extension.js:2:2308957)
+  	at /home/zen/.cursor/extensions/ms-python.python-2024.5.1-universal/out/client/extension.js:2:2303741
+  	at Immediate.<anonymous> (/home/zen/.cursor/extensions/ms-python.python-2024.5.1-universal/out/client/extension.js:2:2303761)
+  	at process.processImmediate (node:internal/timers:483:21)] {
+    code: -32603,
+    data: undefined
+  }
+]
+2025-02-25 20:55:36.440 [error] [
+  'Failed to activate a workspace, Class name = g, completed in 961ms, has a falsy return value, Arg 1: <Uri:/home/zen/Downloads/newSwords.sk>, Return Value: undefined',
+  [s [Error]: Request initialize failed with message: You may install and use any number of copies of the software only with Microsoft Visual Studio, Visual Studio for Mac, Visual Studio Code, Azure DevOps, Team Foundation Server, and successor Microsoft products and services (collectively, the “Visual Studio Products and Services”) to develop and test your applications. The software is licensed, not sold. This agreement only gives you some rights to use the software. Microsoft reserves all other rights. You may not: work around any technical limitations in the software that only allow you to use it in certain ways; reverse engineer, decompile or disassemble the software, or otherwise attempt to derive the source code for the software, except and to the extent required by third party licensing terms governing use of certain open source components that may be included in the software; remove, minimize, block, or modify any notices of Microsoft or its suppliers in the software; use the software in any way that is against the law or to create or propagate malware; or share, publish, distribute, or lease the software (except for any distributable code, subject to the terms above), provide the software as a stand-alone offering for others to use, or transfer the software or this agreement to any third party.
+  
+  
+  	at /home/zen/.cursor/extensions/ms-python.python-2024.5.1-universal/out/client/extension.js:2:2308663
+  	at re (/home/zen/.cursor/extensions/ms-python.python-2024.5.1-universal/out/client/extension.js:2:2308957)
+  	at /home/zen/.cursor/extensions/ms-python.python-2024.5.1-universal/out/client/extension.js:2:2303741
+  	at Immediate.<anonymous> (/home/zen/.cursor/extensions/ms-python.python-2024.5.1-universal/out/client/extension.js:2:2303761)
+  	at process.processImmediate (node:internal/timers:483:21)] {
+    code: -32603,
+    data: undefined
+  }
+]
+2025-02-25 20:55:36.440 [error] Failure during activation. [s [Error]: Request initialize failed with message: You may install and use any number of copies of the software only with Microsoft Visual Studio, Visual Studio for Mac, Visual Studio Code, Azure DevOps, Team Foundation Server, and successor Microsoft products and services (collectively, the “Visual Studio Products and Services”) to develop and test your applications. The software is licensed, not sold. This agreement only gives you some rights to use the software. Microsoft reserves all other rights. You may not: work around any technical limitations in the software that only allow you to use it in certain ways; reverse engineer, decompile or disassemble the software, or otherwise attempt to derive the source code for the software, except and to the extent required by third party licensing terms governing use of certain open source components that may be included in the software; remove, minimize, block, or modify any notices of Microsoft or its suppliers in the software; use the software in any way that is against the law or to create or propagate malware; or share, publish, distribute, or lease the software (except for any distributable code, subject to the terms above), provide the software as a stand-alone offering for others to use, or transfer the software or this agreement to any third party.
+
+
+	at /home/zen/.cursor/extensions/ms-python.python-2024.5.1-universal/out/client/extension.js:2:2308663
+	at re (/home/zen/.cursor/extensions/ms-python.python-2024.5.1-universal/out/client/extension.js:2:2308957)
+	at /home/zen/.cursor/extensions/ms-python.python-2024.5.1-universal/out/client/extension.js:2:2303741
+	at Immediate.<anonymous> (/home/zen/.cursor/extensions/ms-python.python-2024.5.1-universal/out/client/extension.js:2:2303761)
+	at process.processImmediate (node:internal/timers:483:21)] {
+  code: -32603,
+  data: undefined
+}
+2025-02-25 20:55:36.440 [error] sendStartupTelemetry() failed. [s [Error]: Request initialize failed with message: You may install and use any number of copies of the software only with Microsoft Visual Studio, Visual Studio for Mac, Visual Studio Code, Azure DevOps, Team Foundation Server, and successor Microsoft products and services (collectively, the “Visual Studio Products and Services”) to develop and test your applications. The software is licensed, not sold. This agreement only gives you some rights to use the software. Microsoft reserves all other rights. You may not: work around any technical limitations in the software that only allow you to use it in certain ways; reverse engineer, decompile or disassemble the software, or otherwise attempt to derive the source code for the software, except and to the extent required by third party licensing terms governing use of certain open source components that may be included in the software; remove, minimize, block, or modify any notices of Microsoft or its suppliers in the software; use the software in any way that is against the law or to create or propagate malware; or share, publish, distribute, or lease the software (except for any distributable code, subject to the terms above), provide the software as a stand-alone offering for others to use, or transfer the software or this agreement to any third party.
+
+
+	at /home/zen/.cursor/extensions/ms-python.python-2024.5.1-universal/out/client/extension.js:2:2308663
+	at re (/home/zen/.cursor/extensions/ms-python.python-2024.5.1-universal/out/client/extension.js:2:2308957)
+	at /home/zen/.cursor/extensions/ms-python.python-2024.5.1-universal/out/client/extension.js:2:2303741
+	at Immediate.<anonymous> (/home/zen/.cursor/extensions/ms-python.python-2024.5.1-universal/out/client/extension.js:2:2303761)
+	at process.processImmediate (node:internal/timers:483:21)] {
+  code: -32603,
+  data: undefined
+}
+2025-02-25 20:55:38.746 [info] Experiment 'pythonRecommendTensorboardExt' is active
+2025-02-25 20:55:38.746 [info] Experiment 'pythonTerminalEnvVarActivation' is active
+2025-02-25 20:55:38.746 [info] Experiment 'pythonTestAdapter' is active
+2025-02-25 20:55:38.746 [error] Reading directory to watch failed [Error: ENOENT: no such file or directory, scandir '/home/zen/Desktop/heapdump/.pixi/envs'
+	at Object.readdirSync (node:fs:1506:26)
+	at t.readdirSync (node:electron/js2c/node_init:2:13703)
+	at /home/zen/.cursor/extensions/ms-python.python-2024.12.3-linux-x64/out/client/extension.js:2:586747
+	at /home/zen/.cursor/extensions/ms-python.python-2024.12.3-linux-x64/out/client/extension.js:2:586938
+	at Array.map (<anonymous>)
+	at d.initWatchers (/home/zen/.cursor/extensions/ms-python.python-2024.12.3-linux-x64/out/client/extension.js:2:586656)
+	at async d.ensureWatchersReady (/home/zen/.cursor/extensions/ms-python.python-2024.12.3-linux-x64/out/client/extension.js:2:543067)] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: '/home/zen/Desktop/heapdump/.pixi/envs'
+}
+2025-02-25 20:55:38.746 [error] Dir "/home/zen/Desktop/heapdump/.pixi/envs" is not watchable (directory does not exist)
+2025-02-25 20:55:38.746 [info] Default formatter is set to esbenp.prettier-vscode for workspace /home/zen/Desktop/heapdump
+2025-02-25 20:55:38.746 [info] Starting Environment refresh
+2025-02-25 20:55:38.746 [info] Searching for interpreters in posix paths locator
+2025-02-25 20:55:38.746 [info] Searching for pyenv environments
+2025-02-25 20:55:38.746 [info] Searching for conda environments
+2025-02-25 20:55:38.746 [info] Searching for global virtual environments
+2025-02-25 20:55:38.746 [info] Searching for custom virtual environments
+2025-02-25 20:55:38.746 [info] pyenv is not installed
+2025-02-25 20:55:38.746 [info] Finished searching for pyenv environments: 9 milliseconds
+2025-02-25 20:55:38.746 [info] Finished searching for custom virtual envs: 8 milliseconds
+2025-02-25 20:55:38.746 [info] > conda info --json
+2025-02-25 20:55:38.746 [info] > pixi --version
+2025-02-25 20:55:38.746 [error] [Error: spawn pixi ENOENT
+	at ChildProcess._handle.onexit (node:internal/child_process:285:19)
+	at onErrorNT (node:internal/child_process:483:16)
+	at process.processTicksAndRejections (node:internal/process/task_queues:82:21)] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'spawn pixi',
+  path: 'pixi',
+  spawnargs: [ '--version' ]
+}
+2025-02-25 20:55:38.746 [info] > hatch env show --json
+2025-02-25 20:55:38.746 [info] cwd: .
+2025-02-25 20:55:38.746 [info] Finished searching for global virtual envs: 34 milliseconds
+2025-02-25 20:55:38.753 [info] > pyenv which python
+2025-02-25 20:55:38.753 [info] cwd: .
+2025-02-25 20:55:38.754 [info] Found: /bin/python --> /bin/python3.13
+2025-02-25 20:55:39.063 [info] Found: /bin/python3 --> /bin/python3.13
+2025-02-25 20:55:39.064 [info] Found: /bin/python3.13 --> /bin/python3.13
+2025-02-25 20:55:39.236 [info] Found: /sbin/python --> /sbin/python3.13
+2025-02-25 20:55:40.178 [info] > /bin/python -I ~/.cursor/extensions/ms-python.python-2024.12.3-linux-x64/python_files/get_output_via_markers.py ~/.cursor/extensions/ms-python.python-2024.12.3-linux-x64/python_files/interpreterInfo.py
+2025-02-25 20:55:40.281 [info] Python interpreter path: /bin/python
+2025-02-25 20:55:40.293 [info] Found: /sbin/python3 --> /sbin/python3.13
+2025-02-25 20:55:40.298 [info] Found: /sbin/python3.13 --> /sbin/python3.13
+2025-02-25 20:55:40.304 [info] Found: /usr/bin/python --> /usr/bin/python3.13
+2025-02-25 20:55:40.304 [info] Found: /usr/bin/python3 --> /usr/bin/python3.13
+2025-02-25 20:55:40.304 [info] Found: /usr/bin/python3.13 --> /usr/bin/python3.13
+2025-02-25 20:55:40.325 [info] Found: /usr/sbin/python --> /usr/sbin/python3.13
+2025-02-25 20:55:40.325 [info] Found: /usr/sbin/python3 --> /usr/sbin/python3.13
+2025-02-25 20:55:40.325 [info] Found: /usr/sbin/python3.13 --> /usr/sbin/python3.13
+2025-02-25 20:55:40.339 [info] > /sbin/python -I ~/.cursor/extensions/ms-python.python-2024.12.3-linux-x64/python_files/get_output_via_markers.py ~/.cursor/extensions/ms-python.python-2024.12.3-linux-x64/python_files/interpreterInfo.py
+2025-02-25 20:55:40.350 [info] Finished searching for interpreters in posix paths locator: 1641 milliseconds
+2025-02-25 20:55:40.350 [info] > /usr/bin/python -I ~/.cursor/extensions/ms-python.python-2024.12.3-linux-x64/python_files/get_output_via_markers.py ~/.cursor/extensions/ms-python.python-2024.12.3-linux-x64/python_files/interpreterInfo.py
+2025-02-25 20:55:40.354 [info] Environments refresh paths discovered (event): 1651 milliseconds
+2025-02-25 20:55:40.354 [info] Environments refresh paths discovered: 1651 milliseconds
+2025-02-25 20:55:40.369 [info] > /usr/sbin/python -I ~/.cursor/extensions/ms-python.python-2024.12.3-linux-x64/python_files/get_output_via_markers.py ~/.cursor/extensions/ms-python.python-2024.12.3-linux-x64/python_files/interpreterInfo.py
+2025-02-25 20:55:40.395 [info] Environments refresh finished (event): 1692 milliseconds
+2025-02-25 20:55:40.400 [info] Environment refresh took 1697 milliseconds
+2025-02-25 20:55:40.427 [warning] could not find a pixi interpreter for the interpreter at /bin/python
+2025-02-25 20:55:40.441 [warning] could not find a pixi interpreter for the interpreter at /bin/python
+2025-02-25 20:55:40.450 [info] > /usr/sbin/python3.13 -I ~/.cursor/extensions/ms-python.python-2024.12.3-linux-x64/python_files/get_output_via_markers.py ~/.cursor/extensions/ms-python.python-2024.12.3-linux-x64/python_files/interpreterInfo.py
+2025-02-25 20:55:40.456 [info] > /bin/python3.13 -I ~/.cursor/extensions/ms-python.python-2024.12.3-linux-x64/python_files/get_output_via_markers.py ~/.cursor/extensions/ms-python.python-2024.12.3-linux-x64/python_files/interpreterInfo.py
+2025-02-25 20:55:40.484 [info] > /sbin/python3.13 -I ~/.cursor/extensions/ms-python.python-2024.12.3-linux-x64/python_files/get_output_via_markers.py ~/.cursor/extensions/ms-python.python-2024.12.3-linux-x64/python_files/interpreterInfo.py
+2025-02-25 20:55:40.493 [info] > /usr/bin/python3.13 -I ~/.cursor/extensions/ms-python.python-2024.12.3-linux-x64/python_files/get_output_via_markers.py ~/.cursor/extensions/ms-python.python-2024.12.3-linux-x64/python_files/interpreterInfo.py
+2025-02-25 20:55:40.519 [info] > /bin/python3 -I ~/.cursor/extensions/ms-python.python-2024.12.3-linux-x64/python_files/get_output_via_markers.py ~/.cursor/extensions/ms-python.python-2024.12.3-linux-x64/python_files/interpreterInfo.py
+2025-02-25 20:55:40.526 [info] > /sbin/python3 -I ~/.cursor/extensions/ms-python.python-2024.12.3-linux-x64/python_files/get_output_via_markers.py ~/.cursor/extensions/ms-python.python-2024.12.3-linux-x64/python_files/interpreterInfo.py
+2025-02-25 20:55:40.550 [info] > /usr/bin/python3 -I ~/.cursor/extensions/ms-python.python-2024.12.3-linux-x64/python_files/get_output_via_markers.py ~/.cursor/extensions/ms-python.python-2024.12.3-linux-x64/python_files/interpreterInfo.py
+2025-02-25 20:55:40.558 [info] > /usr/sbin/python3 -I ~/.cursor/extensions/ms-python.python-2024.12.3-linux-x64/python_files/get_output_via_markers.py ~/.cursor/extensions/ms-python.python-2024.12.3-linux-x64/python_files/interpreterInfo.py
+2025-02-25 20:55:41.512 [info] Starting Pylance language server.

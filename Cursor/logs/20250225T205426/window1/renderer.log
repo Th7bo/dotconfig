@@ -1,0 +1,266 @@
+2025-02-25 20:54:28.330 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-vscode.vscode-selfhost-test-provider' wants API proposal 'attributableCoverage' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-02-25 20:54:28.330 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-toolsai.datawrangler' wants API proposal 'debugFocus' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-02-25 20:54:28.330 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.python' wants API proposal 'contribIssueReporter' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-02-25 20:54:28.330 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.debugpy' wants API proposal 'contribIssueReporter' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-02-25 20:54:28.330 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-azuretools.vscode-azure-github-copilot' wants API proposal 'lmTools' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-02-25 20:54:28.330 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-vscode.cpptools' wants API proposal 'lmTools' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-02-25 20:54:28.330 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'vscjava.vscode-java-pack' wants API proposal 'lmTools' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-02-25 20:54:28.330 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'apidev.azure-api-center' wants API proposal 'chatParticipant' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-02-25 20:54:28.331 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'apidev.azure-api-center' wants API proposal 'languageModels' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-02-25 20:54:28.354 [warning] Missing property "composerState" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-02-25 20:54:28.354 [warning] Missing property "mcpServers" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-02-25 20:54:28.354 [warning] Missing property "notepadState" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-02-25 20:54:28.354 [warning] Missing property "bugbotState" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-02-25 20:54:28.354 [warning] Missing property "aiFeaturesCopyPasteState" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-02-25 20:54:28.354 [warning] Missing property "shouldShowViewZoneWhenPreviewBoxIsClipped4" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-02-25 20:54:28.354 [warning] Missing property "syncDevModeColorTheme" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-02-25 20:54:28.355 [warning] Missing property "cppModelsState" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-02-25 20:54:28.355 [warning] Missing property "isLinterEnabled" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-02-25 20:54:28.355 [warning] Missing property "aiSettings" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-02-25 20:54:28.355 [warning] Missing property "authenticationSettings" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-02-25 20:54:28.355 [warning] Missing property "websiteUrl" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-02-25 20:54:28.355 [warning] Missing property "backendUrl" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-02-25 20:54:28.355 [warning] Missing property "authClientId" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-02-25 20:54:28.355 [warning] Missing property "authDomain" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-02-25 20:54:28.355 [warning] Missing property "repoBackendUrl" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-02-25 20:54:28.355 [warning] Missing property "telemBackendUrl" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-02-25 20:54:28.355 [warning] Missing property "cmdkBackendUrl" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-02-25 20:54:28.355 [warning] Missing property "hfUrl" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-02-25 20:54:28.356 [warning] Missing property "geoCppBackendUrl" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-02-25 20:54:28.356 [warning] Missing property "cppConfigBackendUrl" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-02-25 20:54:28.356 [warning] Missing property "credentialsDisplayName" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-02-25 20:54:28.356 [warning] Missing property "docState" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-02-25 20:54:28.356 [warning] Missing property "lastUpdateHiddenTimeInUnixSeconds" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-02-25 20:54:28.356 [warning] Missing property "lintRules" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-02-25 20:54:28.356 [warning] Missing property "bubbleTimesLeft" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-02-25 20:54:28.356 [warning] Missing property "showAgentActionDebugger" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-02-25 20:54:28.356 [warning] Missing property "cmdLineHookState" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-02-25 20:54:28.356 [warning] Missing property "agentDebuggerState" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-02-25 20:54:28.356 [warning] Missing property "showLinterDebugger" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-02-25 20:54:28.356 [warning] Missing property "linterDebuggerState" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-02-25 20:54:28.356 [warning] Missing property "cacheChatPrompts" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-02-25 20:54:28.357 [warning] Missing property "cmdkDiffHistoryEnabled" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-02-25 20:54:28.357 [warning] Missing property "shouldOnlyImportOnAccept" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-02-25 20:54:28.357 [warning] Missing property "cppAutoImportDecorationStyle" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-02-25 20:54:28.357 [warning] Missing property "lintSettings" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-02-25 20:54:28.357 [warning] Missing property "lastUpgradeToProNotificationTime" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-02-25 20:54:28.357 [warning] Missing property "hallucinatedFunctionsPersistentState" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-02-25 20:54:28.357 [warning] Missing property "haveNotSeen" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-02-25 20:54:28.357 [warning] Missing property "newUserData" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-02-25 20:54:28.357 [warning] Missing property "azureState" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-02-25 20:54:28.357 [warning] Missing property "interpreterModeSettings" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-02-25 20:54:28.357 [warning] Missing property "cppFireOnEveryCursorChange" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-02-25 20:54:28.357 [warning] Missing property "personalDocs" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-02-25 20:54:28.357 [warning] Missing property "chunkedStreamingEnabledV2" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-02-25 20:54:28.358 [warning] Missing property "cppCachedTypeaheadEnabled" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-02-25 20:54:28.358 [warning] Missing property "cppInCmdF" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-02-25 20:54:28.358 [warning] Missing property "cppManualTriggerWithOpToken" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-02-25 20:54:28.358 [warning] Missing property "cppTriggerInComments" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-02-25 20:54:28.358 [warning] Missing property "cppShowWhitespaceOnlyChanges" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-02-25 20:54:28.358 [warning] Missing property "fastCppEnabled" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-02-25 20:54:28.358 [warning] Missing property "cppConfig" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-02-25 20:54:28.358 [warning] Missing property "indexRepository" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-02-25 20:54:28.358 [warning] Missing property "haveNotImportedFromVSC" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-02-25 20:54:28.358 [warning] Missing property "shouldAutoParseCmdKLinks" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-02-25 20:54:28.358 [warning] Missing property "SPECIAL_KEY_lastUpdatedTimeInUnixSeconds" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-02-25 20:54:28.358 [warning] Missing property "aiHyperModeUXType" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-02-25 20:54:28.359 [warning] Missing property "aiPreviewsEnabled" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-02-25 20:54:28.359 [warning] Missing property "aiPreviewSettings" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-02-25 20:54:28.359 [warning] Missing property "chatFadeInAnimationEnabled" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-02-25 20:54:28.359 [warning] Missing property "isFileSyncClientEnabled" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-02-25 20:54:28.359 [warning] Missing property "membershipType" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-02-25 20:54:28.359 [warning] Missing property "isAiReviewInputExpanded" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-02-25 20:54:28.359 [warning] Missing property "useFastApplyModel" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-02-25 20:54:28.359 [warning] Missing property "fastApplyModelType" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-02-25 20:54:28.359 [warning] Missing property "explicitlyEnableSemanticSearch" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-02-25 20:54:28.359 [warning] Missing property "aiCursorHelpEnabled" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-02-25 20:54:28.359 [warning] Missing property "showAllCmdKContexts" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-02-25 20:54:28.359 [warning] Missing property "aiDocAgentEnabled" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-02-25 20:54:28.360 [warning] Missing property "markdownTestString" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-02-25 20:54:28.360 [warning] Missing property "cppInPeek" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-02-25 20:54:28.360 [warning] Missing property "fastSemanticSearchEnabled" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-02-25 20:54:28.360 [warning] Missing property "preferredEmbeddingModel" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-02-25 20:54:28.360 [warning] Missing property "cursorPredictionUIExperiments" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-02-25 20:54:28.360 [warning] Missing property "oneTimeSettings" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-02-25 20:54:28.360 [warning] Missing property "aiReviewPersistentStorage" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-02-25 20:54:28.360 [warning] Missing property "indexingState" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-02-25 20:54:28.360 [warning] Missing property "turboModeOptions" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-02-25 20:54:28.360 [warning] Missing property "internalAnalyticsDebugMode" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-02-25 20:54:28.360 [warning] Missing property "fullContextOptions" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-02-25 20:54:28.362 [warning] Missing property "shouldHideWarning" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-02-25 20:54:28.362 [warning] Missing property "hallucinatedFunctionsWorkspaceState" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-02-25 20:54:28.362 [warning] Missing property "persistentChatMetadata" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-02-25 20:54:28.362 [warning] Missing property "aiPanePosition" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-02-25 20:54:28.362 [warning] Missing property "shouldRerankByDefault" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-02-25 20:54:28.362 [warning] Missing property "indexingData" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-02-25 20:54:28.363 [warning] Missing property "composerState" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-02-25 20:54:28.424 [warning] Creation of workbench contribution 'workbench.contrib.onboarding.onStart.cursor' took 25ms.
+2025-02-25 20:54:28.670 [info] Started local extension host with pid 5769.
+2025-02-25 20:54:28.688 [info] Started initializing default profile extensions in extensions installation folder. file:///home/zen/.cursor/extensions
+2025-02-25 20:54:28.855 [info] Completed initializing default profile extensions in extensions installation folder. file:///home/zen/.cursor/extensions
+2025-02-25 20:54:31.712 [error] [unauthenticated] Error: ConnectError: [unauthenticated] Error
+    at t (vscode-file://vscode-app/tmp/.mount_cursoraN7I8O/resources/app/out/vs/workbench/workbench.desktop.main.js:1413:95575)
+    at async Object.availableModels (vscode-file://vscode-app/tmp/.mount_cursoraN7I8O/resources/app/out/vs/workbench/workbench.desktop.main.js:461:174367)
+    at async ddi.keepCppModelStateUpdated (vscode-file://vscode-app/tmp/.mount_cursoraN7I8O/resources/app/out/vs/workbench/workbench.desktop.main.js:5060:14415)
+    at async ddi.loadCppConfigIncludingHandlingProAccess (vscode-file://vscode-app/tmp/.mount_cursoraN7I8O/resources/app/out/vs/workbench/workbench.desktop.main.js:5075:1027) [unauthenticated] Error
+2025-02-25 20:54:31.878 [info] [perf] Render performance baseline is 22ms
+2025-02-25 20:54:40.920 [error] Extension 'ms-python.python' wants API proposal 'envShellEvent' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-02-25 20:54:40.920 [error] Extension 'ms-python.python' wants API proposal 'saveEditor' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-02-25 20:54:40.954 [error] Extension 'ms-python.debugpy' wants API proposal 'contribIssueReporter' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-02-25 20:54:41.008 [warning] [ms-python.vscode-pylance]: Cannot register 'python.analysis.autoImportCompletions'. This property is already registered.
+2025-02-25 20:54:41.008 [warning] [ms-python.vscode-pylance]: Cannot register 'python.analysis.autoSearchPaths'. This property is already registered.
+2025-02-25 20:54:41.008 [warning] [ms-python.vscode-pylance]: Cannot register 'python.analysis.stubPath'. This property is already registered.
+2025-02-25 20:54:41.008 [warning] [ms-python.vscode-pylance]: Cannot register 'python.analysis.diagnosticMode'. This property is already registered.
+2025-02-25 20:54:41.008 [warning] [ms-python.vscode-pylance]: Cannot register 'python.analysis.extraPaths'. This property is already registered.
+2025-02-25 20:54:41.009 [warning] [ms-python.vscode-pylance]: Cannot register 'python.analysis.useLibraryCodeForTypes'. This property is already registered.
+2025-02-25 20:54:41.009 [warning] [ms-python.vscode-pylance]: Cannot register 'python.analysis.typeCheckingMode'. This property is already registered.
+2025-02-25 20:54:41.009 [warning] [ms-python.vscode-pylance]: Cannot register 'python.analysis.diagnosticSeverityOverrides'. This property is already registered.
+2025-02-25 20:54:41.009 [warning] [ms-python.vscode-pylance]: Cannot register 'python.analysis.logLevel'. This property is already registered.
+2025-02-25 20:54:41.009 [warning] [ms-python.vscode-pylance]: Cannot register 'python.analysis.typeshedPaths'. This property is already registered.
+2025-02-25 20:54:53.241 [info] Starting polling for login
+2025-02-25 20:54:53.441 [info] Beginning of Login Poll
+2025-02-25 20:54:53.641 [info] Beginning of Login Poll
+2025-02-25 20:54:53.680 [info] Got login result 404
+2025-02-25 20:54:53.795 [info] Got login result 404
+2025-02-25 20:54:53.841 [info] Beginning of Login Poll
+2025-02-25 20:54:53.950 [info] Got login result 404
+2025-02-25 20:54:54.041 [info] Beginning of Login Poll
+2025-02-25 20:54:54.151 [info] Got login result 404
+2025-02-25 20:54:54.241 [info] Beginning of Login Poll
+2025-02-25 20:54:54.358 [info] Got login result 404
+2025-02-25 20:54:54.441 [info] Beginning of Login Poll
+2025-02-25 20:54:54.563 [info] Got login result 404
+2025-02-25 20:54:54.641 [info] Beginning of Login Poll
+2025-02-25 20:54:54.753 [info] Got login result 404
+2025-02-25 20:54:54.842 [info] Beginning of Login Poll
+2025-02-25 20:54:54.969 [info] Got login result 404
+2025-02-25 20:54:55.041 [info] Beginning of Login Poll
+2025-02-25 20:54:55.149 [info] Got login result 404
+2025-02-25 20:54:55.241 [info] Beginning of Login Poll
+2025-02-25 20:54:55.367 [info] Got login result 404
+2025-02-25 20:54:55.441 [info] Beginning of Login Poll
+2025-02-25 20:54:55.557 [info] Got login result 404
+2025-02-25 20:54:55.641 [info] Beginning of Login Poll
+2025-02-25 20:54:55.762 [info] Got login result 404
+2025-02-25 20:54:55.841 [info] Beginning of Login Poll
+2025-02-25 20:54:55.957 [info] Got login result 404
+2025-02-25 20:54:56.042 [info] Beginning of Login Poll
+2025-02-25 20:54:56.156 [info] Got login result 404
+2025-02-25 20:54:56.242 [info] Beginning of Login Poll
+2025-02-25 20:54:56.358 [info] Got login result 404
+2025-02-25 20:54:56.441 [info] Beginning of Login Poll
+2025-02-25 20:54:56.549 [info] Got login result 404
+2025-02-25 20:54:56.642 [info] Beginning of Login Poll
+2025-02-25 20:54:56.755 [info] Got login result 404
+2025-02-25 20:54:56.841 [info] Beginning of Login Poll
+2025-02-25 20:54:56.963 [info] Got login result 404
+2025-02-25 20:54:57.041 [info] Beginning of Login Poll
+2025-02-25 20:54:57.151 [info] Got login result 404
+2025-02-25 20:54:57.242 [info] Beginning of Login Poll
+2025-02-25 20:54:57.360 [info] Got login result 404
+2025-02-25 20:54:57.441 [info] Beginning of Login Poll
+2025-02-25 20:54:57.548 [info] Got login result 404
+2025-02-25 20:54:57.641 [info] Beginning of Login Poll
+2025-02-25 20:54:57.753 [info] Got login result 404
+2025-02-25 20:54:57.841 [info] Beginning of Login Poll
+2025-02-25 20:54:57.961 [info] Got login result 404
+2025-02-25 20:54:58.041 [info] Beginning of Login Poll
+2025-02-25 20:54:58.157 [info] Got login result 404
+2025-02-25 20:54:58.241 [info] Beginning of Login Poll
+2025-02-25 20:54:58.348 [info] Got login result 404
+2025-02-25 20:54:58.441 [info] Beginning of Login Poll
+2025-02-25 20:54:58.564 [info] Got login result 404
+2025-02-25 20:54:58.642 [info] Beginning of Login Poll
+2025-02-25 20:54:58.754 [info] Got login result 404
+2025-02-25 20:54:58.841 [info] Beginning of Login Poll
+2025-02-25 20:54:58.957 [info] Got login result 404
+2025-02-25 20:54:59.041 [info] Beginning of Login Poll
+2025-02-25 20:54:59.154 [info] Got login result 404
+2025-02-25 20:54:59.242 [info] Beginning of Login Poll
+2025-02-25 20:54:59.355 [info] Got login result 404
+2025-02-25 20:54:59.441 [info] Beginning of Login Poll
+2025-02-25 20:54:59.553 [info] Got login result 404
+2025-02-25 20:54:59.641 [info] Beginning of Login Poll
+2025-02-25 20:54:59.766 [info] Got login result 404
+2025-02-25 20:54:59.842 [info] Beginning of Login Poll
+2025-02-25 20:54:59.961 [info] Got login result 404
+2025-02-25 20:55:00.041 [info] Beginning of Login Poll
+2025-02-25 20:55:00.156 [info] Got login result 404
+2025-02-25 20:55:00.242 [info] Beginning of Login Poll
+2025-02-25 20:55:00.362 [info] Got login result 404
+2025-02-25 20:55:00.446 [info] Beginning of Login Poll
+2025-02-25 20:55:00.572 [info] Got login result 404
+2025-02-25 20:55:00.641 [info] Beginning of Login Poll
+2025-02-25 20:55:00.764 [info] Got login result 404
+2025-02-25 20:55:00.841 [info] Beginning of Login Poll
+2025-02-25 20:55:00.956 [info] Got login result 404
+2025-02-25 20:55:01.041 [info] Beginning of Login Poll
+2025-02-25 20:55:01.159 [info] Got login result 404
+2025-02-25 20:55:01.242 [info] Beginning of Login Poll
+2025-02-25 20:55:01.360 [info] Got login result 404
+2025-02-25 20:55:01.441 [info] Beginning of Login Poll
+2025-02-25 20:55:01.560 [info] Got login result 404
+2025-02-25 20:55:01.642 [info] Beginning of Login Poll
+2025-02-25 20:55:01.772 [info] Got login result 404
+2025-02-25 20:55:01.841 [info] Beginning of Login Poll
+2025-02-25 20:55:01.961 [info] Got login result 404
+2025-02-25 20:55:02.042 [info] Beginning of Login Poll
+2025-02-25 20:55:02.163 [info] Got login result 404
+2025-02-25 20:55:02.241 [info] Beginning of Login Poll
+2025-02-25 20:55:02.353 [info] Got login result 404
+2025-02-25 20:55:02.442 [info] Beginning of Login Poll
+2025-02-25 20:55:02.559 [info] Got login result 404
+2025-02-25 20:55:02.641 [info] Beginning of Login Poll
+2025-02-25 20:55:02.749 [info] Got login result 404
+2025-02-25 20:55:02.841 [info] Beginning of Login Poll
+2025-02-25 20:55:02.962 [info] Got login result 200
+2025-02-25 20:55:02.964 [info] Got login json {"accessToken":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJnb29nbGUtb2F1dGgyfHVzZXJfMDFKS1pINTJCOEE3UEdLVjRRVkE3WllEVjAiLCJ0aW1lIjoiMTc0MDUxMzMwMSIsInJhbmRvbW5lc3MiOiJkNjA0ZTdiMS1kMzNiLTRlOGIiLCJleHAiOjQzMzI1MTMzMDEsImlzcyI6Imh0dHBzOi8vYXV0aGVudGljYXRpb24uY3Vyc29yLnNoIiwic2NvcGUiOiJvcGVuaWQgcHJvZmlsZSBlbWFpbCBvZmZsaW5lX2FjY2VzcyIsImF1ZCI6Imh0dHBzOi8vY3Vyc29yLmNvbSJ9.KQWD5cO2zfHZxh41IVhhiWHvHxdhVA3_kuxR0-9rQig","refreshToken":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJnb29nbGUtb2F1dGgyfHVzZXJfMDFKS1pINTJCOEE3UEdLVjRRVkE3WllEVjAiLCJ0aW1lIjoiMTc0MDUxMzMwMSIsInJhbmRvbW5lc3MiOiJkNjA0ZTdiMS1kMzNiLTRlOGIiLCJleHAiOjQzMzI1MTMzMDEsImlzcyI6Imh0dHBzOi8vYXV0aGVudGljYXRpb24uY3Vyc29yLnNoIiwic2NvcGUiOiJvcGVuaWQgcHJvZmlsZSBlbWFpbCBvZmZsaW5lX2FjY2VzcyIsImF1ZCI6Imh0dHBzOi8vY3Vyc29yLmNvbSJ9.KQWD5cO2zfHZxh41IVhhiWHvHxdhVA3_kuxR0-9rQig","challenge":"eb4ksJEIIBBVcrAoGZVkwSzzjq71C8RENoHAb5V8e08","authId":"google-oauth2|user_01JKZH52B8A7PGKV4QVA7ZYDV0","uuid":"bbccc0ac-cf6b-46a8-9642-09b7d630216b"}
+2025-02-25 20:55:03.041 [info] Beginning of Login Poll
+2025-02-25 20:55:03.156 [info] Got login result 200
+2025-02-25 20:55:03.162 [info] Got login json {"accessToken":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJnb29nbGUtb2F1dGgyfHVzZXJfMDFKS1pINTJCOEE3UEdLVjRRVkE3WllEVjAiLCJ0aW1lIjoiMTc0MDUxMzMwMSIsInJhbmRvbW5lc3MiOiJkNjA0ZTdiMS1kMzNiLTRlOGIiLCJleHAiOjQzMzI1MTMzMDEsImlzcyI6Imh0dHBzOi8vYXV0aGVudGljYXRpb24uY3Vyc29yLnNoIiwic2NvcGUiOiJvcGVuaWQgcHJvZmlsZSBlbWFpbCBvZmZsaW5lX2FjY2VzcyIsImF1ZCI6Imh0dHBzOi8vY3Vyc29yLmNvbSJ9.KQWD5cO2zfHZxh41IVhhiWHvHxdhVA3_kuxR0-9rQig","refreshToken":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJnb29nbGUtb2F1dGgyfHVzZXJfMDFKS1pINTJCOEE3UEdLVjRRVkE3WllEVjAiLCJ0aW1lIjoiMTc0MDUxMzMwMSIsInJhbmRvbW5lc3MiOiJkNjA0ZTdiMS1kMzNiLTRlOGIiLCJleHAiOjQzMzI1MTMzMDEsImlzcyI6Imh0dHBzOi8vYXV0aGVudGljYXRpb24uY3Vyc29yLnNoIiwic2NvcGUiOiJvcGVuaWQgcHJvZmlsZSBlbWFpbCBvZmZsaW5lX2FjY2VzcyIsImF1ZCI6Imh0dHBzOi8vY3Vyc29yLmNvbSJ9.KQWD5cO2zfHZxh41IVhhiWHvHxdhVA3_kuxR0-9rQig","challenge":"eb4ksJEIIBBVcrAoGZVkwSzzjq71C8RENoHAb5V8e08","authId":"google-oauth2|user_01JKZH52B8A7PGKV4QVA7ZYDV0","uuid":"bbccc0ac-cf6b-46a8-9642-09b7d630216b"}
+2025-02-25 20:55:03.241 [info] Beginning of Login Poll
+2025-02-25 20:55:03.361 [info] Got login result 200
+2025-02-25 20:55:03.362 [info] Got login json {"accessToken":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJnb29nbGUtb2F1dGgyfHVzZXJfMDFKS1pINTJCOEE3UEdLVjRRVkE3WllEVjAiLCJ0aW1lIjoiMTc0MDUxMzMwMSIsInJhbmRvbW5lc3MiOiJkNjA0ZTdiMS1kMzNiLTRlOGIiLCJleHAiOjQzMzI1MTMzMDEsImlzcyI6Imh0dHBzOi8vYXV0aGVudGljYXRpb24uY3Vyc29yLnNoIiwic2NvcGUiOiJvcGVuaWQgcHJvZmlsZSBlbWFpbCBvZmZsaW5lX2FjY2VzcyIsImF1ZCI6Imh0dHBzOi8vY3Vyc29yLmNvbSJ9.KQWD5cO2zfHZxh41IVhhiWHvHxdhVA3_kuxR0-9rQig","refreshToken":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJnb29nbGUtb2F1dGgyfHVzZXJfMDFKS1pINTJCOEE3UEdLVjRRVkE3WllEVjAiLCJ0aW1lIjoiMTc0MDUxMzMwMSIsInJhbmRvbW5lc3MiOiJkNjA0ZTdiMS1kMzNiLTRlOGIiLCJleHAiOjQzMzI1MTMzMDEsImlzcyI6Imh0dHBzOi8vYXV0aGVudGljYXRpb24uY3Vyc29yLnNoIiwic2NvcGUiOiJvcGVuaWQgcHJvZmlsZSBlbWFpbCBvZmZsaW5lX2FjY2VzcyIsImF1ZCI6Imh0dHBzOi8vY3Vyc29yLmNvbSJ9.KQWD5cO2zfHZxh41IVhhiWHvHxdhVA3_kuxR0-9rQig","challenge":"eb4ksJEIIBBVcrAoGZVkwSzzjq71C8RENoHAb5V8e08","authId":"google-oauth2|user_01JKZH52B8A7PGKV4QVA7ZYDV0","uuid":"bbccc0ac-cf6b-46a8-9642-09b7d630216b"}
+2025-02-25 20:55:03.441 [info] Beginning of Login Poll
+2025-02-25 20:55:03.564 [info] Got login result 200
+2025-02-25 20:55:03.567 [info] Got login json {"accessToken":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJnb29nbGUtb2F1dGgyfHVzZXJfMDFKS1pINTJCOEE3UEdLVjRRVkE3WllEVjAiLCJ0aW1lIjoiMTc0MDUxMzMwMSIsInJhbmRvbW5lc3MiOiJkNjA0ZTdiMS1kMzNiLTRlOGIiLCJleHAiOjQzMzI1MTMzMDEsImlzcyI6Imh0dHBzOi8vYXV0aGVudGljYXRpb24uY3Vyc29yLnNoIiwic2NvcGUiOiJvcGVuaWQgcHJvZmlsZSBlbWFpbCBvZmZsaW5lX2FjY2VzcyIsImF1ZCI6Imh0dHBzOi8vY3Vyc29yLmNvbSJ9.KQWD5cO2zfHZxh41IVhhiWHvHxdhVA3_kuxR0-9rQig","refreshToken":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJnb29nbGUtb2F1dGgyfHVzZXJfMDFKS1pINTJCOEE3UEdLVjRRVkE3WllEVjAiLCJ0aW1lIjoiMTc0MDUxMzMwMSIsInJhbmRvbW5lc3MiOiJkNjA0ZTdiMS1kMzNiLTRlOGIiLCJleHAiOjQzMzI1MTMzMDEsImlzcyI6Imh0dHBzOi8vYXV0aGVudGljYXRpb24uY3Vyc29yLnNoIiwic2NvcGUiOiJvcGVuaWQgcHJvZmlsZSBlbWFpbCBvZmZsaW5lX2FjY2VzcyIsImF1ZCI6Imh0dHBzOi8vY3Vyc29yLmNvbSJ9.KQWD5cO2zfHZxh41IVhhiWHvHxdhVA3_kuxR0-9rQig","challenge":"eb4ksJEIIBBVcrAoGZVkwSzzjq71C8RENoHAb5V8e08","authId":"google-oauth2|user_01JKZH52B8A7PGKV4QVA7ZYDV0","uuid":"bbccc0ac-cf6b-46a8-9642-09b7d630216b"}
+2025-02-25 20:55:03.641 [info] Beginning of Login Poll
+2025-02-25 20:55:03.758 [info] Got login result 200
+2025-02-25 20:55:03.760 [info] Got login json {"accessToken":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJnb29nbGUtb2F1dGgyfHVzZXJfMDFKS1pINTJCOEE3UEdLVjRRVkE3WllEVjAiLCJ0aW1lIjoiMTc0MDUxMzMwMSIsInJhbmRvbW5lc3MiOiJkNjA0ZTdiMS1kMzNiLTRlOGIiLCJleHAiOjQzMzI1MTMzMDEsImlzcyI6Imh0dHBzOi8vYXV0aGVudGljYXRpb24uY3Vyc29yLnNoIiwic2NvcGUiOiJvcGVuaWQgcHJvZmlsZSBlbWFpbCBvZmZsaW5lX2FjY2VzcyIsImF1ZCI6Imh0dHBzOi8vY3Vyc29yLmNvbSJ9.KQWD5cO2zfHZxh41IVhhiWHvHxdhVA3_kuxR0-9rQig","refreshToken":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJnb29nbGUtb2F1dGgyfHVzZXJfMDFKS1pINTJCOEE3UEdLVjRRVkE3WllEVjAiLCJ0aW1lIjoiMTc0MDUxMzMwMSIsInJhbmRvbW5lc3MiOiJkNjA0ZTdiMS1kMzNiLTRlOGIiLCJleHAiOjQzMzI1MTMzMDEsImlzcyI6Imh0dHBzOi8vYXV0aGVudGljYXRpb24uY3Vyc29yLnNoIiwic2NvcGUiOiJvcGVuaWQgcHJvZmlsZSBlbWFpbCBvZmZsaW5lX2FjY2VzcyIsImF1ZCI6Imh0dHBzOi8vY3Vyc29yLmNvbSJ9.KQWD5cO2zfHZxh41IVhhiWHvHxdhVA3_kuxR0-9rQig","challenge":"eb4ksJEIIBBVcrAoGZVkwSzzjq71C8RENoHAb5V8e08","authId":"google-oauth2|user_01JKZH52B8A7PGKV4QVA7ZYDV0","uuid":"bbccc0ac-cf6b-46a8-9642-09b7d630216b"}
+2025-02-25 20:55:25.218 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-vscode.vscode-selfhost-test-provider' wants API proposal 'attributableCoverage' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-02-25 20:55:25.218 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-toolsai.datawrangler' wants API proposal 'debugFocus' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-02-25 20:55:25.218 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.python' wants API proposal 'contribIssueReporter' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-02-25 20:55:25.218 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.debugpy' wants API proposal 'contribIssueReporter' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-02-25 20:55:25.218 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-azuretools.vscode-azure-github-copilot' wants API proposal 'lmTools' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-02-25 20:55:25.218 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-vscode.cpptools' wants API proposal 'lmTools' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-02-25 20:55:25.218 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'vscjava.vscode-java-pack' wants API proposal 'lmTools' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-02-25 20:55:25.218 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'apidev.azure-api-center' wants API proposal 'chatParticipant' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-02-25 20:55:25.218 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'apidev.azure-api-center' wants API proposal 'languageModels' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-02-25 20:55:25.239 [warning] Missing property "explicitEnableOrDisable" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-02-25 20:55:25.239 [warning] Missing property "lastBackgroundBugbotAt" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-02-25 20:55:25.240 [warning] Missing property "shouldHideWarning" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-02-25 20:55:25.240 [warning] Missing property "hallucinatedFunctionsWorkspaceState" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-02-25 20:55:25.240 [warning] Missing property "persistentChatMetadata" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-02-25 20:55:25.240 [warning] Missing property "aiPanePosition" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-02-25 20:55:25.240 [warning] Missing property "shouldRerankByDefault" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-02-25 20:55:25.240 [warning] Missing property "indexingData" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-02-25 20:55:25.240 [warning] Missing property "composerState" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-02-25 20:55:25.547 [info] Started local extension host with pid 6373.
+2025-02-25 20:55:25.883 [error] Extension 'ms-python.debugpy' wants API proposal 'contribIssueReporter' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-02-25 20:55:25.883 [error] Extension 'ms-python.python' wants API proposal 'envShellEvent' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-02-25 20:55:25.883 [error] Extension 'ms-python.python' wants API proposal 'saveEditor' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-02-25 20:55:25.900 [warning] [ms-python.vscode-pylance]: Cannot register 'python.analysis.autoImportCompletions'. This property is already registered.
+2025-02-25 20:55:25.901 [warning] [ms-python.vscode-pylance]: Cannot register 'python.analysis.autoSearchPaths'. This property is already registered.
+2025-02-25 20:55:25.901 [warning] [ms-python.vscode-pylance]: Cannot register 'python.analysis.stubPath'. This property is already registered.
+2025-02-25 20:55:25.904 [warning] [ms-python.vscode-pylance]: Cannot register 'python.analysis.diagnosticMode'. This property is already registered.
+2025-02-25 20:55:25.904 [warning] [ms-python.vscode-pylance]: Cannot register 'python.analysis.extraPaths'. This property is already registered.
+2025-02-25 20:55:25.905 [warning] [ms-python.vscode-pylance]: Cannot register 'python.analysis.useLibraryCodeForTypes'. This property is already registered.
+2025-02-25 20:55:25.905 [warning] [ms-python.vscode-pylance]: Cannot register 'python.analysis.typeCheckingMode'. This property is already registered.
+2025-02-25 20:55:25.905 [warning] [ms-python.vscode-pylance]: Cannot register 'python.analysis.diagnosticSeverityOverrides'. This property is already registered.
+2025-02-25 20:55:25.905 [warning] [ms-python.vscode-pylance]: Cannot register 'python.analysis.logLevel'. This property is already registered.
+2025-02-25 20:55:25.905 [warning] [ms-python.vscode-pylance]: Cannot register 'python.analysis.typeshedPaths'. This property is already registered.
+2025-02-25 20:55:28.308 [warning] Error getting latest version of the extension anysphere.pyright 404
+2025-02-25 20:55:28.358 [info] [perf] Render performance baseline is 20ms
+2025-02-25 20:55:37.429 [error] Extension 'ms-python.python' wants API proposal 'contribIssueReporter' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-02-25 20:55:37.430 [error] Extension 'ms-python.python' wants API proposal 'terminalShellIntegration' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-02-25 20:55:37.509 [info] Started local extension host with pid 6469.

@@ -1,0 +1,781 @@
+2025-02-25 21:00:38.830 [info] Creating Indexing Repo client:  https://repo42.cursor.sh
+2025-02-25 21:00:38.830 [info] Creating repo client with backend url: https://repo42.cursor.sh
+2025-02-25 21:00:38.830 [error] Git command failed: git config --get remote.origin.url Command failed: git config --get remote.origin.url
+
+2025-02-25 21:00:38.830 [error] Error getting repo info: Command failed: git config --get remote.origin.url
+
+2025-02-25 21:00:38.830 [error] Error: Command failed: git config --get remote.origin.url
+
+	at genericNodeError (node:internal/errors:984:15)
+	at wrappedFn (node:internal/errors:538:14)
+	at ChildProcess.exithandler (node:child_process:422:12)
+	at ChildProcess.emit (node:events:518:28)
+	at ChildProcess.emit (node:domain:489:12)
+	at maybeClose (node:internal/child_process:1104:16)
+	at Socket.<anonymous> (node:internal/child_process:456:11)
+	at Socket.emit (node:events:518:28)
+	at Socket.emit (node:domain:489:12)
+	at Pipe.<anonymous> (node:net:343:12)
+2025-02-25 21:00:39.005 [info] InternalRepoInfo constructor with preferredEmbeddingModel 0
+2025-02-25 21:00:39.010 [info] Doing a startup handshake.
+2025-02-25 21:00:39.011 [info] Creating merkle client.
+2025-02-25 21:00:39.011 [info] Done creating merkle client.
+2025-02-25 21:00:39.062 [info] Finished initializing merkle tree in 12.678464000000076 ms.
+2025-02-25 21:00:39.063 [info] Doing the initial handshake with hash: cfeee665ae117a0d40b7dce608d41d0e2a0a0a16ea60e5204c6a9cf1cc52ab25
+2025-02-25 21:00:39.065 [info] Handshake start
+2025-02-25 21:00:39.463 [info] Handshake timing: 399.8198269999998, response: {"status":"STATUS_SUCCESS","codebases":[{"codebaseId":"f31c698e-066d-4fe8-a35b-60c35a6ac9dc","status":"STATUS_UP_TO_DATE"}]}
+2025-02-25 21:00:39.463 [info] Handshake result: {"status":"STATUS_SUCCESS","codebases":[{"codebaseId":"f31c698e-066d-4fe8-a35b-60c35a6ac9dc","status":"STATUS_UP_TO_DATE"}]}
+2025-02-25 21:00:39.463 [info] Starting fast remote sync.
+2025-02-25 21:00:39.469 [info] Total num embeddable files: 3
+2025-02-25 21:00:39.473 [info] Root hash: cfeee665ae117a0d40b7dce608d41d0e2a0a0a16ea60e5204c6a9cf1cc52ab25
+2025-02-25 21:00:39.584 [info] Finished indexing repository.
+2025-02-25 21:00:39.584 [info] Indexing job successfully done or aborted.
+2025-02-25 21:00:39.982 [info] Creating Indexing Repo client:  https://repo42.cursor.sh
+2025-02-25 21:00:39.982 [info] Creating repo client with backend url: https://repo42.cursor.sh
+2025-02-25 21:00:39.982 [info] multiCodebaseIndexingJob dispose
+2025-02-25 21:00:39.982 [info] Aborting indexing job.
+2025-02-25 21:00:39.983 [info] InternalRepoInfo constructor with preferredEmbeddingModel 0
+2025-02-25 21:00:39.983 [info] Doing a startup handshake.
+2025-02-25 21:00:39.983 [info] Creating merkle client.
+2025-02-25 21:00:39.983 [info] Done creating merkle client.
+2025-02-25 21:00:39.993 [info] Finished initializing merkle tree in 1.934994000000188 ms.
+2025-02-25 21:00:39.993 [info] Doing the initial handshake with hash: cfeee665ae117a0d40b7dce608d41d0e2a0a0a16ea60e5204c6a9cf1cc52ab25
+2025-02-25 21:00:39.994 [info] Handshake start
+2025-02-25 21:00:40.373 [info] Handshake timing: 379.58394, response: {"status":"STATUS_SUCCESS","codebases":[{"codebaseId":"f31c698e-066d-4fe8-a35b-60c35a6ac9dc","status":"STATUS_UP_TO_DATE"}]}
+2025-02-25 21:00:40.373 [info] Handshake result: {"status":"STATUS_SUCCESS","codebases":[{"codebaseId":"f31c698e-066d-4fe8-a35b-60c35a6ac9dc","status":"STATUS_UP_TO_DATE"}]}
+2025-02-25 21:00:40.373 [info] Starting fast remote sync.
+2025-02-25 21:00:40.374 [info] Total num embeddable files: 3
+2025-02-25 21:00:40.374 [info] Root hash: cfeee665ae117a0d40b7dce608d41d0e2a0a0a16ea60e5204c6a9cf1cc52ab25
+2025-02-25 21:00:40.488 [info] Finished indexing repository.
+2025-02-25 21:00:40.488 [info] Indexing job successfully done or aborted.
+2025-02-25 21:04:42.748 [info] multiCodebaseIndexingJob dispose
+2025-02-25 21:04:42.748 [info] Aborting indexing job.
+2025-02-25 21:04:45.498 [info] Creating Indexing Repo client:  https://repo42.cursor.sh
+2025-02-25 21:04:45.498 [info] Creating repo client with backend url: https://repo42.cursor.sh
+2025-02-25 21:04:45.498 [error] Git command failed: git config --get remote.origin.url Command failed: git config --get remote.origin.url
+
+2025-02-25 21:04:45.498 [error] Error getting repo info: Command failed: git config --get remote.origin.url
+
+2025-02-25 21:04:45.498 [error] Error: Command failed: git config --get remote.origin.url
+
+	at genericNodeError (node:internal/errors:984:15)
+	at wrappedFn (node:internal/errors:538:14)
+	at ChildProcess.exithandler (node:child_process:422:12)
+	at ChildProcess.emit (node:events:518:28)
+	at ChildProcess.emit (node:domain:489:12)
+	at maybeClose (node:internal/child_process:1104:16)
+	at Socket.<anonymous> (node:internal/child_process:456:11)
+	at Socket.emit (node:events:518:28)
+	at Socket.emit (node:domain:489:12)
+	at Pipe.<anonymous> (node:net:343:12)
+2025-02-25 21:04:45.598 [info] InternalRepoInfo constructor with preferredEmbeddingModel 0
+2025-02-25 21:04:45.615 [info] Doing a startup handshake.
+2025-02-25 21:04:45.615 [info] Creating merkle client.
+2025-02-25 21:04:45.615 [info] Done creating merkle client.
+2025-02-25 21:04:45.731 [info] Finished initializing merkle tree in 6.141646000000037 ms.
+2025-02-25 21:04:45.732 [info] Doing the initial handshake with hash: 9fa115adaaeadd644e02164add2f818314f851a7e6f5036a4c1bc8e78c6205e2
+2025-02-25 21:04:45.734 [info] Handshake start
+2025-02-25 21:04:45.735 [warning] Error reading high level folder description. Ignoring. Error: ENOENT: no such file or directory, open '/home/zen/.config/Cursor/User/workspaceStorage/13a598ae326568d1a3ff95561d26bb80/anysphere.cursor-retrieval/high_level_folder_description.txt'
+2025-02-25 21:04:46.409 [info] Handshake timing: 676.2741939999996, response: {"status":"STATUS_SUCCESS","codebases":[{"codebaseId":"4e3a2095-d0ce-43db-9212-266c5659b21f","status":"STATUS_EMPTY"}]}
+2025-02-25 21:04:46.409 [info] Handshake result: {"status":"STATUS_SUCCESS","codebases":[{"codebaseId":"4e3a2095-d0ce-43db-9212-266c5659b21f","status":"STATUS_EMPTY"}]}
+2025-02-25 21:04:46.409 [info] Starting fast remote sync.
+2025-02-25 21:04:46.410 [info] Total num embeddable files: 30
+2025-02-25 21:04:46.410 [info] Root hash: 9fa115adaaeadd644e02164add2f818314f851a7e6f5036a4c1bc8e78c6205e2
+2025-02-25 21:04:46.410 [info] Starting repository upload from scratch.
+2025-02-25 21:04:46.412 [info] Uploading 30 files.
+2025-02-25 21:04:46.414 [info] Total number of files to embed: 30
+2025-02-25 21:04:46.414 [info] Not aborted
+2025-02-25 21:04:46.414 [info] Starting while loop.
+2025-02-25 21:04:46.414 [info] fileQueue.length: 30
+2025-02-25 21:04:46.414 [info] fileQueue.length: 29
+2025-02-25 21:04:46.414 [info] fileQueue.length: 28
+2025-02-25 21:04:46.414 [info] Waiting for jobs to finish. currentIndexingJobs.length: 2 concurrentUploads.current: 2 fileQueue.length: 28
+2025-02-25 21:04:46.472 [info] Creating Indexing Repo client:  https://repo42.cursor.sh
+2025-02-25 21:04:46.472 [info] Creating repo client with backend url: https://repo42.cursor.sh
+2025-02-25 21:04:46.474 [info] multiCodebaseIndexingJob dispose
+2025-02-25 21:04:46.474 [info] Aborting indexing job.
+2025-02-25 21:04:46.475 [info] InternalRepoInfo constructor with preferredEmbeddingModel 0
+2025-02-25 21:04:46.475 [info] Completed job unsuccessfully, will retry: ./gradlew.bat error: Bad unexpected error
+2025-02-25 21:04:46.475 [info] Waiting for jobs to finish. currentIndexingJobs.length: 1 concurrentUploads.current: 1 fileQueue.length: 29
+2025-02-25 21:04:46.477 [info] Indexing job successfully done or aborted.
+2025-02-25 21:04:46.487 [info] Doing a startup handshake.
+2025-02-25 21:04:46.487 [info] Creating merkle client.
+2025-02-25 21:04:46.487 [info] Done creating merkle client.
+2025-02-25 21:04:46.497 [info] Finished initializing merkle tree in 7.598206000000118 ms.
+2025-02-25 21:04:46.498 [info] Doing the initial handshake with hash: 9fa115adaaeadd644e02164add2f818314f851a7e6f5036a4c1bc8e78c6205e2
+2025-02-25 21:04:46.499 [info] Handshake start
+2025-02-25 21:04:46.855 [error] Error Checking Connection: [unimplemented] HTTP 404
+2025-02-25 21:04:46.855 [info] Creating Indexing Repo client:  https://repo42.cursor.sh
+2025-02-25 21:04:46.855 [info] Creating repo client with backend url: https://repo42.cursor.sh
+2025-02-25 21:04:46.870 [info] Handshake timing: 372.38569899999993, response: {"status":"STATUS_SUCCESS","codebases":[{"codebaseId":"4e3a2095-d0ce-43db-9212-266c5659b21f","status":"STATUS_EMPTY"}]}
+2025-02-25 21:04:46.870 [info] Handshake result: {"status":"STATUS_SUCCESS","codebases":[{"codebaseId":"4e3a2095-d0ce-43db-9212-266c5659b21f","status":"STATUS_EMPTY"}]}
+2025-02-25 21:04:46.871 [info] Starting fast remote sync.
+2025-02-25 21:04:46.871 [info] Total num embeddable files: 30
+2025-02-25 21:04:46.871 [info] Root hash: 9fa115adaaeadd644e02164add2f818314f851a7e6f5036a4c1bc8e78c6205e2
+2025-02-25 21:04:46.871 [info] Starting repository upload from scratch.
+2025-02-25 21:04:46.872 [info] Uploading 30 files.
+2025-02-25 21:04:46.873 [info] Total number of files to embed: 30
+2025-02-25 21:04:46.873 [info] Not aborted
+2025-02-25 21:04:46.873 [info] Starting while loop.
+2025-02-25 21:04:46.873 [info] fileQueue.length: 30
+2025-02-25 21:04:46.873 [info] fileQueue.length: 29
+2025-02-25 21:04:46.873 [info] fileQueue.length: 28
+2025-02-25 21:04:46.873 [info] Waiting for jobs to finish. currentIndexingJobs.length: 2 concurrentUploads.current: 2 fileQueue.length: 28
+2025-02-25 21:04:47.010 [info] Completed job successfully: 4e3a2095-d0ce-43db-9212-266c5659b21f ./gradle/wrapper/gradle-wrapper.properties
+2025-02-25 21:04:47.010 [info] fileQueue.length: 27
+2025-02-25 21:04:47.010 [info] fileQueue.length: 26
+2025-02-25 21:04:47.010 [info] Waiting for jobs to finish. currentIndexingJobs.length: 3 concurrentUploads.current: 3 fileQueue.length: 26
+2025-02-25 21:04:47.016 [info] Completed job successfully: 4e3a2095-d0ce-43db-9212-266c5659b21f ./gradlew.bat
+2025-02-25 21:04:47.016 [info] fileQueue.length: 25
+2025-02-25 21:04:47.016 [info] fileQueue.length: 24
+2025-02-25 21:04:47.016 [info] Waiting for jobs to finish. currentIndexingJobs.length: 4 concurrentUploads.current: 4 fileQueue.length: 24
+2025-02-25 21:04:47.848 [info] Completed job successfully: 4e3a2095-d0ce-43db-9212-266c5659b21f ./gradle.properties
+2025-02-25 21:04:47.848 [info] fileQueue.length: 23
+2025-02-25 21:04:47.848 [info] fileQueue.length: 22
+2025-02-25 21:04:47.848 [info] Waiting for jobs to finish. currentIndexingJobs.length: 5 concurrentUploads.current: 5 fileQueue.length: 22
+2025-02-25 21:04:47.850 [info] Completed job successfully: 4e3a2095-d0ce-43db-9212-266c5659b21f ./build.gradle.kts
+2025-02-25 21:04:47.850 [info] fileQueue.length: 21
+2025-02-25 21:04:47.850 [info] fileQueue.length: 20
+2025-02-25 21:04:47.850 [info] Waiting for jobs to finish. currentIndexingJobs.length: 6 concurrentUploads.current: 6 fileQueue.length: 20
+2025-02-25 21:04:47.925 [info] Completed job successfully: 4e3a2095-d0ce-43db-9212-266c5659b21f ./.gitignore
+2025-02-25 21:04:47.925 [info] fileQueue.length: 19
+2025-02-25 21:04:47.925 [info] fileQueue.length: 18
+2025-02-25 21:04:47.925 [info] Waiting for jobs to finish. currentIndexingJobs.length: 7 concurrentUploads.current: 7 fileQueue.length: 18
+2025-02-25 21:04:48.842 [info] Completed job successfully: 4e3a2095-d0ce-43db-9212-266c5659b21f ./gradle/wrapper/gradle-wrapper.jar
+2025-02-25 21:04:48.842 [info] fileQueue.length: 17
+2025-02-25 21:04:48.842 [info] fileQueue.length: 16
+2025-02-25 21:04:48.842 [info] Waiting for jobs to finish. currentIndexingJobs.length: 8 concurrentUploads.current: 8 fileQueue.length: 16
+2025-02-25 21:04:48.858 [info] Completed job successfully: 4e3a2095-d0ce-43db-9212-266c5659b21f ./settings.gradle.kts
+2025-02-25 21:04:48.858 [info] fileQueue.length: 15
+2025-02-25 21:04:48.858 [info] fileQueue.length: 14
+2025-02-25 21:04:48.858 [info] Waiting for jobs to finish. currentIndexingJobs.length: 9 concurrentUploads.current: 9 fileQueue.length: 14
+2025-02-25 21:04:48.910 [info] Completed job successfully: 4e3a2095-d0ce-43db-9212-266c5659b21f ./gradlew
+2025-02-25 21:04:48.910 [info] fileQueue.length: 13
+2025-02-25 21:04:48.910 [info] fileQueue.length: 12
+2025-02-25 21:04:48.910 [info] Waiting for jobs to finish. currentIndexingJobs.length: 10 concurrentUploads.current: 10 fileQueue.length: 12
+2025-02-25 21:04:48.919 [info] Completed job successfully: 4e3a2095-d0ce-43db-9212-266c5659b21f ./src/main/java/dev/th7bo/meleesim/Weapons.java
+2025-02-25 21:04:48.919 [info] fileQueue.length: 11
+2025-02-25 21:04:48.919 [info] fileQueue.length: 10
+2025-02-25 21:04:48.919 [info] Waiting for jobs to finish. currentIndexingJobs.length: 11 concurrentUploads.current: 11 fileQueue.length: 10
+2025-02-25 21:04:48.923 [info] Completed job successfully: 4e3a2095-d0ce-43db-9212-266c5659b21f ./src/main/resources/weapons.yml
+2025-02-25 21:04:48.923 [info] fileQueue.length: 9
+2025-02-25 21:04:48.923 [info] fileQueue.length: 8
+2025-02-25 21:04:48.923 [info] Waiting for jobs to finish. currentIndexingJobs.length: 12 concurrentUploads.current: 12 fileQueue.length: 8
+2025-02-25 21:04:49.076 [info] Completed job successfully: 4e3a2095-d0ce-43db-9212-266c5659b21f ./src/main/resources/plugin.yml
+2025-02-25 21:04:49.076 [info] fileQueue.length: 7
+2025-02-25 21:04:49.076 [info] fileQueue.length: 6
+2025-02-25 21:04:49.076 [info] Waiting for jobs to finish. currentIndexingJobs.length: 13 concurrentUploads.current: 13 fileQueue.length: 6
+2025-02-25 21:04:49.854 [info] Completed job successfully: 4e3a2095-d0ce-43db-9212-266c5659b21f ./src/main/java/dev/th7bo/meleesim/util/SkullCache.java
+2025-02-25 21:04:49.854 [info] fileQueue.length: 5
+2025-02-25 21:04:49.854 [info] fileQueue.length: 4
+2025-02-25 21:04:49.854 [info] Waiting for jobs to finish. currentIndexingJobs.length: 14 concurrentUploads.current: 14 fileQueue.length: 4
+2025-02-25 21:04:49.863 [info] Completed job successfully: 4e3a2095-d0ce-43db-9212-266c5659b21f ./src/main/java/dev/th7bo/meleesim/weapons/WeaponModel.java
+2025-02-25 21:04:49.863 [info] fileQueue.length: 3
+2025-02-25 21:04:49.863 [info] fileQueue.length: 2
+2025-02-25 21:04:49.863 [info] Waiting for jobs to finish. currentIndexingJobs.length: 15 concurrentUploads.current: 15 fileQueue.length: 2
+2025-02-25 21:04:49.874 [info] Completed job successfully: 4e3a2095-d0ce-43db-9212-266c5659b21f ./src/main/java/dev/th7bo/meleesim/inventory/WeaponStorageGUI.java
+2025-02-25 21:04:49.874 [info] fileQueue.length: 1
+2025-02-25 21:04:49.874 [info] fileQueue.length: 0
+2025-02-25 21:04:49.874 [info] Waiting for jobs to finish. currentIndexingJobs.length: 16 concurrentUploads.current: 16 fileQueue.length: 0
+2025-02-25 21:04:49.876 [info] Completed job successfully: 4e3a2095-d0ce-43db-9212-266c5659b21f ./src/main/java/dev/th7bo/meleesim/commands/WeaponAdminCommand.java
+2025-02-25 21:04:49.876 [info] Waiting for jobs to finish. currentIndexingJobs.length: 15 concurrentUploads.current: 17 fileQueue.length: 0
+2025-02-25 21:04:49.918 [info] Completed job successfully: 4e3a2095-d0ce-43db-9212-266c5659b21f ./src/main/java/dev/th7bo/meleesim/database/playerdata/repositories/PlayerDataRepository.java
+2025-02-25 21:04:49.918 [info] Waiting for jobs to finish. currentIndexingJobs.length: 14 concurrentUploads.current: 18 fileQueue.length: 0
+2025-02-25 21:04:50.073 [info] Completed job successfully: 4e3a2095-d0ce-43db-9212-266c5659b21f ./src/main/java/dev/th7bo/meleesim/database/DatabaseUtils.java
+2025-02-25 21:04:50.073 [info] Waiting for jobs to finish. currentIndexingJobs.length: 13 concurrentUploads.current: 19 fileQueue.length: 0
+2025-02-25 21:04:50.860 [info] Completed job successfully: 4e3a2095-d0ce-43db-9212-266c5659b21f ./src/main/java/dev/th7bo/meleesim/database/entities/weapons/StoredWeapon.java
+2025-02-25 21:04:50.860 [info] Waiting for jobs to finish. currentIndexingJobs.length: 12 concurrentUploads.current: 20 fileQueue.length: 0
+2025-02-25 21:04:50.864 [info] Completed job successfully: 4e3a2095-d0ce-43db-9212-266c5659b21f ./src/main/java/dev/th7bo/meleesim/commands/WeaponCommand.java
+2025-02-25 21:04:50.864 [info] Waiting for jobs to finish. currentIndexingJobs.length: 11 concurrentUploads.current: 21 fileQueue.length: 0
+2025-02-25 21:04:50.866 [info] Completed job successfully: 4e3a2095-d0ce-43db-9212-266c5659b21f ./src/main/java/dev/th7bo/meleesim/weapons/WeaponsRegistry.java
+2025-02-25 21:04:50.866 [info] Waiting for jobs to finish. currentIndexingJobs.length: 10 concurrentUploads.current: 22 fileQueue.length: 0
+2025-02-25 21:04:50.869 [info] Completed job successfully: 4e3a2095-d0ce-43db-9212-266c5659b21f ./src/main/java/dev/th7bo/meleesim/util/ItemBuilder.java
+2025-02-25 21:04:50.869 [info] Waiting for jobs to finish. currentIndexingJobs.length: 9 concurrentUploads.current: 23 fileQueue.length: 0
+2025-02-25 21:04:50.882 [info] Completed job successfully: 4e3a2095-d0ce-43db-9212-266c5659b21f ./src/main/java/dev/th7bo/meleesim/database/DatabaseConnection.java
+2025-02-25 21:04:50.882 [info] Waiting for jobs to finish. currentIndexingJobs.length: 8 concurrentUploads.current: 24 fileQueue.length: 0
+2025-02-25 21:04:50.936 [info] Completed job successfully: 4e3a2095-d0ce-43db-9212-266c5659b21f ./src/main/java/dev/th7bo/meleesim/database/playerdata/PlayerData.java
+2025-02-25 21:04:50.936 [info] Waiting for jobs to finish. currentIndexingJobs.length: 7 concurrentUploads.current: 25 fileQueue.length: 0
+2025-02-25 21:04:50.939 [info] Completed job successfully: 4e3a2095-d0ce-43db-9212-266c5659b21f ./src/main/resources/config.yml
+2025-02-25 21:04:50.939 [info] Waiting for jobs to finish. currentIndexingJobs.length: 6 concurrentUploads.current: 26 fileQueue.length: 0
+2025-02-25 21:04:51.085 [info] Completed job successfully: 4e3a2095-d0ce-43db-9212-266c5659b21f ./src/main/java/dev/th7bo/meleesim/database/entities/weapons/WeaponsPlayerData.java
+2025-02-25 21:04:51.085 [info] Waiting for jobs to finish. currentIndexingJobs.length: 5 concurrentUploads.current: 27 fileQueue.length: 0
+2025-02-25 21:04:51.088 [info] Completed job successfully: 4e3a2095-d0ce-43db-9212-266c5659b21f ./src/main/java/dev/th7bo/meleesim/weapons/WeaponsManager.java
+2025-02-25 21:04:51.088 [info] Waiting for jobs to finish. currentIndexingJobs.length: 4 concurrentUploads.current: 28 fileQueue.length: 0
+2025-02-25 21:04:51.391 [info] Completed job successfully: 4e3a2095-d0ce-43db-9212-266c5659b21f ./src/main/java/dev/th7bo/meleesim/database/playerdata/listener/PlayerDataListener.java
+2025-02-25 21:04:51.391 [info] Waiting for jobs to finish. currentIndexingJobs.length: 3 concurrentUploads.current: 29 fileQueue.length: 0
+2025-02-25 21:04:51.852 [info] Completed job successfully: 4e3a2095-d0ce-43db-9212-266c5659b21f ./src/main/java/dev/th7bo/meleesim/weapons/WeaponRarity.java
+2025-02-25 21:04:51.852 [info] Waiting for jobs to finish. currentIndexingJobs.length: 2 concurrentUploads.current: 30 fileQueue.length: 0
+2025-02-25 21:04:51.928 [info] Completed job successfully: 4e3a2095-d0ce-43db-9212-266c5659b21f ./src/main/java/dev/th7bo/meleesim/database/events/PlayerDataLoadedEvent.java
+2025-02-25 21:04:51.928 [info] Waiting for jobs to finish. currentIndexingJobs.length: 1 concurrentUploads.current: 31 fileQueue.length: 0
+2025-02-25 21:04:51.992 [info] Completed job successfully: 4e3a2095-d0ce-43db-9212-266c5659b21f ./src/main/java/dev/th7bo/meleesim/database/playerdata/PlayerDataManager.java
+2025-02-25 21:04:51.993 [info] Waiting for jobs to finish. currentIndexingJobs.length: 0 concurrentUploads.current: 32 fileQueue.length: 0
+2025-02-25 21:04:52.239 [info] Finished indexing repository.
+2025-02-25 21:04:52.239 [info] Indexing job successfully done or aborted.
+2025-02-25 21:05:04.062 [info] Search by message took 13.893062999999529ms for query ""
+2025-02-25 21:05:04.064 [info] Search by sha took 8.902641999997286ms for query ""
+2025-02-25 21:05:31.011 [info] Search by message took 37.774289999993925ms for query ""
+2025-02-25 21:05:31.072 [info] Search by message took 15.606949000000895ms for query ""
+2025-02-25 21:05:31.072 [info] Search by sha took 24.079556999997294ms for query ""
+2025-02-25 21:05:31.073 [info] Search by message took 34.794410000002244ms for query ""
+2025-02-25 21:05:31.073 [info] Search by sha took 48.447156000001996ms for query ""
+2025-02-25 21:05:31.073 [info] Search by message took 61.73834599999827ms for query ""
+2025-02-25 21:05:31.073 [info] Search by sha took 76.98028599999816ms for query ""
+2025-02-25 21:05:31.073 [info] Search by sha took 9.494243999994069ms for query ""
+2025-02-25 21:05:31.820 [info] Search by message took 12.537734999998065ms for query ""
+2025-02-25 21:05:31.822 [info] Search by sha took 8.13859400000365ms for query ""
+2025-02-25 21:07:06.011 [info] Search by message took 53.667213000007905ms for query ""
+2025-02-25 21:07:06.017 [info] Search by sha took 36.44957600001362ms for query ""
+2025-02-25 21:07:25.545 [info] Search by message took 12.27571300001ms for query ""
+2025-02-25 21:07:25.567 [info] Search by message took 10.59678800002439ms for query ""
+2025-02-25 21:07:25.567 [info] Search by sha took 16.024196000013035ms for query ""
+2025-02-25 21:07:25.567 [info] Search by message took 21.41730099997949ms for query ""
+2025-02-25 21:07:25.567 [info] Search by sha took 27.94647999998415ms for query ""
+2025-02-25 21:07:25.579 [info] Search by message took 10.600885000021663ms for query ""
+2025-02-25 21:07:25.579 [info] Search by sha took 17.395103000017116ms for query ""
+2025-02-25 21:07:25.581 [info] Search by sha took 7.2842839999939315ms for query ""
+2025-02-25 21:09:03.708 [info] Search by message took 11.782946999999695ms for query ""
+2025-02-25 21:09:03.719 [info] Search by message took 11.288334999990184ms for query ""
+2025-02-25 21:09:03.719 [info] Search by sha took 17.249110000004293ms for query ""
+2025-02-25 21:09:03.731 [info] Search by message took 11.374559999996563ms for query ""
+2025-02-25 21:09:03.731 [info] Search by sha took 17.27658999999403ms for query ""
+2025-02-25 21:09:03.733 [info] Search by sha took 7.998634999996284ms for query ""
+2025-02-25 21:09:03.748 [info] Search by message took 12.379852000012761ms for query ""
+2025-02-25 21:09:03.750 [info] Search by sha took 8.2628899999836ms for query ""
+2025-02-25 21:09:33.031 [info] Search by message took 23.981469999998808ms for query ""
+2025-02-25 21:09:33.047 [info] Search by sha took 29.37140999996336ms for query ""
+2025-02-25 21:09:44.510 [info] Search by message took 15.562317000003532ms for query ""
+2025-02-25 21:09:44.513 [info] Search by sha took 10.630168000003323ms for query ""
+2025-02-25 21:09:50.615 [info] Search by message took 15.147163999965414ms for query ""
+2025-02-25 21:09:50.625 [info] Search by sha took 18.034439000010025ms for query ""
+2025-02-25 21:14:44.507 [info] Search by message took 11.125761999981478ms for query ""
+2025-02-25 21:14:44.509 [info] Search by sha took 7.558646000106819ms for query ""
+2025-02-25 21:14:46.480 [info] multiCodebaseIndexingJob dispose
+2025-02-25 21:14:46.480 [info] Aborting indexing job.
+2025-02-25 21:14:46.480 [info] Doing a startup handshake.
+2025-02-25 21:14:46.480 [info] Creating merkle client.
+2025-02-25 21:14:46.480 [info] Done creating merkle client.
+2025-02-25 21:14:46.507 [info] Finished initializing merkle tree in 12.955031999968924 ms.
+2025-02-25 21:14:46.509 [info] Doing the initial handshake with hash: e5e55b8e9627756d344b11ef449cbfcd42157277589a9044bdc1520e12188366
+2025-02-25 21:14:46.513 [info] Handshake start
+2025-02-25 21:14:46.894 [info] Handshake timing: 385.0417740000412, response: {"status":"STATUS_SUCCESS","codebases":[{"codebaseId":"4e3a2095-d0ce-43db-9212-266c5659b21f","status":"STATUS_OUT_OF_SYNC"}]}
+2025-02-25 21:14:46.894 [info] Handshake result: {"status":"STATUS_SUCCESS","codebases":[{"codebaseId":"4e3a2095-d0ce-43db-9212-266c5659b21f","status":"STATUS_OUT_OF_SYNC"}]}
+2025-02-25 21:14:46.894 [info] Starting fast remote sync.
+2025-02-25 21:14:46.895 [info] Total num embeddable files: 31
+2025-02-25 21:14:46.895 [info] Root hash: e5e55b8e9627756d344b11ef449cbfcd42157277589a9044bdc1520e12188366
+2025-02-25 21:14:46.895 [info] In the out of sync case.
+2025-02-25 21:14:46.896 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":".","hash":"e5e55b8e9627756d344b11ef449cbfcd42157277589a9044bdc1520e12188366"}
+2025-02-25 21:14:46.896 [info] Waiting on semaphore to be released 1
+2025-02-25 21:14:47.095 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":"./src","hash":"d85ce75b9e666e6963be7d28af3468ec6c9d626686615925be918db54c9dde4a"}
+2025-02-25 21:14:47.096 [info] Waiting on semaphore to be released 1
+2025-02-25 21:14:47.296 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":"./src/main","hash":"b808a3fe84f2d72545adb2921f4b3c84f8c3c4013d36e368ab2ad4ec5389c801"}
+2025-02-25 21:14:47.296 [info] Waiting on semaphore to be released 1
+2025-02-25 21:14:47.496 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":"./src/main/java","hash":"2b79b937325c8896de2839b803aeb70d84f3fa89fd39917c73c414ed25104b8d"}
+2025-02-25 21:14:47.497 [info] Waiting on semaphore to be released 1
+2025-02-25 21:14:47.697 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":"./src/main/java/dev","hash":"6c52088cc4d847827c39ef948aabe93d4c02c09c8cd22f5cea3c01c988f1402a"}
+2025-02-25 21:14:47.698 [info] Waiting on semaphore to be released 1
+2025-02-25 21:14:47.897 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":"./src/main/java/dev/th7bo","hash":"e8de09f1afe7a792bd1ec06c86086f3951dc56b74eb5632b913e2bd5b94de22e"}
+2025-02-25 21:14:47.898 [info] Waiting on semaphore to be released 1
+2025-02-25 21:14:48.098 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":"./src/main/java/dev/th7bo/meleesim","hash":"d5d696b322bdb3dc5a58e07e3b88f76533e7f3760a5176105aeae687586b85c2"}
+2025-02-25 21:14:48.099 [info] Waiting on semaphore to be released 1
+2025-02-25 21:14:48.298 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":"./src/main/java/dev/th7bo/meleesim/weapons","hash":"47aced8b4a2bb65698215e8122466a5868dd59ba7ff99d7401dedefc1fcbdb6a"}
+2025-02-25 21:14:48.299 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":"./src/main/java/dev/th7bo/meleesim/inventory","hash":"73647acbf3345cee86c385cc5d0d6d36c62ea6612df7e0a61189fda90bf7bbfd"}
+2025-02-25 21:14:48.299 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":"./src/main/java/dev/th7bo/meleesim/database","hash":"0fc478b5042f386005b17fb3c80a4009f8a57ff1d5d551365b91e9b17fae57ae"}
+2025-02-25 21:14:48.300 [info] Waiting on semaphore to be released 3
+2025-02-25 21:14:48.499 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":"./src/main/java/dev/th7bo/meleesim/database/playerdata","hash":"689a4aad8df1d266e0f315d5477502f9a37c4ed8baac5f0d4e5d619086a7e9a5"}
+2025-02-25 21:14:48.501 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":"./src/main/java/dev/th7bo/meleesim/database/entities","hash":"9eef568d2a6cbe151ab7696dbd8ae2b7e2e88f417347af2866b5e20bf9edd46d"}
+2025-02-25 21:14:48.503 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":"./src/main/java/dev/th7bo/meleesim/database/events","hash":"317decac0ba25ed656eb281136e761f6efe75f661dfdc0b64454573585acd4a0"}
+2025-02-25 21:14:48.505 [info] Waiting on semaphore to be released 3
+2025-02-25 21:14:48.699 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":"./src/main/java/dev/th7bo/meleesim/database/playerdata/listener","hash":"355e68f278459a240d27ce890e201747ee3ff4ef9e573f3343ab3f2f195a44a1"}
+2025-02-25 21:14:48.700 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":"./src/main/java/dev/th7bo/meleesim/database/entities/weapons","hash":"0000fe5e78dff41d245dd85f10ad11e1b221ac3293b5831214a229f9bb02b51a"}
+2025-02-25 21:14:48.700 [info] Waiting on semaphore to be released 2
+2025-02-25 21:14:48.899 [info] setting numJobsToGo to 7
+2025-02-25 21:14:48.899 [info] [startSync]: numJobs: 7
+2025-02-25 21:14:48.899 [info] Uploading 7 files.
+2025-02-25 21:14:48.901 [info] Total number of files to embed: 31
+2025-02-25 21:14:48.901 [info] Not aborted
+2025-02-25 21:14:48.901 [info] Starting while loop.
+2025-02-25 21:14:48.901 [info] fileQueue.length: 7
+2025-02-25 21:14:48.901 [info] fileQueue.length: 6
+2025-02-25 21:14:48.901 [info] fileQueue.length: 5
+2025-02-25 21:14:48.901 [info] Waiting for jobs to finish. currentIndexingJobs.length: 2 concurrentUploads.current: 2 fileQueue.length: 5
+2025-02-25 21:14:49.037 [info] Completed job successfully: 4e3a2095-d0ce-43db-9212-266c5659b21f ./src/main/java/dev/th7bo/meleesim/inventory/WeaponStorageGUI.java
+2025-02-25 21:14:49.037 [info] fileQueue.length: 4
+2025-02-25 21:14:49.037 [info] fileQueue.length: 3
+2025-02-25 21:14:49.037 [info] Waiting for jobs to finish. currentIndexingJobs.length: 3 concurrentUploads.current: 3 fileQueue.length: 3
+2025-02-25 21:14:49.178 [info] Completed job successfully: 4e3a2095-d0ce-43db-9212-266c5659b21f ./src/main/java/dev/th7bo/meleesim/database/events/PlayerDataLoadedEvent.java
+2025-02-25 21:14:49.178 [info] fileQueue.length: 2
+2025-02-25 21:14:49.178 [info] fileQueue.length: 1
+2025-02-25 21:14:49.178 [info] Waiting for jobs to finish. currentIndexingJobs.length: 4 concurrentUploads.current: 4 fileQueue.length: 1
+2025-02-25 21:14:49.321 [info] Completed job successfully: 4e3a2095-d0ce-43db-9212-266c5659b21f ./src/main/java/dev/th7bo/meleesim/database/playerdata/listener/PlayerDataListener.java
+2025-02-25 21:14:49.321 [info] fileQueue.length: 0
+2025-02-25 21:14:49.321 [info] Waiting for jobs to finish. currentIndexingJobs.length: 4 concurrentUploads.current: 5 fileQueue.length: 0
+2025-02-25 21:14:49.326 [info] Completed job successfully: 4e3a2095-d0ce-43db-9212-266c5659b21f ./src/main/java/dev/th7bo/meleesim/database/entities/weapons/StoredWeapon.java
+2025-02-25 21:14:49.326 [info] Waiting for jobs to finish. currentIndexingJobs.length: 3 concurrentUploads.current: 6 fileQueue.length: 0
+2025-02-25 21:14:50.345 [info] Completed job successfully: 4e3a2095-d0ce-43db-9212-266c5659b21f ./src/main/java/dev/th7bo/meleesim/weapons/WeaponRarity.java
+2025-02-25 21:14:50.345 [info] Waiting for jobs to finish. currentIndexingJobs.length: 2 concurrentUploads.current: 7 fileQueue.length: 0
+2025-02-25 21:14:50.379 [info] Completed job successfully: 4e3a2095-d0ce-43db-9212-266c5659b21f ./newSwords.sk
+2025-02-25 21:14:50.379 [info] Waiting for jobs to finish. currentIndexingJobs.length: 1 concurrentUploads.current: 8 fileQueue.length: 0
+2025-02-25 21:14:51.337 [info] Completed job successfully: 4e3a2095-d0ce-43db-9212-266c5659b21f ./src/main/java/dev/th7bo/meleesim/weapons/WeaponsManager.java
+2025-02-25 21:14:51.337 [info] Waiting for jobs to finish. currentIndexingJobs.length: 0 concurrentUploads.current: 9 fileQueue.length: 0
+2025-02-25 21:14:51.571 [info] Finished indexing repository.
+2025-02-25 21:14:51.571 [info] Indexing job successfully done or aborted.
+2025-02-25 21:19:44.599 [info] Search by message took 48.86275199998636ms for query ""
+2025-02-25 21:19:44.605 [info] Search by sha took 31.044731999980286ms for query ""
+2025-02-25 21:24:44.529 [info] Search by message took 29.96480099996552ms for query ""
+2025-02-25 21:24:44.534 [info] Search by sha took 19.27681599999778ms for query ""
+2025-02-25 21:24:46.481 [info] multiCodebaseIndexingJob dispose
+2025-02-25 21:24:46.481 [info] Aborting indexing job.
+2025-02-25 21:24:46.481 [info] Doing a startup handshake.
+2025-02-25 21:24:46.481 [info] Creating merkle client.
+2025-02-25 21:24:46.481 [info] Done creating merkle client.
+2025-02-25 21:24:46.501 [info] Finished initializing merkle tree in 9.562022000085562 ms.
+2025-02-25 21:24:46.502 [info] Doing the initial handshake with hash: 8ebba406bae957d27e64ad6f76682b30d529de1136bb98a506690ccb85e468b4
+2025-02-25 21:24:46.505 [info] Handshake start
+2025-02-25 21:24:46.880 [info] Handshake timing: 377.1331380000338, response: {"status":"STATUS_SUCCESS","codebases":[{"codebaseId":"4e3a2095-d0ce-43db-9212-266c5659b21f","status":"STATUS_OUT_OF_SYNC"}]}
+2025-02-25 21:24:46.880 [info] Handshake result: {"status":"STATUS_SUCCESS","codebases":[{"codebaseId":"4e3a2095-d0ce-43db-9212-266c5659b21f","status":"STATUS_OUT_OF_SYNC"}]}
+2025-02-25 21:24:46.880 [info] Starting fast remote sync.
+2025-02-25 21:24:46.881 [info] Total num embeddable files: 34
+2025-02-25 21:24:46.882 [info] Root hash: 8ebba406bae957d27e64ad6f76682b30d529de1136bb98a506690ccb85e468b4
+2025-02-25 21:24:46.882 [info] In the out of sync case.
+2025-02-25 21:24:46.882 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":".","hash":"8ebba406bae957d27e64ad6f76682b30d529de1136bb98a506690ccb85e468b4"}
+2025-02-25 21:24:46.884 [info] Waiting on semaphore to be released 1
+2025-02-25 21:24:47.083 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":"./src","hash":"4cb425906171de1d8cc2333be1ede670cb5c1adde3a2b07e4e2591556d8cad78"}
+2025-02-25 21:24:47.085 [info] Waiting on semaphore to be released 1
+2025-02-25 21:24:47.283 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":"./src/main","hash":"808a98003c904d9a15f494fb25e9f8b76f555b7013179b2409085844530aa447"}
+2025-02-25 21:24:47.283 [info] Waiting on semaphore to be released 1
+2025-02-25 21:24:47.483 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":"./src/main/java","hash":"3c94b187f80082c7b01a94e28c116027d4db624398b720484dbfc385db07a3f3"}
+2025-02-25 21:24:47.484 [info] Waiting on semaphore to be released 1
+2025-02-25 21:24:47.683 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":"./src/main/java/dev","hash":"c61a987d67cfa98bc10b9f09cb2213498e6b634eee4e1463d1149219fbedce13"}
+2025-02-25 21:24:47.684 [info] Waiting on semaphore to be released 1
+2025-02-25 21:24:47.884 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":"./src/main/java/dev/th7bo","hash":"22c9857ecb6c8ce23ad1c5436ed55ceaa183f5ba8f7297d0d4aee36b06bc2343"}
+2025-02-25 21:24:47.886 [info] Waiting on semaphore to be released 1
+2025-02-25 21:24:48.084 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":"./src/main/java/dev/th7bo/meleesim","hash":"002d4fa05b09f80c906abd3b5246500d063b0bf26d778f8aa90b373c32fda622"}
+2025-02-25 21:24:48.086 [info] Waiting on semaphore to be released 1
+2025-02-25 21:24:48.284 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":"./src/main/java/dev/th7bo/meleesim/weapons","hash":"3c4b096b1e5b108e3622f8d3bc3f0e6c59283354a263794d85b1489a76ad0666"}
+2025-02-25 21:24:48.285 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":"./src/main/java/dev/th7bo/meleesim/inventory","hash":"0aee2ae1aa09a47b1e38b550b4caf6a21c7f5ad85a3f2ec0ea6a901e507190ae"}
+2025-02-25 21:24:48.286 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":"./src/main/java/dev/th7bo/meleesim/database","hash":"244152685b75f53d24450a1b73e292624819e3ed80b4d874c3d07e9e73dd6c97"}
+2025-02-25 21:24:48.288 [info] Waiting on semaphore to be released 3
+2025-02-25 21:24:48.484 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":"./src/main/java/dev/th7bo/meleesim/database/entities","hash":"21848fe56731d1b180a04a07b2f1e30d0d1ebd49fbfae204e5b794505cba069f"}
+2025-02-25 21:24:48.485 [info] Waiting on semaphore to be released 1
+2025-02-25 21:24:48.685 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":"./src/main/java/dev/th7bo/meleesim/database/entities/weapons","hash":"e729087f5b03e09252502ed953f496a8276ae8c8f5acdb63d629bdd4eecc89f6"}
+2025-02-25 21:24:48.687 [info] Waiting on semaphore to be released 1
+2025-02-25 21:24:48.886 [info] setting numJobsToGo to 6
+2025-02-25 21:24:48.886 [info] [startSync]: numJobs: 6
+2025-02-25 21:24:48.886 [info] Uploading 6 files.
+2025-02-25 21:24:48.893 [info] Total number of files to embed: 34
+2025-02-25 21:24:48.893 [info] Not aborted
+2025-02-25 21:24:48.893 [info] Starting while loop.
+2025-02-25 21:24:48.893 [info] fileQueue.length: 6
+2025-02-25 21:24:48.893 [info] fileQueue.length: 5
+2025-02-25 21:24:48.893 [info] fileQueue.length: 4
+2025-02-25 21:24:48.893 [info] Waiting for jobs to finish. currentIndexingJobs.length: 2 concurrentUploads.current: 2 fileQueue.length: 4
+2025-02-25 21:24:50.372 [info] Completed job successfully: 4e3a2095-d0ce-43db-9212-266c5659b21f ./src/main/java/dev/th7bo/meleesim/weapons/WeaponsManager.java
+2025-02-25 21:24:50.372 [info] fileQueue.length: 3
+2025-02-25 21:24:50.372 [info] fileQueue.length: 2
+2025-02-25 21:24:50.372 [info] Waiting for jobs to finish. currentIndexingJobs.length: 3 concurrentUploads.current: 3 fileQueue.length: 2
+2025-02-25 21:24:50.388 [info] Completed job successfully: 4e3a2095-d0ce-43db-9212-266c5659b21f ./src/main/java/dev/th7bo/meleesim/inventory/WeaponStorageGUI.java
+2025-02-25 21:24:50.388 [info] fileQueue.length: 1
+2025-02-25 21:24:50.388 [info] fileQueue.length: 0
+2025-02-25 21:24:50.388 [info] Waiting for jobs to finish. currentIndexingJobs.length: 4 concurrentUploads.current: 4 fileQueue.length: 0
+2025-02-25 21:24:51.341 [info] Completed job successfully: 4e3a2095-d0ce-43db-9212-266c5659b21f ./src/main/java/dev/th7bo/meleesim/weapons/WeaponListener.java
+2025-02-25 21:24:51.342 [info] Waiting for jobs to finish. currentIndexingJobs.length: 3 concurrentUploads.current: 5 fileQueue.length: 0
+2025-02-25 21:24:51.373 [info] Completed job successfully: 4e3a2095-d0ce-43db-9212-266c5659b21f ./src/main/java/dev/th7bo/meleesim/weapons/WeaponMergeHandler.java
+2025-02-25 21:24:51.373 [info] Waiting for jobs to finish. currentIndexingJobs.length: 2 concurrentUploads.current: 6 fileQueue.length: 0
+2025-02-25 21:24:52.335 [info] Completed job successfully: 4e3a2095-d0ce-43db-9212-266c5659b21f ./src/main/java/dev/th7bo/meleesim/database/entities/weapons/WeaponsPlayerData.java
+2025-02-25 21:24:52.335 [info] Waiting for jobs to finish. currentIndexingJobs.length: 1 concurrentUploads.current: 7 fileQueue.length: 0
+2025-02-25 21:24:52.342 [info] Completed job successfully: 4e3a2095-d0ce-43db-9212-266c5659b21f ./src/main/java/dev/th7bo/meleesim/inventory/WeaponDeleteGUI.java
+2025-02-25 21:24:52.342 [info] Waiting for jobs to finish. currentIndexingJobs.length: 0 concurrentUploads.current: 8 fileQueue.length: 0
+2025-02-25 21:24:52.569 [info] Finished indexing repository.
+2025-02-25 21:24:52.569 [info] Indexing job successfully done or aborted.
+2025-02-25 21:29:44.557 [info] Search by message took 19.595469000050798ms for query ""
+2025-02-25 21:29:44.560 [info] Search by sha took 13.782959999982268ms for query ""
+2025-02-25 21:34:44.532 [info] Search by message took 12.071505999891087ms for query ""
+2025-02-25 21:34:44.534 [info] Search by sha took 8.360762000083923ms for query ""
+2025-02-25 21:34:46.478 [info] multiCodebaseIndexingJob dispose
+2025-02-25 21:34:46.478 [info] Aborting indexing job.
+2025-02-25 21:34:46.478 [info] Doing a startup handshake.
+2025-02-25 21:34:46.478 [info] Creating merkle client.
+2025-02-25 21:34:46.478 [info] Done creating merkle client.
+2025-02-25 21:34:46.490 [info] Finished initializing merkle tree in 3.455140999983996 ms.
+2025-02-25 21:34:46.490 [info] Doing the initial handshake with hash: c7f477e84771d4262e8ad6ece66746c9f58ce718d70ebba26fdcdd0546a3aaf2
+2025-02-25 21:34:46.491 [info] Handshake start
+2025-02-25 21:34:46.869 [info] Handshake timing: 379.3377849999815, response: {"status":"STATUS_SUCCESS","codebases":[{"codebaseId":"4e3a2095-d0ce-43db-9212-266c5659b21f","status":"STATUS_OUT_OF_SYNC"}]}
+2025-02-25 21:34:46.869 [info] Handshake result: {"status":"STATUS_SUCCESS","codebases":[{"codebaseId":"4e3a2095-d0ce-43db-9212-266c5659b21f","status":"STATUS_OUT_OF_SYNC"}]}
+2025-02-25 21:34:46.869 [info] Starting fast remote sync.
+2025-02-25 21:34:46.870 [info] Total num embeddable files: 34
+2025-02-25 21:34:46.870 [info] Root hash: c7f477e84771d4262e8ad6ece66746c9f58ce718d70ebba26fdcdd0546a3aaf2
+2025-02-25 21:34:46.870 [info] In the out of sync case.
+2025-02-25 21:34:46.870 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":".","hash":"c7f477e84771d4262e8ad6ece66746c9f58ce718d70ebba26fdcdd0546a3aaf2"}
+2025-02-25 21:34:46.870 [info] Waiting on semaphore to be released 1
+2025-02-25 21:34:47.070 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":"./src","hash":"e1ea1b817d2161ad2705a415c27a4fb04f0935d367cbb308e8b37ab4b47a2279"}
+2025-02-25 21:34:47.070 [info] Waiting on semaphore to be released 1
+2025-02-25 21:34:47.270 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":"./src/main","hash":"ba89afdfc882a98dc1b434e9dcd6c14fe828aab785941665ebbbe7e269f03cb3"}
+2025-02-25 21:34:47.270 [info] Waiting on semaphore to be released 1
+2025-02-25 21:34:47.470 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":"./src/main/java","hash":"ffee72ae2ce2efc49461e41bfbe8365488157ae9434983d1288a2e245654f8ee"}
+2025-02-25 21:34:47.470 [info] Waiting on semaphore to be released 1
+2025-02-25 21:34:47.670 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":"./src/main/java/dev","hash":"d1ad593fe38fef27b0037ab23e048ad2c24ec370f329a78dd937c3547806516a"}
+2025-02-25 21:34:47.671 [info] Waiting on semaphore to be released 1
+2025-02-25 21:34:47.871 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":"./src/main/java/dev/th7bo","hash":"f2c91d0dcfa7fd71840381cbcdb82539d880b79552f2a9abc9cb8637d2fced52"}
+2025-02-25 21:34:47.872 [info] Waiting on semaphore to be released 1
+2025-02-25 21:34:48.072 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":"./src/main/java/dev/th7bo/meleesim","hash":"7dd6ea3bacf9178657afaab25d9e96ee0eccabc6205d16f76467f0d21450cbd4"}
+2025-02-25 21:34:48.073 [info] Waiting on semaphore to be released 1
+2025-02-25 21:34:48.273 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":"./src/main/java/dev/th7bo/meleesim/commands","hash":"f639c6a78d790f3c1053cd2870b805d4763d800ada3119d591da24cda41be223"}
+2025-02-25 21:34:48.274 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":"./src/main/java/dev/th7bo/meleesim/weapons","hash":"a2c066b59dda64178ab74c2b49fea5fc9d8a83700d08b0177dd62c6e0493e4d7"}
+2025-02-25 21:34:48.274 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":"./src/main/java/dev/th7bo/meleesim/database","hash":"0e2a8c6fde593c0b519eca429ee1845a40738b9f56ad5d925fed0c5bdbca388d"}
+2025-02-25 21:34:48.275 [info] Waiting on semaphore to be released 3
+2025-02-25 21:34:48.474 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":"./src/main/java/dev/th7bo/meleesim/database/entities","hash":"b6df9eb80cfe00964f2a6b5acdc92ee4dc6af50ae41fd94cd32399d28d70293b"}
+2025-02-25 21:34:48.475 [info] Waiting on semaphore to be released 1
+2025-02-25 21:34:48.674 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":"./src/main/java/dev/th7bo/meleesim/database/entities/weapons","hash":"61bdbecf22fbb9427920c557a3fa4e2cc2a8f145b385cc8379cec36c76b1967c"}
+2025-02-25 21:34:48.675 [info] Waiting on semaphore to be released 1
+2025-02-25 21:34:48.875 [info] setting numJobsToGo to 4
+2025-02-25 21:34:48.875 [info] [startSync]: numJobs: 4
+2025-02-25 21:34:48.875 [info] Uploading 4 files.
+2025-02-25 21:34:48.876 [info] Total number of files to embed: 34
+2025-02-25 21:34:48.876 [info] Not aborted
+2025-02-25 21:34:48.876 [info] Starting while loop.
+2025-02-25 21:34:48.876 [info] fileQueue.length: 4
+2025-02-25 21:34:48.876 [info] fileQueue.length: 3
+2025-02-25 21:34:48.876 [info] fileQueue.length: 2
+2025-02-25 21:34:48.876 [info] Waiting for jobs to finish. currentIndexingJobs.length: 2 concurrentUploads.current: 2 fileQueue.length: 2
+2025-02-25 21:34:50.320 [info] Completed job successfully: 4e3a2095-d0ce-43db-9212-266c5659b21f ./src/main/java/dev/th7bo/meleesim/commands/WeaponCommand.java
+2025-02-25 21:34:50.320 [info] fileQueue.length: 1
+2025-02-25 21:34:50.320 [info] fileQueue.length: 0
+2025-02-25 21:34:50.320 [info] Waiting for jobs to finish. currentIndexingJobs.length: 3 concurrentUploads.current: 3 fileQueue.length: 0
+2025-02-25 21:34:52.327 [info] Completed job successfully: 4e3a2095-d0ce-43db-9212-266c5659b21f ./src/main/java/dev/th7bo/meleesim/database/entities/weapons/StoredWeapon.java
+2025-02-25 21:34:52.327 [info] Waiting for jobs to finish. currentIndexingJobs.length: 2 concurrentUploads.current: 4 fileQueue.length: 0
+2025-02-25 21:34:52.330 [info] Completed job successfully: 4e3a2095-d0ce-43db-9212-266c5659b21f ./src/main/java/dev/th7bo/meleesim/Weapons.java
+2025-02-25 21:34:52.330 [info] Waiting for jobs to finish. currentIndexingJobs.length: 1 concurrentUploads.current: 5 fileQueue.length: 0
+2025-02-25 21:34:52.407 [info] Completed job successfully: 4e3a2095-d0ce-43db-9212-266c5659b21f ./src/main/java/dev/th7bo/meleesim/weapons/WeaponsManager.java
+2025-02-25 21:34:52.407 [info] Waiting for jobs to finish. currentIndexingJobs.length: 0 concurrentUploads.current: 6 fileQueue.length: 0
+2025-02-25 21:34:52.643 [info] Finished indexing repository.
+2025-02-25 21:34:52.643 [info] Indexing job successfully done or aborted.
+2025-02-25 21:39:44.596 [info] Search by message took 52.069813000038266ms for query ""
+2025-02-25 21:39:44.606 [info] Search by sha took 36.89514800021425ms for query ""
+2025-02-25 21:44:44.519 [info] Search by message took 11.728939999826252ms for query ""
+2025-02-25 21:44:44.521 [info] Search by sha took 7.4409860000014305ms for query ""
+2025-02-25 21:44:46.479 [info] multiCodebaseIndexingJob dispose
+2025-02-25 21:44:46.479 [info] Aborting indexing job.
+2025-02-25 21:44:46.479 [info] Doing a startup handshake.
+2025-02-25 21:44:46.480 [info] Creating merkle client.
+2025-02-25 21:44:46.480 [info] Done creating merkle client.
+2025-02-25 21:44:46.485 [info] Finished initializing merkle tree in 3.3342780000530183 ms.
+2025-02-25 21:44:46.485 [info] Doing the initial handshake with hash: dfe049bb2800fbb069932bd9d1da3a91df8f047cecf335904f88a2b09fe23854
+2025-02-25 21:44:46.486 [info] Handshake start
+2025-02-25 21:44:46.851 [info] Handshake timing: 365.934136999771, response: {"status":"STATUS_SUCCESS","codebases":[{"codebaseId":"4e3a2095-d0ce-43db-9212-266c5659b21f","status":"STATUS_OUT_OF_SYNC"}]}
+2025-02-25 21:44:46.851 [info] Handshake result: {"status":"STATUS_SUCCESS","codebases":[{"codebaseId":"4e3a2095-d0ce-43db-9212-266c5659b21f","status":"STATUS_OUT_OF_SYNC"}]}
+2025-02-25 21:44:46.851 [info] Starting fast remote sync.
+2025-02-25 21:44:46.851 [info] Total num embeddable files: 34
+2025-02-25 21:44:46.852 [info] Root hash: dfe049bb2800fbb069932bd9d1da3a91df8f047cecf335904f88a2b09fe23854
+2025-02-25 21:44:46.852 [info] In the out of sync case.
+2025-02-25 21:44:46.852 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":".","hash":"dfe049bb2800fbb069932bd9d1da3a91df8f047cecf335904f88a2b09fe23854"}
+2025-02-25 21:44:46.852 [info] Waiting on semaphore to be released 1
+2025-02-25 21:44:47.052 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":"./src","hash":"64400dbe6ad014f0137a50bdd6273b66ac0f2e01beaee77d0d627b561b841a76"}
+2025-02-25 21:44:47.052 [info] Waiting on semaphore to be released 1
+2025-02-25 21:44:47.252 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":"./src/main","hash":"b1001dc432365e3b77902ce9415ab0c2c0a80ed4d51175497635bbe4eb4364b3"}
+2025-02-25 21:44:47.252 [info] Waiting on semaphore to be released 1
+2025-02-25 21:44:47.452 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":"./src/main/java","hash":"e12ab5c87454fcfb94379123e16b21dbb7385b12eaa12028aa16d265c208e840"}
+2025-02-25 21:44:47.454 [info] Waiting on semaphore to be released 1
+2025-02-25 21:44:47.653 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":"./src/main/java/dev","hash":"2569eccc038381c6973b4d6a986d92eb8b90923b90d78f700273cfa462e7e0e9"}
+2025-02-25 21:44:47.655 [info] Waiting on semaphore to be released 1
+2025-02-25 21:44:47.853 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":"./src/main/java/dev/th7bo","hash":"73bfe677920940a42a2335917984547ec7c00d0efbf6445858ebe307854f3689"}
+2025-02-25 21:44:47.854 [info] Waiting on semaphore to be released 1
+2025-02-25 21:44:48.054 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":"./src/main/java/dev/th7bo/meleesim","hash":"16f90af4fdd5210e9b79940027405964b2ec30d58975fdc463239cea66920be1"}
+2025-02-25 21:44:48.055 [info] Waiting on semaphore to be released 1
+2025-02-25 21:44:48.254 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":"./src/main/java/dev/th7bo/meleesim/commands","hash":"ea03adfe6321060861f7c0c7ce275d478fdcb3023e91ebf87d903817aae0a421"}
+2025-02-25 21:44:48.256 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":"./src/main/java/dev/th7bo/meleesim/weapons","hash":"ac400c4583bf32ffd8af2efe5f4772cd43b78904cc822fab90ab1cab9e1a0e80"}
+2025-02-25 21:44:48.257 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":"./src/main/java/dev/th7bo/meleesim/inventory","hash":"efa81eefbc869bc3cf5d54d89b2e789c9e916e790473ed147a659450ccba2fc6"}
+2025-02-25 21:44:48.258 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":"./src/main/java/dev/th7bo/meleesim/database","hash":"a426a1a2b94cc4df06154523e360c281d51c2bb5999cefbe17d3390c9efdfe43"}
+2025-02-25 21:44:48.259 [info] Waiting on semaphore to be released 4
+2025-02-25 21:44:48.455 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":"./src/main/java/dev/th7bo/meleesim/database/playerdata","hash":"9435afa7d5f24230c60c12a8702aa7f06fb756e04187832073ab87ecba22af47"}
+2025-02-25 21:44:48.458 [info] Waiting on semaphore to be released 1
+2025-02-25 21:44:48.656 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":"./src/main/java/dev/th7bo/meleesim/database/playerdata/listener","hash":"bcb40570d5d3216dcace61fbb24dac93bae5eb891ad7ec664dba0cd720f9d254"}
+2025-02-25 21:44:48.658 [info] Waiting on semaphore to be released 1
+2025-02-25 21:44:48.856 [info] setting numJobsToGo to 5
+2025-02-25 21:44:48.856 [info] [startSync]: numJobs: 5
+2025-02-25 21:44:48.856 [info] Uploading 5 files.
+2025-02-25 21:44:48.861 [info] Total number of files to embed: 34
+2025-02-25 21:44:48.861 [info] Not aborted
+2025-02-25 21:44:48.861 [info] Starting while loop.
+2025-02-25 21:44:48.861 [info] fileQueue.length: 5
+2025-02-25 21:44:48.861 [info] fileQueue.length: 4
+2025-02-25 21:44:48.861 [info] fileQueue.length: 3
+2025-02-25 21:44:48.861 [info] Waiting for jobs to finish. currentIndexingJobs.length: 2 concurrentUploads.current: 2 fileQueue.length: 3
+2025-02-25 21:44:50.269 [info] Completed job successfully: 4e3a2095-d0ce-43db-9212-266c5659b21f ./src/main/java/dev/th7bo/meleesim/commands/WeaponCommand.java
+2025-02-25 21:44:50.269 [info] fileQueue.length: 2
+2025-02-25 21:44:50.269 [info] fileQueue.length: 1
+2025-02-25 21:44:50.269 [info] Waiting for jobs to finish. currentIndexingJobs.length: 3 concurrentUploads.current: 3 fileQueue.length: 1
+2025-02-25 21:44:50.302 [info] Completed job successfully: 4e3a2095-d0ce-43db-9212-266c5659b21f ./src/main/java/dev/th7bo/meleesim/inventory/WeaponStorageGUI.java
+2025-02-25 21:44:50.302 [info] fileQueue.length: 0
+2025-02-25 21:44:50.302 [info] Waiting for jobs to finish. currentIndexingJobs.length: 3 concurrentUploads.current: 4 fileQueue.length: 0
+2025-02-25 21:44:52.409 [info] Completed job successfully: 4e3a2095-d0ce-43db-9212-266c5659b21f ./src/main/java/dev/th7bo/meleesim/weapons/WeaponRarity.java
+2025-02-25 21:44:52.409 [info] Waiting for jobs to finish. currentIndexingJobs.length: 2 concurrentUploads.current: 5 fileQueue.length: 0
+2025-02-25 21:44:52.411 [info] Completed job successfully: 4e3a2095-d0ce-43db-9212-266c5659b21f ./src/main/java/dev/th7bo/meleesim/weapons/WeaponsManager.java
+2025-02-25 21:44:52.411 [info] Waiting for jobs to finish. currentIndexingJobs.length: 1 concurrentUploads.current: 6 fileQueue.length: 0
+2025-02-25 21:44:52.412 [info] Completed job successfully: 4e3a2095-d0ce-43db-9212-266c5659b21f ./src/main/java/dev/th7bo/meleesim/database/playerdata/listener/PlayerDataListener.java
+2025-02-25 21:44:52.412 [info] Waiting for jobs to finish. currentIndexingJobs.length: 0 concurrentUploads.current: 7 fileQueue.length: 0
+2025-02-25 21:44:52.647 [info] Finished indexing repository.
+2025-02-25 21:44:52.647 [info] Indexing job successfully done or aborted.
+2025-02-25 21:49:44.542 [info] Search by message took 12.479095000308007ms for query ""
+2025-02-25 21:49:44.543 [info] Search by sha took 8.235286999959499ms for query ""
+2025-02-25 21:50:48.224 [info] Search by message took 37.72518099984154ms for query ""
+2025-02-25 21:50:48.229 [info] Search by sha took 24.197496000211686ms for query ""
+2025-02-25 21:51:09.066 [info] Search by message took 15.709342999849468ms for query ""
+2025-02-25 21:51:09.079 [info] Search by message took 12.722079999744892ms for query ""
+2025-02-25 21:51:09.079 [info] Search by sha took 20.69507500017062ms for query ""
+2025-02-25 21:51:09.081 [info] Search by sha took 8.587449999991804ms for query ""
+2025-02-25 21:54:44.542 [info] Search by message took 21.12759800022468ms for query ""
+2025-02-25 21:54:44.545 [info] Search by sha took 13.783181000035256ms for query ""
+2025-02-25 21:54:45.500 [info] Search by message took 15.671773999929428ms for query ""
+2025-02-25 21:54:45.512 [info] Search by message took 12.027373000048101ms for query ""
+2025-02-25 21:54:45.512 [info] Search by sha took 19.895107000134885ms for query ""
+2025-02-25 21:54:45.514 [info] Search by sha took 7.468494999688119ms for query ""
+2025-02-25 21:54:46.481 [info] multiCodebaseIndexingJob dispose
+2025-02-25 21:54:46.481 [info] Aborting indexing job.
+2025-02-25 21:54:46.481 [info] Doing a startup handshake.
+2025-02-25 21:54:46.481 [info] Creating merkle client.
+2025-02-25 21:54:46.481 [info] Done creating merkle client.
+2025-02-25 21:54:46.501 [info] Finished initializing merkle tree in 10.20760799990967 ms.
+2025-02-25 21:54:46.502 [info] Doing the initial handshake with hash: efe1d2b43788c46252282b0ccceec74da73aee87a59b45d1f4e5323c3df28f02
+2025-02-25 21:54:46.504 [info] Handshake start
+2025-02-25 21:54:46.873 [info] Handshake timing: 370.8064969996922, response: {"status":"STATUS_SUCCESS","codebases":[{"codebaseId":"4e3a2095-d0ce-43db-9212-266c5659b21f","status":"STATUS_OUT_OF_SYNC"}]}
+2025-02-25 21:54:46.873 [info] Handshake result: {"status":"STATUS_SUCCESS","codebases":[{"codebaseId":"4e3a2095-d0ce-43db-9212-266c5659b21f","status":"STATUS_OUT_OF_SYNC"}]}
+2025-02-25 21:54:46.873 [info] Starting fast remote sync.
+2025-02-25 21:54:46.873 [info] Total num embeddable files: 34
+2025-02-25 21:54:46.874 [info] Root hash: efe1d2b43788c46252282b0ccceec74da73aee87a59b45d1f4e5323c3df28f02
+2025-02-25 21:54:46.874 [info] In the out of sync case.
+2025-02-25 21:54:46.874 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":".","hash":"efe1d2b43788c46252282b0ccceec74da73aee87a59b45d1f4e5323c3df28f02"}
+2025-02-25 21:54:46.875 [info] Waiting on semaphore to be released 1
+2025-02-25 21:54:47.074 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":"./src","hash":"8874e81e6f4593070a24e1af4031f38b971c554ec1629e4ae669a330a8d42c6a"}
+2025-02-25 21:54:47.075 [info] Waiting on semaphore to be released 1
+2025-02-25 21:54:47.274 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":"./src/main","hash":"c5863eacf6bd260f32478f3334a81c7042ab807da052f5e795eb7df5d4430bfc"}
+2025-02-25 21:54:47.276 [info] Waiting on semaphore to be released 1
+2025-02-25 21:54:47.474 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":"./src/main/java","hash":"d3fcbc67b180c2625e1dd1b7565a58c794388f00d0ea9c2c9df9f6eef0b5bf70"}
+2025-02-25 21:54:47.475 [info] Waiting on semaphore to be released 1
+2025-02-25 21:54:47.675 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":"./src/main/java/dev","hash":"b054f0e5d1e79132f6fa58af162e0fbece26a2aee3720de3f622f662b0b6af3b"}
+2025-02-25 21:54:47.676 [info] Waiting on semaphore to be released 1
+2025-02-25 21:54:47.876 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":"./src/main/java/dev/th7bo","hash":"19653f825fe6244787e9b162bf3412e7aec79c607f7724a535bcb1e6dee113bc"}
+2025-02-25 21:54:47.878 [info] Waiting on semaphore to be released 1
+2025-02-25 21:54:48.077 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":"./src/main/java/dev/th7bo/meleesim","hash":"614df1eb7c48c2f20b1cd2c3861566d8818de0afd137cce1ba8d72adf510df92"}
+2025-02-25 21:54:48.079 [info] Waiting on semaphore to be released 1
+2025-02-25 21:54:48.278 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":"./src/main/java/dev/th7bo/meleesim/weapons","hash":"9dbe978e68c8c16c49467ee2aa4f414404f6d8562ff76e0dceb6240e47a47ccd"}
+2025-02-25 21:54:48.280 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":"./src/main/java/dev/th7bo/meleesim/inventory","hash":"f91af455e16d8b3c48341d2611a806aa837ea1b4b6f59b8861a7a599fd1b27bb"}
+2025-02-25 21:54:48.281 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":"./src/main/java/dev/th7bo/meleesim/database","hash":"401f1795e38d23ae13d1933cb9f63af376f4ca2d61152a6f20ce6f44e33f29a3"}
+2025-02-25 21:54:48.283 [info] Waiting on semaphore to be released 3
+2025-02-25 21:54:48.478 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":"./src/main/java/dev/th7bo/meleesim/database/entities","hash":"3770732892189a7f28fc28debc0685e2bc59571bf92ee5c7342b3d1fb2167d22"}
+2025-02-25 21:54:48.479 [info] Waiting on semaphore to be released 1
+2025-02-25 21:54:48.678 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":"./src/main/java/dev/th7bo/meleesim/database/entities/weapons","hash":"3b4ca54890ebbfa45405c43009632a933fc62ef39835c87708ba19f2a65dde0a"}
+2025-02-25 21:54:48.679 [info] Waiting on semaphore to be released 1
+2025-02-25 21:54:48.879 [info] setting numJobsToGo to 3
+2025-02-25 21:54:48.880 [info] [startSync]: numJobs: 3
+2025-02-25 21:54:48.880 [info] Uploading 3 files.
+2025-02-25 21:54:48.886 [info] Total number of files to embed: 34
+2025-02-25 21:54:48.887 [info] Not aborted
+2025-02-25 21:54:48.887 [info] Starting while loop.
+2025-02-25 21:54:48.887 [info] fileQueue.length: 3
+2025-02-25 21:54:48.887 [info] fileQueue.length: 2
+2025-02-25 21:54:48.887 [info] fileQueue.length: 1
+2025-02-25 21:54:48.887 [info] Waiting for jobs to finish. currentIndexingJobs.length: 2 concurrentUploads.current: 2 fileQueue.length: 1
+2025-02-25 21:54:50.328 [info] Completed job successfully: 4e3a2095-d0ce-43db-9212-266c5659b21f ./src/main/java/dev/th7bo/meleesim/weapons/WeaponsManager.java
+2025-02-25 21:54:50.328 [info] fileQueue.length: 0
+2025-02-25 21:54:50.328 [info] Waiting for jobs to finish. currentIndexingJobs.length: 2 concurrentUploads.current: 3 fileQueue.length: 0
+2025-02-25 21:54:50.329 [info] Completed job successfully: 4e3a2095-d0ce-43db-9212-266c5659b21f ./src/main/java/dev/th7bo/meleesim/inventory/WeaponStorageGUI.java
+2025-02-25 21:54:50.329 [info] Waiting for jobs to finish. currentIndexingJobs.length: 1 concurrentUploads.current: 4 fileQueue.length: 0
+2025-02-25 21:54:52.328 [info] Completed job successfully: 4e3a2095-d0ce-43db-9212-266c5659b21f ./src/main/java/dev/th7bo/meleesim/database/entities/weapons/WeaponsPlayerData.java
+2025-02-25 21:54:52.328 [info] Waiting for jobs to finish. currentIndexingJobs.length: 0 concurrentUploads.current: 5 fileQueue.length: 0
+2025-02-25 21:54:52.557 [info] Finished indexing repository.
+2025-02-25 21:54:52.557 [info] Indexing job successfully done or aborted.
+2025-02-25 21:59:44.568 [info] Search by message took 29.776166000403464ms for query ""
+2025-02-25 21:59:44.573 [info] Search by sha took 21.424764999654144ms for query ""
+2025-02-25 22:04:44.593 [info] Search by message took 49.4575350000523ms for query ""
+2025-02-25 22:04:44.597 [info] Search by sha took 28.32675699982792ms for query ""
+2025-02-25 22:04:46.481 [info] multiCodebaseIndexingJob dispose
+2025-02-25 22:04:46.481 [info] Aborting indexing job.
+2025-02-25 22:04:46.481 [info] Doing a startup handshake.
+2025-02-25 22:04:46.481 [info] Creating merkle client.
+2025-02-25 22:04:46.481 [info] Done creating merkle client.
+2025-02-25 22:04:46.494 [info] Finished initializing merkle tree in 5.310876999981701 ms.
+2025-02-25 22:04:46.495 [info] Doing the initial handshake with hash: aa97547a2cc19b7a48c931100bc2d2a3dbb4dfda6e51df3707c3d14c8401a933
+2025-02-25 22:04:46.496 [info] Handshake start
+2025-02-25 22:04:46.875 [info] Handshake timing: 380.3512050001882, response: {"status":"STATUS_SUCCESS","codebases":[{"codebaseId":"4e3a2095-d0ce-43db-9212-266c5659b21f","status":"STATUS_OUT_OF_SYNC"}]}
+2025-02-25 22:04:46.875 [info] Handshake result: {"status":"STATUS_SUCCESS","codebases":[{"codebaseId":"4e3a2095-d0ce-43db-9212-266c5659b21f","status":"STATUS_OUT_OF_SYNC"}]}
+2025-02-25 22:04:46.875 [info] Starting fast remote sync.
+2025-02-25 22:04:46.876 [info] Total num embeddable files: 34
+2025-02-25 22:04:46.877 [info] Root hash: aa97547a2cc19b7a48c931100bc2d2a3dbb4dfda6e51df3707c3d14c8401a933
+2025-02-25 22:04:46.877 [info] In the out of sync case.
+2025-02-25 22:04:46.878 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":".","hash":"aa97547a2cc19b7a48c931100bc2d2a3dbb4dfda6e51df3707c3d14c8401a933"}
+2025-02-25 22:04:46.879 [info] Waiting on semaphore to be released 1
+2025-02-25 22:04:47.079 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":"./src","hash":"bd04de240c0e06398d87ee8236553fee314a3288728af97a1cb30653e57b8a51"}
+2025-02-25 22:04:47.079 [info] Waiting on semaphore to be released 1
+2025-02-25 22:04:47.279 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":"./src/main","hash":"a104e75935e7d7a54c493d4bffbdcb444c8da5af6dcb83310eccf4ba0008e79e"}
+2025-02-25 22:04:47.280 [info] Waiting on semaphore to be released 1
+2025-02-25 22:04:47.479 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":"./src/main/java","hash":"63203ac7c4e4554104993784bc480269f2c0e0f0c8e1680a58c61df421b7e722"}
+2025-02-25 22:04:47.480 [info] Waiting on semaphore to be released 1
+2025-02-25 22:04:47.679 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":"./src/main/java/dev","hash":"1fa0511478d485929657ac5244a7e66ccd3a992fe3eba3f2bd5a332c6f5e3795"}
+2025-02-25 22:04:47.680 [info] Waiting on semaphore to be released 1
+2025-02-25 22:04:47.880 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":"./src/main/java/dev/th7bo","hash":"0d86ce0cd9350247f18e3d94f6702cd2dac55a4e09e73085601bc48879eb39a1"}
+2025-02-25 22:04:47.881 [info] Waiting on semaphore to be released 1
+2025-02-25 22:04:48.079 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":"./src/main/java/dev/th7bo/meleesim","hash":"0f509c6322d8156b8b1966d07dca25cfeac71e72fbc123a99baa369f4d59087d"}
+2025-02-25 22:04:48.080 [info] Waiting on semaphore to be released 1
+2025-02-25 22:04:48.280 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":"./src/main/java/dev/th7bo/meleesim/inventory","hash":"e1d079684a84d27ba4eaf513b92dd39e986b46d39d68cad916962fe680e873e9"}
+2025-02-25 22:04:48.281 [info] Waiting on semaphore to be released 1
+2025-02-25 22:04:48.480 [info] setting numJobsToGo to 1
+2025-02-25 22:04:48.480 [info] [startSync]: numJobs: 1
+2025-02-25 22:04:48.480 [info] Uploading 1 files.
+2025-02-25 22:04:48.483 [info] Total number of files to embed: 34
+2025-02-25 22:04:48.483 [info] Not aborted
+2025-02-25 22:04:48.483 [info] Starting while loop.
+2025-02-25 22:04:48.483 [info] fileQueue.length: 1
+2025-02-25 22:04:48.483 [info] fileQueue.length: 0
+2025-02-25 22:04:48.483 [info] Waiting for jobs to finish. currentIndexingJobs.length: 1 concurrentUploads.current: 2 fileQueue.length: 0
+2025-02-25 22:04:53.240 [info] Completed job successfully: 4e3a2095-d0ce-43db-9212-266c5659b21f ./src/main/java/dev/th7bo/meleesim/inventory/WeaponStorageGUI.java
+2025-02-25 22:04:53.240 [info] Waiting for jobs to finish. currentIndexingJobs.length: 0 concurrentUploads.current: 3 fileQueue.length: 0
+2025-02-25 22:04:53.476 [info] Finished indexing repository.
+2025-02-25 22:04:53.476 [info] Indexing job successfully done or aborted.
+2025-02-25 22:09:44.589 [info] Search by message took 54.23345600022003ms for query ""
+2025-02-25 22:09:44.595 [info] Search by sha took 33.42540999967605ms for query ""
+2025-02-25 22:14:44.610 [info] Search by message took 27.84316399972886ms for query ""
+2025-02-25 22:14:44.612 [info] Search by sha took 17.242286999709904ms for query ""
+2025-02-25 22:14:46.482 [info] multiCodebaseIndexingJob dispose
+2025-02-25 22:14:46.482 [info] Aborting indexing job.
+2025-02-25 22:14:46.482 [info] Doing a startup handshake.
+2025-02-25 22:14:46.482 [info] Creating merkle client.
+2025-02-25 22:14:46.482 [info] Done creating merkle client.
+2025-02-25 22:14:46.495 [info] Finished initializing merkle tree in 5.400170999579132 ms.
+2025-02-25 22:14:46.496 [info] Doing the initial handshake with hash: fdb4eef01ea7af98d4f008b3860f178f9971ddbf0b6dfc9e41f43bee500f7d74
+2025-02-25 22:14:46.497 [info] Handshake start
+2025-02-25 22:14:46.902 [info] Handshake timing: 405.07149900030345, response: {"status":"STATUS_SUCCESS","codebases":[{"codebaseId":"4e3a2095-d0ce-43db-9212-266c5659b21f","status":"STATUS_OUT_OF_SYNC"}]}
+2025-02-25 22:14:46.902 [info] Handshake result: {"status":"STATUS_SUCCESS","codebases":[{"codebaseId":"4e3a2095-d0ce-43db-9212-266c5659b21f","status":"STATUS_OUT_OF_SYNC"}]}
+2025-02-25 22:14:46.902 [info] Starting fast remote sync.
+2025-02-25 22:14:46.902 [info] Total num embeddable files: 34
+2025-02-25 22:14:46.903 [info] Root hash: fdb4eef01ea7af98d4f008b3860f178f9971ddbf0b6dfc9e41f43bee500f7d74
+2025-02-25 22:14:46.903 [info] In the out of sync case.
+2025-02-25 22:14:46.903 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":".","hash":"fdb4eef01ea7af98d4f008b3860f178f9971ddbf0b6dfc9e41f43bee500f7d74"}
+2025-02-25 22:14:46.904 [info] Waiting on semaphore to be released 1
+2025-02-25 22:14:47.104 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":"./src","hash":"9dd6804466393ce22a5da4110440ea5c79e72c6de23720bf5a4cd9db9e370b88"}
+2025-02-25 22:14:47.105 [info] Waiting on semaphore to be released 1
+2025-02-25 22:14:47.305 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":"./src/main","hash":"44cf491cbe26cebdd22572aca237e3b7ef6fb059db0bfcd834f05f47010fa264"}
+2025-02-25 22:14:47.307 [info] Waiting on semaphore to be released 1
+2025-02-25 22:14:47.505 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":"./src/main/java","hash":"eb4e4c41e651431b3a1a9a3f7a5f9f39c4207ccde1a0d18c3980fc7b9c3d9aca"}
+2025-02-25 22:14:47.507 [info] Waiting on semaphore to be released 1
+2025-02-25 22:14:47.706 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":"./src/main/java/dev","hash":"3d2860bd6e5561f8113e1687a8a642de5b40dac444420a8b570d5b78be3f9543"}
+2025-02-25 22:14:47.708 [info] Waiting on semaphore to be released 1
+2025-02-25 22:14:47.907 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":"./src/main/java/dev/th7bo","hash":"91d15d12d2ae21512c187bcf5ec7115adea9b75441fc020231d413696cf4d22b"}
+2025-02-25 22:14:47.909 [info] Waiting on semaphore to be released 1
+2025-02-25 22:14:48.108 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":"./src/main/java/dev/th7bo/meleesim","hash":"3c0a196a9bfdef9c2a7711d55ceec83aa8619320b2a91f3aed86dad0777bd860"}
+2025-02-25 22:14:48.110 [info] Waiting on semaphore to be released 1
+2025-02-25 22:14:48.308 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":"./src/main/java/dev/th7bo/meleesim/inventory","hash":"3cc975260b8547b72c130822857e1803dc56e3e1e725b56b2e16b297be7a51d2"}
+2025-02-25 22:14:48.310 [info] Waiting on semaphore to be released 1
+2025-02-25 22:14:48.509 [info] setting numJobsToGo to 1
+2025-02-25 22:14:48.509 [info] [startSync]: numJobs: 1
+2025-02-25 22:14:48.510 [info] Uploading 1 files.
+2025-02-25 22:14:48.511 [info] Total number of files to embed: 34
+2025-02-25 22:14:48.511 [info] Not aborted
+2025-02-25 22:14:48.511 [info] Starting while loop.
+2025-02-25 22:14:48.511 [info] fileQueue.length: 1
+2025-02-25 22:14:48.511 [info] fileQueue.length: 0
+2025-02-25 22:14:48.511 [info] Waiting for jobs to finish. currentIndexingJobs.length: 1 concurrentUploads.current: 2 fileQueue.length: 0
+2025-02-25 22:14:49.979 [info] Completed job successfully: 4e3a2095-d0ce-43db-9212-266c5659b21f ./src/main/java/dev/th7bo/meleesim/inventory/WeaponStorageGUI.java
+2025-02-25 22:14:49.979 [info] Waiting for jobs to finish. currentIndexingJobs.length: 0 concurrentUploads.current: 3 fileQueue.length: 0
+2025-02-25 22:14:50.212 [info] Finished indexing repository.
+2025-02-25 22:14:50.212 [info] Indexing job successfully done or aborted.
+2025-02-25 22:19:44.596 [info] Search by message took 30.24790000077337ms for query ""
+2025-02-25 22:19:44.602 [info] Search by sha took 20.893747000023723ms for query ""
+2025-02-25 22:24:44.601 [info] Search by message took 22.008603000082076ms for query ""
+2025-02-25 22:24:44.605 [info] Search by sha took 15.111275000497699ms for query ""
+2025-02-25 22:24:46.484 [info] multiCodebaseIndexingJob dispose
+2025-02-25 22:24:46.484 [info] Aborting indexing job.
+2025-02-25 22:24:46.484 [info] Doing a startup handshake.
+2025-02-25 22:24:46.484 [info] Creating merkle client.
+2025-02-25 22:24:46.484 [info] Done creating merkle client.
+2025-02-25 22:24:46.510 [info] Finished initializing merkle tree in 14.562401999719441 ms.
+2025-02-25 22:24:46.512 [info] Doing the initial handshake with hash: fdb4eef01ea7af98d4f008b3860f178f9971ddbf0b6dfc9e41f43bee500f7d74
+2025-02-25 22:24:46.515 [info] Handshake start
+2025-02-25 22:24:46.887 [info] Handshake timing: 375.21115799993277, response: {"status":"STATUS_SUCCESS","codebases":[{"codebaseId":"4e3a2095-d0ce-43db-9212-266c5659b21f","status":"STATUS_UP_TO_DATE"}]}
+2025-02-25 22:24:46.888 [info] Handshake result: {"status":"STATUS_SUCCESS","codebases":[{"codebaseId":"4e3a2095-d0ce-43db-9212-266c5659b21f","status":"STATUS_UP_TO_DATE"}]}
+2025-02-25 22:24:46.888 [info] Starting fast remote sync.
+2025-02-25 22:24:46.889 [info] Total num embeddable files: 34
+2025-02-25 22:24:46.890 [info] Root hash: fdb4eef01ea7af98d4f008b3860f178f9971ddbf0b6dfc9e41f43bee500f7d74
+2025-02-25 22:24:47.003 [info] Finished indexing repository.
+2025-02-25 22:24:47.004 [info] Indexing job successfully done or aborted.
+2025-02-25 22:29:44.605 [info] Search by message took 30.993607999756932ms for query ""
+2025-02-25 22:29:44.611 [info] Search by sha took 21.52726999949664ms for query ""

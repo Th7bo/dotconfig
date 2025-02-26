@@ -1,0 +1,14 @@
+2025-02-26 19:18:21.805 [info] Getting Manifest... emmanuelbeziat.vscode-great-icons
+2025-02-26 19:18:22.619 [info] Installing extension: emmanuelbeziat.vscode-great-icons {"productVersion":{"version":"0.45.14","date":"2025-02-19T20:36:48.096Z","vscodeVersion":"1.96.2"},"donotVerifySignature":true,"pinned":false,"operation":3,"isApplicationScoped":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/zen/.cursor/extensions/extensions.json","path":"/home/zen/.cursor/extensions/extensions.json","scheme":"vscode-userdata"},"installOnlyNewlyAddedFromExtensionPack":true}
+2025-02-26 19:18:22.673 [info] Started downloading extension: emmanuelbeziat.vscode-great-icons 2.1.115 file:///home/zen/.config/Cursor/CachedExtensionVSIXs/cursor-emmanuelbeziat.vscode-great-icons-2.1.115
+2025-02-26 19:18:23.000 [info] Extracted extension to file:///home/zen/.cursor/extensions/emmanuelbeziat.vscode-great-icons-2.1.115: emmanuelbeziat.vscode-great-icons
+2025-02-26 19:18:23.009 [info] Renamed to /home/zen/.cursor/extensions/emmanuelbeziat.vscode-great-icons-2.1.115
+2025-02-26 19:18:23.033 [info] Marked extension as uninstalled emmanuelbeziat.vscode-great-icons-2.1.113
+2025-02-26 19:18:23.060 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/zen/.cursor/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/zen/.cursor/extensions/extensions.json.vsctmp'
+    at bv.create (file:///tmp/.mount_cursorESKOjT/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:48:40246)
+    at As (file:///tmp/.mount_cursorESKOjT/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:48:40353)
+    at oo.ib (file:///tmp/.mount_cursorESKOjT/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:91:22778)
+    at oo.stat (file:///tmp/.mount_cursorESKOjT/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:91:16010)
+    at async ru.stat (file:///tmp/.mount_cursorESKOjT/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:90:86652)
+    at async eu.Ab (file:///tmp/.mount_cursorESKOjT/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:90:68187)
+2025-02-26 19:18:23.069 [info] Extension installed successfully: emmanuelbeziat.vscode-great-icons vscode-userdata:/home/zen/.cursor/extensions/extensions.json

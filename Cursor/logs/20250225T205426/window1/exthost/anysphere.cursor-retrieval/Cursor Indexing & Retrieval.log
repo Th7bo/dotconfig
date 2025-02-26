@@ -1,0 +1,147 @@
+2025-02-25 20:54:30.251 [error] Git command failed: git config --get remote.origin.url Command failed: git config --get remote.origin.url
+
+2025-02-25 20:54:30.251 [error] Error getting repo info: Command failed: git config --get remote.origin.url
+
+2025-02-25 20:54:30.251 [error] Error: Command failed: git config --get remote.origin.url
+
+	at genericNodeError (node:internal/errors:984:15)
+	at wrappedFn (node:internal/errors:538:14)
+	at ChildProcess.exithandler (node:child_process:422:12)
+	at ChildProcess.emit (node:events:518:28)
+	at maybeClose (node:internal/child_process:1104:16)
+	at Socket.<anonymous> (node:internal/child_process:456:11)
+	at Socket.emit (node:events:518:28)
+	at Pipe.<anonymous> (node:net:343:12)
+2025-02-25 20:54:30.536 [error] accessToken is undefined. User is not logged in. We shouldn't do any indexing.
+2025-02-25 20:55:02.978 [info] Creating Indexing Repo client:  https://repo42.cursor.sh
+2025-02-25 20:55:02.978 [info] Creating repo client with backend url: https://repo42.cursor.sh
+2025-02-25 20:55:02.978 [error] NoWorkspaceUriError
+2025-02-25 20:55:03.158 [info] Creating Indexing Repo client:  https://repo42.cursor.sh
+2025-02-25 20:55:03.162 [info] Creating repo client with backend url: https://repo42.cursor.sh
+2025-02-25 20:55:03.162 [error] NoWorkspaceUriError
+2025-02-25 20:55:03.364 [info] Creating Indexing Repo client:  https://repo42.cursor.sh
+2025-02-25 20:55:03.364 [info] Creating repo client with backend url: https://repo42.cursor.sh
+2025-02-25 20:55:03.364 [error] NoWorkspaceUriError
+2025-02-25 20:55:03.573 [info] Creating Indexing Repo client:  https://repo42.cursor.sh
+2025-02-25 20:55:03.573 [info] Creating repo client with backend url: https://repo42.cursor.sh
+2025-02-25 20:55:03.573 [error] NoWorkspaceUriError
+2025-02-25 20:55:03.797 [info] Creating Indexing Repo client:  https://repo42.cursor.sh
+2025-02-25 20:55:03.797 [info] Creating repo client with backend url: https://repo42.cursor.sh
+2025-02-25 20:55:03.797 [error] NoWorkspaceUriError
+2025-02-25 20:55:04.814 [info] Creating Indexing Repo client:  https://repo42.cursor.sh
+2025-02-25 20:55:04.814 [info] Creating repo client with backend url: https://repo42.cursor.sh
+2025-02-25 20:55:04.814 [error] NoWorkspaceUriError
+2025-02-25 20:55:27.577 [info] Creating Indexing Repo client:  https://repo42.cursor.sh
+2025-02-25 20:55:27.577 [info] Creating repo client with backend url: https://repo42.cursor.sh
+2025-02-25 20:55:27.577 [error] Git command failed: git config --get remote.origin.url Command failed: git config --get remote.origin.url
+
+2025-02-25 20:55:27.577 [error] Error getting repo info: Command failed: git config --get remote.origin.url
+
+2025-02-25 20:55:27.577 [error] Error: Command failed: git config --get remote.origin.url
+
+	at genericNodeError (node:internal/errors:984:15)
+	at wrappedFn (node:internal/errors:538:14)
+	at ChildProcess.exithandler (node:child_process:422:12)
+	at ChildProcess.emit (node:events:518:28)
+	at ChildProcess.emit (node:domain:489:12)
+	at maybeClose (node:internal/child_process:1104:16)
+	at Socket.<anonymous> (node:internal/child_process:456:11)
+	at Socket.emit (node:events:518:28)
+	at Socket.emit (node:domain:489:12)
+	at Pipe.<anonymous> (node:net:343:12)
+2025-02-25 20:55:27.733 [info] InternalRepoInfo constructor with preferredEmbeddingModel 0
+2025-02-25 20:55:27.734 [info] Doing a startup handshake.
+2025-02-25 20:55:27.734 [info] Creating merkle client.
+2025-02-25 20:55:27.734 [info] Done creating merkle client.
+2025-02-25 20:55:27.876 [info] Finished initializing merkle tree in 24.471070999999938 ms.
+2025-02-25 20:55:27.876 [info] Doing the initial handshake with hash: cfeee665ae117a0d40b7dce608d41d0e2a0a0a16ea60e5204c6a9cf1cc52ab25
+2025-02-25 20:55:27.878 [info] Handshake start
+2025-02-25 20:55:27.880 [warning] Error reading high level folder description. Ignoring. Error: ENOENT: no such file or directory, open '/home/zen/.config/Cursor/User/workspaceStorage/feab0894c182619375bcf7e061744591/anysphere.cursor-retrieval/high_level_folder_description.txt'
+2025-02-25 20:55:28.360 [info] Handshake timing: 483.4845210000003, response: {"status":"STATUS_SUCCESS","codebases":[{"codebaseId":"f31c698e-066d-4fe8-a35b-60c35a6ac9dc","status":"STATUS_EMPTY"}]}
+2025-02-25 20:55:28.360 [info] Handshake result: {"status":"STATUS_SUCCESS","codebases":[{"codebaseId":"f31c698e-066d-4fe8-a35b-60c35a6ac9dc","status":"STATUS_EMPTY"}]}
+2025-02-25 20:55:28.361 [info] Starting fast remote sync.
+2025-02-25 20:55:28.361 [info] Total num embeddable files: 3
+2025-02-25 20:55:28.362 [info] Root hash: cfeee665ae117a0d40b7dce608d41d0e2a0a0a16ea60e5204c6a9cf1cc52ab25
+2025-02-25 20:55:28.362 [info] Starting repository upload from scratch.
+2025-02-25 20:55:28.362 [info] Uploading 3 files.
+2025-02-25 20:55:28.363 [info] Total number of files to embed: 3
+2025-02-25 20:55:28.363 [info] Not aborted
+2025-02-25 20:55:28.363 [info] Starting while loop.
+2025-02-25 20:55:28.363 [info] fileQueue.length: 3
+2025-02-25 20:55:28.363 [info] fileQueue.length: 2
+2025-02-25 20:55:28.363 [info] fileQueue.length: 1
+2025-02-25 20:55:28.364 [info] Waiting for jobs to finish. currentIndexingJobs.length: 2 concurrentUploads.current: 2 fileQueue.length: 1
+2025-02-25 20:55:28.691 [info] Creating Indexing Repo client:  https://repo42.cursor.sh
+2025-02-25 20:55:28.691 [info] Creating repo client with backend url: https://repo42.cursor.sh
+2025-02-25 20:55:28.693 [info] multiCodebaseIndexingJob dispose
+2025-02-25 20:55:28.693 [info] Aborting indexing job.
+2025-02-25 20:55:28.693 [info] InternalRepoInfo constructor with preferredEmbeddingModel 0
+2025-02-25 20:55:28.693 [info] Completed job unsuccessfully, will retry: ./run.py error: Bad unexpected error
+2025-02-25 20:55:28.693 [info] Waiting for jobs to finish. currentIndexingJobs.length: 1 concurrentUploads.current: 1 fileQueue.length: 2
+2025-02-25 20:55:28.695 [info] Indexing job successfully done or aborted.
+2025-02-25 20:55:28.695 [info] Doing a startup handshake.
+2025-02-25 20:55:28.695 [info] Creating merkle client.
+2025-02-25 20:55:28.695 [info] Done creating merkle client.
+2025-02-25 20:55:28.698 [info] Finished initializing merkle tree in 1.8792429999998603 ms.
+2025-02-25 20:55:28.699 [info] Doing the initial handshake with hash: cfeee665ae117a0d40b7dce608d41d0e2a0a0a16ea60e5204c6a9cf1cc52ab25
+2025-02-25 20:55:28.700 [info] Handshake start
+2025-02-25 20:55:29.070 [error] Error Checking Connection: [unimplemented] HTTP 404
+2025-02-25 20:55:29.071 [info] Creating Indexing Repo client:  https://repo42.cursor.sh
+2025-02-25 20:55:29.071 [info] Creating repo client with backend url: https://repo42.cursor.sh
+2025-02-25 20:55:29.080 [info] Handshake timing: 380.6950300000003, response: {"status":"STATUS_SUCCESS","codebases":[{"codebaseId":"f31c698e-066d-4fe8-a35b-60c35a6ac9dc","status":"STATUS_EMPTY"}]}
+2025-02-25 20:55:29.080 [info] Handshake result: {"status":"STATUS_SUCCESS","codebases":[{"codebaseId":"f31c698e-066d-4fe8-a35b-60c35a6ac9dc","status":"STATUS_EMPTY"}]}
+2025-02-25 20:55:29.080 [info] Starting fast remote sync.
+2025-02-25 20:55:29.081 [info] Total num embeddable files: 3
+2025-02-25 20:55:29.082 [info] Root hash: cfeee665ae117a0d40b7dce608d41d0e2a0a0a16ea60e5204c6a9cf1cc52ab25
+2025-02-25 20:55:29.082 [info] Starting repository upload from scratch.
+2025-02-25 20:55:29.083 [info] Uploading 3 files.
+2025-02-25 20:55:29.085 [info] Total number of files to embed: 3
+2025-02-25 20:55:29.085 [info] Not aborted
+2025-02-25 20:55:29.085 [info] Starting while loop.
+2025-02-25 20:55:29.085 [info] fileQueue.length: 3
+2025-02-25 20:55:29.085 [info] fileQueue.length: 2
+2025-02-25 20:55:29.085 [info] fileQueue.length: 1
+2025-02-25 20:55:29.085 [info] Waiting for jobs to finish. currentIndexingJobs.length: 2 concurrentUploads.current: 2 fileQueue.length: 1
+2025-02-25 20:55:29.249 [info] Completed job successfully: f31c698e-066d-4fe8-a35b-60c35a6ac9dc ./run.py
+2025-02-25 20:55:29.249 [info] fileQueue.length: 0
+2025-02-25 20:55:29.249 [info] Waiting for jobs to finish. currentIndexingJobs.length: 2 concurrentUploads.current: 3 fileQueue.length: 0
+2025-02-25 20:55:30.459 [info] Completed job successfully: f31c698e-066d-4fe8-a35b-60c35a6ac9dc ./duplicate_types.json
+2025-02-25 20:55:30.459 [info] Waiting for jobs to finish. currentIndexingJobs.length: 1 concurrentUploads.current: 4 fileQueue.length: 0
+2025-02-25 20:55:34.288 [info] Completed job successfully: f31c698e-066d-4fe8-a35b-60c35a6ac9dc ./filtered_entries.json
+2025-02-25 20:55:34.288 [info] Waiting for jobs to finish. currentIndexingJobs.length: 0 concurrentUploads.current: 5 fileQueue.length: 0
+2025-02-25 20:55:34.526 [info] Finished indexing repository.
+2025-02-25 20:55:34.526 [info] Indexing job successfully done or aborted.
+2025-02-25 20:55:37.435 [info] multiCodebaseIndexingJob dispose
+2025-02-25 20:55:37.435 [info] Aborting indexing job.
+2025-02-25 20:55:40.300 [info] Creating Indexing Repo client:  https://repo42.cursor.sh
+2025-02-25 20:55:40.300 [info] Creating repo client with backend url: https://repo42.cursor.sh
+2025-02-25 20:55:40.300 [error] Git command failed: git config --get remote.origin.url Command failed: git config --get remote.origin.url
+
+2025-02-25 20:55:40.300 [error] Error getting repo info: Command failed: git config --get remote.origin.url
+
+2025-02-25 20:55:40.300 [error] Error: Command failed: git config --get remote.origin.url
+
+	at genericNodeError (node:internal/errors:984:15)
+	at wrappedFn (node:internal/errors:538:14)
+	at ChildProcess.exithandler (node:child_process:422:12)
+	at ChildProcess.emit (node:events:518:28)
+	at ChildProcess.emit (node:domain:489:12)
+	at maybeClose (node:internal/child_process:1104:16)
+	at Socket.<anonymous> (node:internal/child_process:456:11)
+	at Socket.emit (node:events:518:28)
+	at Socket.emit (node:domain:489:12)
+	at Pipe.<anonymous> (node:net:343:12)
+2025-02-25 20:55:40.461 [info] InternalRepoInfo constructor with preferredEmbeddingModel 0
+2025-02-25 20:55:40.462 [info] Doing a startup handshake.
+2025-02-25 20:55:40.462 [info] Creating merkle client.
+2025-02-25 20:55:40.462 [info] Done creating merkle client.
+2025-02-25 20:55:40.500 [info] Finished initializing merkle tree in 5.076700999999957 ms.
+2025-02-25 20:55:40.500 [info] Doing the initial handshake with hash: cfeee665ae117a0d40b7dce608d41d0e2a0a0a16ea60e5204c6a9cf1cc52ab25
+2025-02-25 20:55:40.502 [info] Handshake start
+2025-02-25 20:55:40.892 [info] Handshake timing: 391.0680229999998, response: {"status":"STATUS_SUCCESS","codebases":[{"codebaseId":"f31c698e-066d-4fe8-a35b-60c35a6ac9dc","status":"STATUS_UP_TO_DATE"}]}
+2025-02-25 20:55:40.892 [info] Handshake result: {"status":"STATUS_SUCCESS","codebases":[{"codebaseId":"f31c698e-066d-4fe8-a35b-60c35a6ac9dc","status":"STATUS_UP_TO_DATE"}]}
+2025-02-25 20:55:40.892 [info] Starting fast remote sync.
+2025-02-25 20:55:40.892 [info] Total num embeddable files: 3
+2025-02-25 20:55:40.893 [info] Root hash: cfeee665ae117a0d40b7dce608d41d0e2a0a0a16ea60e5204c6a9cf1cc52ab25
+2025-02-25 20:55:41.014 [info] Finished indexing repository.
+2025-02-25 20:55:41.014 [info] Indexing job successfully done or aborted.

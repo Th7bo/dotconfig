@@ -1,0 +1,7 @@
+2025-02-25 21:00:35.153 [info] updateURL https://api2.cursor.sh/updates/api/update/linux-x64/cursor/0.45.14/01c019d593a7ea91319f1c94eee0ca060d27e38697c508885c5b94e53b21bc63
+2025-02-25 21:00:35.153 [info] update#setState idle
+2025-02-25 21:01:05.017 [info] update#setState checking for updates
+2025-02-25 21:01:05.142 [info] update#setState idle
+2025-02-25 21:04:42.749 [info] Extension host with pid 8991 exited with code: 0, signal: unknown.
+2025-02-25 22:01:05.021 [info] update#setState checking for updates
+2025-02-25 22:01:05.382 [info] update#setState idle

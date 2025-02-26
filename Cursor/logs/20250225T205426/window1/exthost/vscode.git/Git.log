@@ -1,0 +1,25 @@
+2025-02-25 20:54:30.247 [info] [main] Log level: Info
+2025-02-25 20:54:30.247 [info] [main] Validating found git in: "git"
+2025-02-25 20:54:30.247 [info] [main] Using git "2.48.1" from "git"
+2025-02-25 20:54:30.247 [info] [Model][doInitialScan] Initial repository scan started
+2025-02-25 20:54:30.247 [info] [Model][doInitialScan] Initial repository scan completed - repositories (0), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2025-02-25 20:55:27.541 [info] [main] Log level: Info
+2025-02-25 20:55:27.541 [info] [main] Validating found git in: "git"
+2025-02-25 20:55:27.541 [info] [main] Using git "2.48.1" from "git"
+2025-02-25 20:55:27.541 [info] [Model][doInitialScan] Initial repository scan started
+2025-02-25 20:55:27.541 [info] > git rev-parse --show-toplevel [4ms]
+2025-02-25 20:55:27.541 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-02-25 20:55:27.553 [info] > git rev-parse --show-toplevel [119ms]
+2025-02-25 20:55:27.553 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-02-25 20:55:27.555 [info] [Model][doInitialScan] Initial repository scan completed - repositories (0), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2025-02-25 20:55:28.118 [info] > git rev-parse --show-toplevel [4ms]
+2025-02-25 20:55:28.118 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-02-25 20:55:40.266 [info] [main] Log level: Info
+2025-02-25 20:55:40.266 [info] [main] Validating found git in: "git"
+2025-02-25 20:55:40.266 [info] [main] Using git "2.48.1" from "git"
+2025-02-25 20:55:40.266 [info] [Model][doInitialScan] Initial repository scan started
+2025-02-25 20:55:40.266 [info] > git rev-parse --show-toplevel [6ms]
+2025-02-25 20:55:40.266 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-02-25 20:55:40.278 [info] > git rev-parse --show-toplevel [90ms]
+2025-02-25 20:55:40.279 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-02-25 20:55:40.280 [info] [Model][doInitialScan] Initial repository scan completed - repositories (0), closed repositories (0), parent repositories (0), unsafe repositories (0)

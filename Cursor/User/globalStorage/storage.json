@@ -1,0 +1,66 @@
+{
+    "telemetry.sqmId": "",
+    "telemetry.machineId": "01c019d593a7ea91319f1c94eee0ca060d27e38697c508885c5b94e53b21bc63",
+    "telemetry.macMachineId": "274cdeadd3b67906c15a993ae4d2859d23a0f9c57f9903da27819151f0f0b096",
+    "telemetry.devDeviceId": "23f88d35-1859-4ffa-98ac-3393efee0e2b",
+    "backupWorkspaces": {
+        "workspaces": [],
+        "folders": [
+            {
+                "folderUri": "file:///home/zen/Documents/EssenceMC/MeeleeSim"
+            }
+        ],
+        "emptyWindows": []
+    },
+    "profileAssociations": {
+        "workspaces": {
+            "file:///home/zen/Desktop/heapdump": "__default__profile__",
+            "file:///home/zen/Documents/EssenceMC/MeeleeSim": "__default__profile__"
+        },
+        "emptyWindows": {}
+    },
+    "windowsState": {
+        "lastActiveWindow": {
+            "folder": "file:///home/zen/Documents/EssenceMC/MeeleeSim",
+            "backupPath": "/home/zen/.config/Cursor/Backups/74254f86e14c17ce12f28f7665aaec5a",
+            "uiState": {
+                "mode": 1,
+                "x": 12,
+                "y": 12,
+                "width": 1896,
+                "height": 1056
+            }
+        },
+        "openedWindows": []
+    },
+    "windowControlHeight": 50,
+    "theme": "vs-dark",
+    "themeBackground": "#0a0c0a",
+    "windowSplash": {
+        "zoomLevel": 2,
+        "baseTheme": "vs-dark",
+        "colorInfo": {
+            "foreground": "rgba(193, 194, 193, 0.6)",
+            "background": "#0a0c0a",
+            "editorBackground": "#0a0c0a",
+            "titleBarBackground": "#0a0c0a",
+            "titleBarBorder": "#0a0c0a",
+            "activityBarBackground": "#0a0c0a",
+            "activityBarBorder": "#0a0c0a",
+            "sideBarBackground": "#0a0c0a",
+            "sideBarBorder": "#0a0c0a",
+            "statusBarBackground": "#0a0c0a",
+            "statusBarBorder": "#0a0c0a",
+            "statusBarNoFolderBackground": "#0c0e0c"
+        },
+        "layoutInfo": {
+            "sideBarSide": "left",
+            "editorPartMinWidth": 220,
+            "titleBarHeight": 35,
+            "activityBarWidth": 0,
+            "sideBarWidth": 170,
+            "statusBarHeight": 0,
+            "windowBorder": false
+        }
+    }
+}

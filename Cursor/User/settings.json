@@ -1,0 +1,154 @@
+{
+    "editor.fontFamily": "Jetbrains Mono",
+    "editor.fontLigatures": true,
+    "diffEditor.codeLens": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.detectIndentation": false,
+    "editor.tabSize": 2,
+    "editor.stickyScroll.enabled": false,
+    "editor.codeActionsOnSave": {},
+    "editor.quickSuggestions": {
+        "strings": true
+    },
+    "editor.minimap.enabled": false,
+    "editor.smoothScrolling": true,
+    "editor.cursorStyle": "line",
+    "editor.cursorSmoothCaretAnimation": "off",
+    "editor.cursorBlinking": "expand",
+    "editor.wordWrapColumn": 500,
+    "editor.lineNumbers": "relative",
+    "editor.unicodeHighlight.invisibleCharacters": false,
+    "editor.formatOnSave": true,
+    "window.titleBarStyle": "custom",
+    "window.customTitleBarVisibility": "never",
+    "files.exclude": {
+        "**/*.meta": true
+    },
+    "explorer.compactFolders": false,
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[javascriptreact]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[html]": {
+        "editor.defaultFormatter": "vscode.html-language-features"
+    },
+    "[prisma]": {
+        "editor.defaultFormatter": "Prisma.prisma",
+        "editor.formatOnSave": true
+    },
+    "[java]": {
+        "editor.defaultFormatter": "mwpb.java-prettier-formatter"
+    },
+    "[rust]": {
+        "editor.defaultFormatter": "rust-lang.rust-analyzer"
+    },
+    "prettier.arrowParens": "always",
+    "prettier.proseWrap": "never",
+    "prettier.printWidth": 100,
+    "prettier.trailingComma": "none",
+    "prettier.bracketSameLine": true,
+    "prettier.useEditorConfig": false,
+    "liveServer.settings.donotVerifyTags": true,
+    "liveServer.settings.donotShowInfoMsg": true,
+    "workbench.list.smoothScrolling": true,
+    "workbench.startupEditor": "none",
+    "terminal.integrated.gpuAcceleration": "off",
+    "terminal.integrated.defaultProfile.windows": "fish",
+    "terminal.integrated.smoothScrolling": false,
+    "terminal.integrated.fontFamily": "Jetbrains Mono, DejaVu Math TeX Gyre",
+    "vim.useSystemClipboard": true,
+    "vim.leader": "<space>",
+    "vim.insertModeKeyBindings": [
+        {
+            "before": [
+                "k",
+                "j"
+            ],
+            "after": [
+                "<Esc>"
+            ]
+        },
+        {
+            "before": [
+                "<C-p>"
+            ],
+            "commands": [
+                "workbench.action.quickOpen"
+            ]
+        }
+    ],
+    "vim.normalModeKeyBindingsNonRecursive": [
+        {
+            "before": [
+                "J"
+            ],
+            "commands": [
+                "editor.action.moveLinesDownAction"
+            ]
+        },
+        {
+            "before": [
+                "K"
+            ],
+            "commands": [
+                "editor.action.moveLinesUpAction"
+            ]
+        },
+        {
+            "before": [
+                "<C-p>"
+            ],
+            "commands": [
+                "workbench.action.quickOpen"
+            ]
+        },
+        {
+            "before": [
+                "<leader>",
+                "<leader>"
+            ],
+            "commands": [
+                "workbench.action.quickOpen"
+            ]
+        },
+        {
+            "before": [
+                "<leader>",
+                "s"
+            ],
+            "commands": [
+                "leap.find"
+            ]
+        }
+    ],
+    "vim.visualModeKeyBindings": [],
+    "screencastMode.fontSize": 48,
+    "screencastMode.mouseIndicatorColor": "#00000000",
+    "html.format.contentUnformatted": "",
+    "settingsSync.ignoredSettings": [],
+    "go.toolsManagement.autoUpdate": true,
+    "javascript.updateImportsOnFileMove.enabled": "never",
+    "vscode_vibrancy.opacity": 0.1,
+    "npm.keybindingsChangedWarningShown": true,
+    "redhat.telemetry.enabled": false,
+    "typescript.preferences.importModuleSpecifier": "non-relative",
+    "svg.preview.mode": "img",
+    "window.zoomLevel": 2,
+    "cmake.configureOnOpen": false,
+    "cmake.showOptionsMovedNotification": false,
+    "workbench.iconTheme": "vscode-great-icons",
+    "git.autofetch": true,
+    "git.enableSmartCommit": true,
+    "git.confirmSync": false,
+    "explorer.confirmDragAndDrop": false,
+    "git.ignoreRebaseWarning": true,
+    "workbench.statusBar.visible": false,
+    "explorer.confirmDelete": false,
+    "[typescriptreact]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "prisma.showPrismaDataPlatformNotification": false,
+    "workbench.colorTheme": "Wal"
+}

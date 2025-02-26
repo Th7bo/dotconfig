@@ -1,0 +1,460 @@
+2025-02-25 21:00:38.826 [info] [main] Log level: Info
+2025-02-25 21:00:38.826 [info] [main] Validating found git in: "git"
+2025-02-25 21:00:38.826 [info] [main] Using git "2.48.1" from "git"
+2025-02-25 21:00:38.826 [info] [Model][doInitialScan] Initial repository scan started
+2025-02-25 21:00:38.826 [info] > git rev-parse --show-toplevel [7ms]
+2025-02-25 21:00:38.826 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-02-25 21:00:38.826 [info] > git rev-parse --show-toplevel [124ms]
+2025-02-25 21:00:38.826 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-02-25 21:00:38.826 [info] [Model][doInitialScan] Initial repository scan completed - repositories (0), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2025-02-25 21:00:39.239 [info] > git rev-parse --show-toplevel [2ms]
+2025-02-25 21:00:39.239 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-02-25 21:04:45.410 [info] [main] Log level: Info
+2025-02-25 21:04:45.410 [info] [main] Validating found git in: "git"
+2025-02-25 21:04:45.410 [info] [main] Using git "2.48.1" from "git"
+2025-02-25 21:04:45.410 [info] [Model][doInitialScan] Initial repository scan started
+2025-02-25 21:04:45.410 [info] > git rev-parse --show-toplevel [900ms]
+2025-02-25 21:04:45.422 [info] > git rev-parse --git-dir --git-common-dir [6ms]
+2025-02-25 21:04:45.438 [info] [Model][openRepository] Opened repository: /home/zen/Documents/EssenceMC/MeeleeSim
+2025-02-25 21:04:45.476 [info] > git config --get commit.template [24ms]
+2025-02-25 21:04:45.476 [info] > git fetch [39ms]
+2025-02-25 21:04:45.491 [info] > git rev-parse --show-toplevel [17ms]
+2025-02-25 21:04:45.493 [info] [Git][getRemotes] No remotes found in the git config file
+2025-02-25 21:04:45.498 [info] [Git][getRemotes] No remotes found in the git config file
+2025-02-25 21:04:45.505 [info] > git config --get commit.template [13ms]
+2025-02-25 21:04:45.508 [info] > git rev-parse --show-toplevel [4ms]
+2025-02-25 21:04:45.508 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [10ms]
+2025-02-25 21:04:45.509 [warning] [Git][getBranch] No such branch: master
+2025-02-25 21:04:45.523 [info] [Git][getRemotes] No remotes found in the git config file
+2025-02-25 21:04:45.535 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [19ms]
+2025-02-25 21:04:45.535 [warning] [Git][getBranch] No such branch: master
+2025-02-25 21:04:45.535 [error] [GitHistoryProvider][resolveHEADMergeBase] Failed to resolve merge base for master: Error: No such branch: master.
+2025-02-25 21:04:45.539 [info] > git config --get commit.template [4ms]
+2025-02-25 21:04:45.539 [info] > git rev-parse --show-toplevel [10ms]
+2025-02-25 21:04:45.539 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [16ms]
+2025-02-25 21:04:45.539 [warning] [Git][getBranch] No such branch: master
+2025-02-25 21:04:45.553 [info] [Git][getRemotes] No remotes found in the git config file
+2025-02-25 21:04:45.553 [info] > git rev-parse --show-toplevel [8ms]
+2025-02-25 21:04:45.569 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [17ms]
+2025-02-25 21:04:45.569 [warning] [Git][getBranch] No such branch: master
+2025-02-25 21:04:45.583 [info] > git status -z -uall [8ms]
+2025-02-25 21:04:45.595 [info] > git rev-parse --show-toplevel [26ms]
+2025-02-25 21:04:45.596 [info] [Model][doInitialScan] Initial repository scan completed - repositories (1), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2025-02-25 21:04:45.610 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [29ms]
+2025-02-25 21:04:45.965 [info] > git check-ignore -v -z --stdin [4ms]
+2025-02-25 21:04:46.525 [info] > git check-ignore -v -z --stdin [2ms]
+2025-02-25 21:04:49.205 [info] > git show --textconv :src/main/java/dev/th7bo/meleesim/Weapons.java [20ms]
+2025-02-25 21:04:49.205 [info] > git show --textconv HEAD:src/main/java/dev/th7bo/meleesim/Weapons.java [14ms]
+2025-02-25 21:04:49.205 [info] > git ls-files --stage -- /home/zen/Documents/EssenceMC/MeeleeSim/src/main/java/dev/th7bo/meleesim/Weapons.java [7ms]
+2025-02-25 21:04:49.214 [info] > git cat-file -s 7ec738d5201df145751f66c6476decc643c8d11b [3ms]
+2025-02-25 21:04:49.215 [info] > git ls-tree -l HEAD -- /home/zen/Documents/EssenceMC/MeeleeSim/src/main/java/dev/th7bo/meleesim/Weapons.java [11ms]
+2025-02-25 21:04:49.215 [info] fatal: Not a valid object name HEAD
+2025-02-25 21:04:56.689 [info] > git rev-parse --show-toplevel [2ms]
+2025-02-25 21:04:56.689 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-02-25 21:05:00.831 [info] > git show --textconv :newSwords.sk [8ms]
+2025-02-25 21:05:00.832 [info] > git ls-files --stage -- /home/zen/Documents/EssenceMC/MeeleeSim/newSwords.sk [1ms]
+2025-02-25 21:05:01.094 [info] > git check-ignore -v -z --stdin [2ms]
+2025-02-25 21:05:01.703 [info] [Git][getRemotes] No remotes found in the git config file
+2025-02-25 21:05:01.704 [info] > git config --get commit.template [13ms]
+2025-02-25 21:05:01.705 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2025-02-25 21:05:01.705 [warning] [Git][getBranch] No such branch: master
+2025-02-25 21:05:01.720 [info] > git status -z -uall [7ms]
+2025-02-25 21:05:01.721 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [1ms]
+2025-02-25 21:05:03.894 [info] > git check-ignore -v -z --stdin [5ms]
+2025-02-25 21:07:05.824 [info] > git check-ignore -v -z --stdin [1ms]
+2025-02-25 21:07:45.552 [info] > git fetch [3ms]
+2025-02-25 21:07:45.563 [info] > git config --get commit.template [2ms]
+2025-02-25 21:07:45.571 [info] [Git][getRemotes] No remotes found in the git config file
+2025-02-25 21:07:45.582 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [11ms]
+2025-02-25 21:07:45.582 [warning] [Git][getBranch] No such branch: master
+2025-02-25 21:07:45.596 [info] > git status -z -uall [7ms]
+2025-02-25 21:07:45.597 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]
+2025-02-25 21:07:46.656 [info] [Git][getRemotes] No remotes found in the git config file
+2025-02-25 21:07:46.657 [info] > git config --get commit.template [13ms]
+2025-02-25 21:07:46.657 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2025-02-25 21:07:46.658 [warning] [Git][getBranch] No such branch: master
+2025-02-25 21:07:46.673 [info] > git status -z -uall [7ms]
+2025-02-25 21:07:46.674 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [1ms]
+2025-02-25 21:07:46.739 [info] > git ls-files --stage -- /home/zen/Documents/EssenceMC/MeeleeSim/newSwords.sk [1ms]
+2025-02-25 21:07:46.748 [info] > git show --textconv :newSwords.sk [1ms]
+2025-02-25 21:09:25.337 [info] > git check-ignore -v -z --stdin [3ms]
+2025-02-25 21:09:26.872 [info] > git check-ignore -v -z --stdin [1ms]
+2025-02-25 21:09:28.419 [info] > git check-ignore -v -z --stdin [3ms]
+2025-02-25 21:09:29.416 [info] > git check-ignore -v -z --stdin [4ms]
+2025-02-25 21:09:30.808 [info] > git check-ignore -v -z --stdin [2ms]
+2025-02-25 21:09:31.964 [info] > git check-ignore -v -z --stdin [5ms]
+2025-02-25 21:09:32.759 [info] > git check-ignore -v -z --stdin [1ms]
+2025-02-25 21:09:33.030 [info] > git show --textconv :src/main/java/dev/th7bo/meleesim/util/SkullCache.java [58ms]
+2025-02-25 21:09:33.031 [info] > git show --textconv HEAD:src/main/java/dev/th7bo/meleesim/util/SkullCache.java [47ms]
+2025-02-25 21:09:33.032 [info] > git ls-tree -l HEAD -- /home/zen/Documents/EssenceMC/MeeleeSim/src/main/java/dev/th7bo/meleesim/util/SkullCache.java [25ms]
+2025-02-25 21:09:33.032 [info] fatal: Not a valid object name HEAD
+2025-02-25 21:09:33.033 [info] > git ls-files --stage -- /home/zen/Documents/EssenceMC/MeeleeSim/src/main/java/dev/th7bo/meleesim/util/SkullCache.java [37ms]
+2025-02-25 21:09:33.047 [info] > git cat-file -s a3cb0eb0a2ae57c4b47ce15a971d6df28edc3ab0 [4ms]
+2025-02-25 21:09:34.278 [info] > git check-ignore -v -z --stdin [1ms]
+2025-02-25 21:09:50.615 [info] > git show --textconv :src/main/java/dev/th7bo/meleesim/weapons/WeaponsManager.java [37ms]
+2025-02-25 21:09:50.615 [info] > git show --textconv HEAD:src/main/java/dev/th7bo/meleesim/weapons/WeaponsManager.java [30ms]
+2025-02-25 21:09:50.616 [info] > git ls-tree -l HEAD -- /home/zen/Documents/EssenceMC/MeeleeSim/src/main/java/dev/th7bo/meleesim/weapons/WeaponsManager.java [15ms]
+2025-02-25 21:09:50.616 [info] fatal: Not a valid object name HEAD
+2025-02-25 21:09:50.616 [info] > git ls-files --stage -- /home/zen/Documents/EssenceMC/MeeleeSim/src/main/java/dev/th7bo/meleesim/weapons/WeaponsManager.java [24ms]
+2025-02-25 21:09:50.626 [info] > git cat-file -s 9727d7d024b8c55e893141c0afc8b952f9e5820d [3ms]
+2025-02-25 21:10:35.560 [info] [Git][getRemotes] No remotes found in the git config file
+2025-02-25 21:10:35.560 [info] > git config --get commit.template [7ms]
+2025-02-25 21:10:35.561 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2025-02-25 21:10:35.561 [warning] [Git][getBranch] No such branch: master
+2025-02-25 21:10:35.576 [info] > git status -z -uall [8ms]
+2025-02-25 21:10:35.577 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [1ms]
+2025-02-25 21:10:45.622 [info] > git fetch [7ms]
+2025-02-25 21:10:45.655 [info] [Git][getRemotes] No remotes found in the git config file
+2025-02-25 21:10:45.656 [info] > git config --get commit.template [18ms]
+2025-02-25 21:10:45.659 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [4ms]
+2025-02-25 21:10:45.659 [warning] [Git][getBranch] No such branch: master
+2025-02-25 21:10:45.689 [info] > git status -z -uall [14ms]
+2025-02-25 21:10:45.690 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [4ms]
+2025-02-25 21:10:46.708 [info] [Git][getRemotes] No remotes found in the git config file
+2025-02-25 21:10:46.708 [info] > git config --get commit.template [7ms]
+2025-02-25 21:10:46.709 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2025-02-25 21:10:46.709 [warning] [Git][getBranch] No such branch: master
+2025-02-25 21:10:46.722 [info] > git status -z -uall [7ms]
+2025-02-25 21:10:46.723 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [1ms]
+2025-02-25 21:10:46.812 [info] > git ls-files --stage -- /home/zen/Documents/EssenceMC/MeeleeSim/src/main/java/dev/th7bo/meleesim/weapons/WeaponsManager.java [9ms]
+2025-02-25 21:10:46.820 [info] > git ls-tree -l HEAD -- /home/zen/Documents/EssenceMC/MeeleeSim/src/main/java/dev/th7bo/meleesim/weapons/WeaponsManager.java [8ms]
+2025-02-25 21:10:46.820 [info] fatal: Not a valid object name HEAD
+2025-02-25 21:10:46.821 [info] > git cat-file -s 9727d7d024b8c55e893141c0afc8b952f9e5820d [2ms]
+2025-02-25 21:10:46.840 [info] > git show --textconv HEAD:src/main/java/dev/th7bo/meleesim/weapons/WeaponsManager.java [12ms]
+2025-02-25 21:10:46.841 [info] > git show --textconv :src/main/java/dev/th7bo/meleesim/weapons/WeaponsManager.java [2ms]
+2025-02-25 21:11:08.419 [info] [Git][getRemotes] No remotes found in the git config file
+2025-02-25 21:11:08.419 [info] > git config --get commit.template [12ms]
+2025-02-25 21:11:08.420 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2025-02-25 21:11:08.421 [warning] [Git][getBranch] No such branch: master
+2025-02-25 21:11:08.437 [info] > git status -z -uall [8ms]
+2025-02-25 21:11:08.438 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]
+2025-02-25 21:11:33.969 [info] [Git][getRemotes] No remotes found in the git config file
+2025-02-25 21:11:33.970 [info] > git config --get commit.template [7ms]
+2025-02-25 21:11:33.970 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2025-02-25 21:11:33.970 [warning] [Git][getBranch] No such branch: master
+2025-02-25 21:11:33.983 [info] > git status -z -uall [7ms]
+2025-02-25 21:11:33.984 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [1ms]
+2025-02-25 21:11:58.978 [info] > git config --get commit.template [2ms]
+2025-02-25 21:11:58.988 [info] [Git][getRemotes] No remotes found in the git config file
+2025-02-25 21:11:58.989 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2025-02-25 21:11:58.989 [warning] [Git][getBranch] No such branch: master
+2025-02-25 21:11:59.010 [info] > git status -z -uall [11ms]
+2025-02-25 21:11:59.011 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]
+2025-02-25 21:12:38.543 [info] [Git][getRemotes] No remotes found in the git config file
+2025-02-25 21:12:38.544 [info] > git config --get commit.template [17ms]
+2025-02-25 21:12:38.546 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [3ms]
+2025-02-25 21:12:38.546 [warning] [Git][getBranch] No such branch: master
+2025-02-25 21:12:38.574 [info] > git status -z -uall [15ms]
+2025-02-25 21:12:38.576 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [3ms]
+2025-02-25 21:13:45.701 [info] > git fetch [3ms]
+2025-02-25 21:13:45.718 [info] [Git][getRemotes] No remotes found in the git config file
+2025-02-25 21:13:45.718 [info] > git config --get commit.template [9ms]
+2025-02-25 21:13:45.719 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2025-02-25 21:13:45.719 [warning] [Git][getBranch] No such branch: master
+2025-02-25 21:13:45.737 [info] > git status -z -uall [9ms]
+2025-02-25 21:13:45.739 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [1ms]
+2025-02-25 21:13:46.804 [info] [Git][getRemotes] No remotes found in the git config file
+2025-02-25 21:13:46.805 [info] > git config --get commit.template [15ms]
+2025-02-25 21:13:46.806 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2025-02-25 21:13:46.806 [warning] [Git][getBranch] No such branch: master
+2025-02-25 21:13:46.832 [info] > git status -z -uall [13ms]
+2025-02-25 21:13:46.835 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [3ms]
+2025-02-25 21:13:46.906 [info] > git ls-files --stage -- /home/zen/Documents/EssenceMC/MeeleeSim/src/main/java/dev/th7bo/meleesim/weapons/WeaponsManager.java [15ms]
+2025-02-25 21:13:46.920 [info] > git ls-tree -l HEAD -- /home/zen/Documents/EssenceMC/MeeleeSim/src/main/java/dev/th7bo/meleesim/weapons/WeaponsManager.java [15ms]
+2025-02-25 21:13:46.920 [info] fatal: Not a valid object name HEAD
+2025-02-25 21:13:46.921 [info] > git cat-file -s 9727d7d024b8c55e893141c0afc8b952f9e5820d [3ms]
+2025-02-25 21:13:46.960 [info] > git show --textconv HEAD:src/main/java/dev/th7bo/meleesim/weapons/WeaponsManager.java [23ms]
+2025-02-25 21:13:46.961 [info] > git show --textconv :src/main/java/dev/th7bo/meleesim/weapons/WeaponsManager.java [2ms]
+2025-02-25 21:15:21.505 [info] > git config --get commit.template [1ms]
+2025-02-25 21:15:21.514 [info] [Git][getRemotes] No remotes found in the git config file
+2025-02-25 21:15:21.519 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [5ms]
+2025-02-25 21:15:21.519 [warning] [Git][getBranch] No such branch: master
+2025-02-25 21:15:21.537 [info] > git status -z -uall [11ms]
+2025-02-25 21:15:21.538 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]
+2025-02-25 21:15:21.670 [info] > git ls-files --stage -- /home/zen/Documents/EssenceMC/MeeleeSim/src/main/java/dev/th7bo/meleesim/weapons/WeaponsManager.java [17ms]
+2025-02-25 21:15:21.681 [info] > git cat-file -s 9727d7d024b8c55e893141c0afc8b952f9e5820d [3ms]
+2025-02-25 21:15:21.682 [info] > git ls-tree -l HEAD -- /home/zen/Documents/EssenceMC/MeeleeSim/src/main/java/dev/th7bo/meleesim/weapons/WeaponsManager.java [13ms]
+2025-02-25 21:15:21.682 [info] fatal: Not a valid object name HEAD
+2025-02-25 21:15:21.713 [info] > git show --textconv :src/main/java/dev/th7bo/meleesim/weapons/WeaponsManager.java [9ms]
+2025-02-25 21:15:21.716 [info] > git show --textconv HEAD:src/main/java/dev/th7bo/meleesim/weapons/WeaponsManager.java [3ms]
+2025-02-25 21:15:45.530 [info] > git check-ignore -v -z --stdin [4ms]
+2025-02-25 21:15:53.729 [info] [Git][getRemotes] No remotes found in the git config file
+2025-02-25 21:15:53.730 [info] > git config --get commit.template [8ms]
+2025-02-25 21:15:53.730 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2025-02-25 21:15:53.730 [warning] [Git][getBranch] No such branch: master
+2025-02-25 21:15:53.745 [info] > git status -z -uall [8ms]
+2025-02-25 21:15:53.760 [info] > git ls-files --stage -- /home/zen/Documents/EssenceMC/MeeleeSim/src/main/java/dev/th7bo/meleesim/weapons/WeaponsManager.java [8ms]
+2025-02-25 21:15:53.766 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [22ms]
+2025-02-25 21:15:53.768 [info] > git cat-file -s 9727d7d024b8c55e893141c0afc8b952f9e5820d [1ms]
+2025-02-25 21:15:53.768 [info] > git ls-tree -l HEAD -- /home/zen/Documents/EssenceMC/MeeleeSim/src/main/java/dev/th7bo/meleesim/weapons/WeaponsManager.java [9ms]
+2025-02-25 21:15:53.768 [info] fatal: Not a valid object name HEAD
+2025-02-25 21:15:53.798 [info] > git show --textconv :src/main/java/dev/th7bo/meleesim/weapons/WeaponsManager.java [8ms]
+2025-02-25 21:15:53.798 [info] > git show --textconv HEAD:src/main/java/dev/th7bo/meleesim/weapons/WeaponsManager.java [1ms]
+2025-02-25 21:15:58.821 [info] [Git][getRemotes] No remotes found in the git config file
+2025-02-25 21:15:58.822 [info] > git config --get commit.template [25ms]
+2025-02-25 21:15:58.823 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2025-02-25 21:15:58.823 [warning] [Git][getBranch] No such branch: master
+2025-02-25 21:15:58.843 [info] > git status -z -uall [9ms]
+2025-02-25 21:15:58.844 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [1ms]
+2025-02-25 21:16:22.253 [info] > git check-ignore -v -z --stdin [1ms]
+2025-02-25 21:18:38.499 [info] > git fetch [12ms]
+2025-02-25 21:18:38.530 [info] > git ls-files --stage -- /home/zen/Documents/EssenceMC/MeeleeSim/src/main/java/dev/th7bo/meleesim/weapons/WeaponsManager.java [21ms]
+2025-02-25 21:18:38.537 [info] > git config --get commit.template [39ms]
+2025-02-25 21:18:38.545 [info] [Git][getRemotes] No remotes found in the git config file
+2025-02-25 21:18:38.547 [info] > git config --get commit.template [18ms]
+2025-02-25 21:18:38.547 [info] > git ls-tree -l HEAD -- /home/zen/Documents/EssenceMC/MeeleeSim/src/main/java/dev/th7bo/meleesim/weapons/WeaponsManager.java [26ms]
+2025-02-25 21:18:38.547 [info] fatal: Not a valid object name HEAD
+2025-02-25 21:18:38.547 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2025-02-25 21:18:38.547 [warning] [Git][getBranch] No such branch: master
+2025-02-25 21:18:38.548 [info] > git cat-file -s 9727d7d024b8c55e893141c0afc8b952f9e5820d [11ms]
+2025-02-25 21:18:38.556 [info] [Git][getRemotes] No remotes found in the git config file
+2025-02-25 21:18:38.571 [info] > git show --textconv HEAD:src/main/java/dev/th7bo/meleesim/weapons/WeaponsManager.java [7ms]
+2025-02-25 21:18:38.572 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [16ms]
+2025-02-25 21:18:38.572 [warning] [Git][getBranch] No such branch: master
+2025-02-25 21:18:38.585 [info] > git show --textconv :src/main/java/dev/th7bo/meleesim/weapons/WeaponsManager.java [14ms]
+2025-02-25 21:18:38.585 [info] > git status -z -uall [7ms]
+2025-02-25 21:18:38.586 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [1ms]
+2025-02-25 21:18:39.757 [info] > git ls-files --stage -- /home/zen/Documents/EssenceMC/MeeleeSim/src/main/java/dev/th7bo/meleesim/weapons/WeaponsManager.java [8ms]
+2025-02-25 21:18:39.763 [info] > git ls-tree -l HEAD -- /home/zen/Documents/EssenceMC/MeeleeSim/src/main/java/dev/th7bo/meleesim/weapons/WeaponsManager.java [6ms]
+2025-02-25 21:18:39.763 [info] fatal: Not a valid object name HEAD
+2025-02-25 21:18:39.763 [info] > git cat-file -s 9727d7d024b8c55e893141c0afc8b952f9e5820d [1ms]
+2025-02-25 21:18:39.776 [info] > git show --textconv HEAD:src/main/java/dev/th7bo/meleesim/weapons/WeaponsManager.java [6ms]
+2025-02-25 21:18:39.777 [info] > git show --textconv :src/main/java/dev/th7bo/meleesim/weapons/WeaponsManager.java [1ms]
+2025-02-25 21:18:49.864 [info] > git config --get commit.template [2ms]
+2025-02-25 21:18:49.870 [info] [Git][getRemotes] No remotes found in the git config file
+2025-02-25 21:18:49.871 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2025-02-25 21:18:49.871 [warning] [Git][getBranch] No such branch: master
+2025-02-25 21:18:49.884 [info] > git status -z -uall [7ms]
+2025-02-25 21:18:49.885 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [1ms]
+2025-02-25 21:20:58.115 [info] [Git][getRemotes] No remotes found in the git config file
+2025-02-25 21:20:58.116 [info] > git config --get commit.template [11ms]
+2025-02-25 21:20:58.116 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2025-02-25 21:20:58.116 [warning] [Git][getBranch] No such branch: master
+2025-02-25 21:20:58.140 [info] > git status -z -uall [15ms]
+2025-02-25 21:20:58.142 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [3ms]
+2025-02-25 21:21:03.321 [info] [Git][getRemotes] No remotes found in the git config file
+2025-02-25 21:21:03.322 [info] > git config --get commit.template [7ms]
+2025-02-25 21:21:03.323 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2025-02-25 21:21:03.323 [warning] [Git][getBranch] No such branch: master
+2025-02-25 21:21:03.336 [info] > git status -z -uall [7ms]
+2025-02-25 21:21:03.337 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [1ms]
+2025-02-25 21:21:12.879 [info] [Git][getRemotes] No remotes found in the git config file
+2025-02-25 21:21:12.879 [info] > git config --get commit.template [15ms]
+2025-02-25 21:21:12.881 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [3ms]
+2025-02-25 21:21:12.881 [warning] [Git][getBranch] No such branch: master
+2025-02-25 21:21:12.910 [info] > git status -z -uall [15ms]
+2025-02-25 21:21:12.912 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]
+2025-02-25 21:21:21.163 [info] [Git][getRemotes] No remotes found in the git config file
+2025-02-25 21:21:21.164 [info] > git config --get commit.template [27ms]
+2025-02-25 21:21:21.166 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [3ms]
+2025-02-25 21:21:21.166 [warning] [Git][getBranch] No such branch: master
+2025-02-25 21:21:21.188 [info] > git status -z -uall [11ms]
+2025-02-25 21:21:21.189 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]
+2025-02-25 21:21:33.693 [info] [Git][getRemotes] No remotes found in the git config file
+2025-02-25 21:21:33.693 [info] > git config --get commit.template [6ms]
+2025-02-25 21:21:33.694 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2025-02-25 21:21:33.694 [warning] [Git][getBranch] No such branch: master
+2025-02-25 21:21:33.705 [info] > git status -z -uall [6ms]
+2025-02-25 21:21:33.705 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [1ms]
+2025-02-25 21:21:38.601 [info] > git fetch [3ms]
+2025-02-25 21:21:38.613 [info] [Git][getRemotes] No remotes found in the git config file
+2025-02-25 21:21:38.613 [info] > git config --get commit.template [6ms]
+2025-02-25 21:21:38.614 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2025-02-25 21:21:38.614 [warning] [Git][getBranch] No such branch: master
+2025-02-25 21:21:38.626 [info] > git status -z -uall [7ms]
+2025-02-25 21:21:38.627 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [1ms]
+2025-02-25 21:21:39.688 [info] [Git][getRemotes] No remotes found in the git config file
+2025-02-25 21:21:39.689 [info] > git config --get commit.template [7ms]
+2025-02-25 21:21:39.689 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2025-02-25 21:21:39.689 [warning] [Git][getBranch] No such branch: master
+2025-02-25 21:21:39.701 [info] > git status -z -uall [6ms]
+2025-02-25 21:21:39.702 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]
+2025-02-25 21:21:39.817 [info] > git ls-files --stage -- /home/zen/Documents/EssenceMC/MeeleeSim/src/main/java/dev/th7bo/meleesim/weapons/WeaponsManager.java [14ms]
+2025-02-25 21:21:39.834 [info] > git cat-file -s 9727d7d024b8c55e893141c0afc8b952f9e5820d [8ms]
+2025-02-25 21:21:39.835 [info] > git ls-tree -l HEAD -- /home/zen/Documents/EssenceMC/MeeleeSim/src/main/java/dev/th7bo/meleesim/weapons/WeaponsManager.java [19ms]
+2025-02-25 21:21:39.835 [info] fatal: Not a valid object name HEAD
+2025-02-25 21:21:39.876 [info] > git show --textconv :src/main/java/dev/th7bo/meleesim/weapons/WeaponsManager.java [7ms]
+2025-02-25 21:21:39.877 [info] > git show --textconv HEAD:src/main/java/dev/th7bo/meleesim/weapons/WeaponsManager.java [1ms]
+2025-02-25 21:23:28.551 [info] [Git][getRemotes] No remotes found in the git config file
+2025-02-25 21:23:28.552 [info] > git config --get commit.template [6ms]
+2025-02-25 21:23:28.552 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2025-02-25 21:23:28.552 [warning] [Git][getBranch] No such branch: master
+2025-02-25 21:23:28.565 [info] > git status -z -uall [7ms]
+2025-02-25 21:23:28.565 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [1ms]
+2025-02-25 21:23:52.212 [info] > git check-ignore -v -z --stdin [1ms]
+2025-02-25 21:23:52.365 [info] [Git][getRemotes] No remotes found in the git config file
+2025-02-25 21:23:52.366 [info] > git config --get commit.template [8ms]
+2025-02-25 21:23:52.366 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2025-02-25 21:23:52.367 [warning] [Git][getBranch] No such branch: master
+2025-02-25 21:23:52.380 [info] > git status -z -uall [7ms]
+2025-02-25 21:23:52.381 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [1ms]
+2025-02-25 21:23:52.628 [info] > git ls-files --stage -- /home/zen/Documents/EssenceMC/MeeleeSim/src/main/java/dev/th7bo/meleesim/weapons/WeaponsManager.java [7ms]
+2025-02-25 21:23:52.635 [info] > git ls-tree -l HEAD -- /home/zen/Documents/EssenceMC/MeeleeSim/src/main/java/dev/th7bo/meleesim/weapons/WeaponsManager.java [7ms]
+2025-02-25 21:23:52.635 [info] fatal: Not a valid object name HEAD
+2025-02-25 21:23:52.636 [info] > git cat-file -s 9727d7d024b8c55e893141c0afc8b952f9e5820d [1ms]
+2025-02-25 21:23:52.695 [info] > git show --textconv HEAD:src/main/java/dev/th7bo/meleesim/weapons/WeaponsManager.java [16ms]
+2025-02-25 21:23:52.699 [info] > git show --textconv :src/main/java/dev/th7bo/meleesim/weapons/WeaponsManager.java [5ms]
+2025-02-25 21:23:57.398 [info] [Git][getRemotes] No remotes found in the git config file
+2025-02-25 21:23:57.402 [info] > git config --get commit.template [12ms]
+2025-02-25 21:23:57.402 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [4ms]
+2025-02-25 21:23:57.402 [warning] [Git][getBranch] No such branch: master
+2025-02-25 21:23:57.416 [info] > git status -z -uall [7ms]
+2025-02-25 21:23:57.416 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [1ms]
+2025-02-25 21:24:31.810 [info] [Git][getRemotes] No remotes found in the git config file
+2025-02-25 21:24:31.811 [info] > git config --get commit.template [17ms]
+2025-02-25 21:24:31.812 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2025-02-25 21:24:31.812 [warning] [Git][getBranch] No such branch: master
+2025-02-25 21:24:31.830 [info] > git status -z -uall [9ms]
+2025-02-25 21:24:31.831 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]
+2025-02-25 21:24:38.641 [info] > git fetch [3ms]
+2025-02-25 21:24:38.653 [info] [Git][getRemotes] No remotes found in the git config file
+2025-02-25 21:24:38.654 [info] > git config --get commit.template [7ms]
+2025-02-25 21:24:38.654 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2025-02-25 21:24:38.654 [warning] [Git][getBranch] No such branch: master
+2025-02-25 21:24:38.666 [info] > git status -z -uall [6ms]
+2025-02-25 21:24:38.667 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [1ms]
+2025-02-25 21:24:39.730 [info] [Git][getRemotes] No remotes found in the git config file
+2025-02-25 21:24:39.731 [info] > git config --get commit.template [7ms]
+2025-02-25 21:24:39.731 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2025-02-25 21:24:39.731 [warning] [Git][getBranch] No such branch: master
+2025-02-25 21:24:39.743 [info] > git status -z -uall [6ms]
+2025-02-25 21:24:39.744 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [1ms]
+2025-02-25 21:24:39.835 [info] > git ls-files --stage -- /home/zen/Documents/EssenceMC/MeeleeSim/src/main/java/dev/th7bo/meleesim/weapons/WeaponsManager.java [9ms]
+2025-02-25 21:24:39.844 [info] > git ls-tree -l HEAD -- /home/zen/Documents/EssenceMC/MeeleeSim/src/main/java/dev/th7bo/meleesim/weapons/WeaponsManager.java [10ms]
+2025-02-25 21:24:39.844 [info] fatal: Not a valid object name HEAD
+2025-02-25 21:24:39.851 [info] > git cat-file -s 9727d7d024b8c55e893141c0afc8b952f9e5820d [8ms]
+2025-02-25 21:24:39.871 [info] > git show --textconv HEAD:src/main/java/dev/th7bo/meleesim/weapons/WeaponsManager.java [10ms]
+2025-02-25 21:24:39.872 [info] > git show --textconv :src/main/java/dev/th7bo/meleesim/weapons/WeaponsManager.java [2ms]
+2025-02-25 21:24:58.239 [info] [Git][getRemotes] No remotes found in the git config file
+2025-02-25 21:24:58.239 [info] > git config --get commit.template [22ms]
+2025-02-25 21:24:58.240 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2025-02-25 21:24:58.240 [warning] [Git][getBranch] No such branch: master
+2025-02-25 21:24:58.252 [info] > git status -z -uall [6ms]
+2025-02-25 21:24:58.252 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [1ms]
+2025-02-25 21:25:14.587 [info] [Git][getRemotes] No remotes found in the git config file
+2025-02-25 21:25:14.589 [info] > git config --get commit.template [16ms]
+2025-02-25 21:25:14.590 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [3ms]
+2025-02-25 21:25:14.590 [warning] [Git][getBranch] No such branch: master
+2025-02-25 21:25:14.620 [info] > git status -z -uall [16ms]
+2025-02-25 21:25:14.622 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [3ms]
+2025-02-25 21:25:25.028 [info] [Git][getRemotes] No remotes found in the git config file
+2025-02-25 21:25:25.028 [info] > git config --get commit.template [15ms]
+2025-02-25 21:25:25.029 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2025-02-25 21:25:25.029 [warning] [Git][getBranch] No such branch: master
+2025-02-25 21:25:25.046 [info] > git status -z -uall [8ms]
+2025-02-25 21:25:25.047 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]
+2025-02-25 21:50:44.753 [info] > git fetch [9ms]
+2025-02-25 21:50:44.769 [info] [Git][getRemotes] No remotes found in the git config file
+2025-02-25 21:50:44.769 [info] > git config --get commit.template [16ms]
+2025-02-25 21:50:44.770 [info] > git config --get commit.template [9ms]
+2025-02-25 21:50:44.776 [info] [Git][getRemotes] No remotes found in the git config file
+2025-02-25 21:50:44.777 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [8ms]
+2025-02-25 21:50:44.777 [warning] [Git][getBranch] No such branch: master
+2025-02-25 21:50:44.778 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2025-02-25 21:50:44.778 [warning] [Git][getBranch] No such branch: master
+2025-02-25 21:50:44.791 [info] > git status -z -uall [6ms]
+2025-02-25 21:50:44.792 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [1ms]
+2025-02-25 21:50:46.190 [info] > git ls-files --stage -- /home/zen/Documents/EssenceMC/MeeleeSim/src/main/java/dev/th7bo/meleesim/weapons/WeaponsManager.java [8ms]
+2025-02-25 21:50:46.198 [info] > git ls-tree -l HEAD -- /home/zen/Documents/EssenceMC/MeeleeSim/src/main/java/dev/th7bo/meleesim/weapons/WeaponsManager.java [9ms]
+2025-02-25 21:50:46.198 [info] fatal: Not a valid object name HEAD
+2025-02-25 21:50:46.198 [info] > git cat-file -s 9727d7d024b8c55e893141c0afc8b952f9e5820d [1ms]
+2025-02-25 21:50:46.838 [info] > git show --textconv HEAD:src/main/java/dev/th7bo/meleesim/weapons/WeaponsManager.java [7ms]
+2025-02-25 21:50:46.838 [info] > git show --textconv :src/main/java/dev/th7bo/meleesim/weapons/WeaponsManager.java [1ms]
+2025-02-25 21:50:49.796 [info] [Git][getRemotes] No remotes found in the git config file
+2025-02-25 21:50:49.796 [info] > git config --get commit.template [8ms]
+2025-02-25 21:50:49.797 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2025-02-25 21:50:49.797 [warning] [Git][getBranch] No such branch: master
+2025-02-25 21:50:49.810 [info] > git status -z -uall [7ms]
+2025-02-25 21:50:49.811 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [1ms]
+2025-02-25 21:51:55.671 [info] [Git][getRemotes] No remotes found in the git config file
+2025-02-25 21:51:55.672 [info] > git config --get commit.template [7ms]
+2025-02-25 21:51:55.672 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2025-02-25 21:51:55.672 [warning] [Git][getBranch] No such branch: master
+2025-02-25 21:51:55.685 [info] > git status -z -uall [7ms]
+2025-02-25 21:51:55.686 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [1ms]
+2025-02-25 21:52:58.502 [info] [Git][getRemotes] No remotes found in the git config file
+2025-02-25 21:52:58.503 [info] > git config --get commit.template [14ms]
+2025-02-25 21:52:58.504 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2025-02-25 21:52:58.504 [warning] [Git][getBranch] No such branch: master
+2025-02-25 21:52:58.532 [info] > git status -z -uall [15ms]
+2025-02-25 21:52:58.533 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [3ms]
+2025-02-25 21:53:31.903 [info] [Git][getRemotes] No remotes found in the git config file
+2025-02-25 21:53:31.905 [info] > git config --get commit.template [29ms]
+2025-02-25 21:53:31.908 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [5ms]
+2025-02-25 21:53:31.908 [warning] [Git][getBranch] No such branch: master
+2025-02-25 21:53:31.937 [info] > git status -z -uall [11ms]
+2025-02-25 21:53:31.938 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]
+2025-02-25 21:53:44.812 [info] > git fetch [11ms]
+2025-02-25 21:53:44.828 [info] [Git][getRemotes] No remotes found in the git config file
+2025-02-25 21:53:44.829 [info] > git config --get commit.template [9ms]
+2025-02-25 21:53:44.829 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2025-02-25 21:53:44.829 [warning] [Git][getBranch] No such branch: master
+2025-02-25 21:53:44.845 [info] > git status -z -uall [8ms]
+2025-02-25 21:53:44.846 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [1ms]
+2025-02-25 21:53:45.906 [info] [Git][getRemotes] No remotes found in the git config file
+2025-02-25 21:53:45.909 [info] > git config --get commit.template [17ms]
+2025-02-25 21:53:45.909 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [3ms]
+2025-02-25 21:53:45.909 [warning] [Git][getBranch] No such branch: master
+2025-02-25 21:53:45.937 [info] > git status -z -uall [15ms]
+2025-02-25 21:53:45.938 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]
+2025-02-25 21:53:46.009 [info] > git ls-files --stage -- /home/zen/Documents/EssenceMC/MeeleeSim/src/main/java/dev/th7bo/meleesim/weapons/WeaponsManager.java [15ms]
+2025-02-25 21:53:46.024 [info] > git ls-tree -l HEAD -- /home/zen/Documents/EssenceMC/MeeleeSim/src/main/java/dev/th7bo/meleesim/weapons/WeaponsManager.java [16ms]
+2025-02-25 21:53:46.024 [info] fatal: Not a valid object name HEAD
+2025-02-25 21:53:46.025 [info] > git cat-file -s 9727d7d024b8c55e893141c0afc8b952f9e5820d [4ms]
+2025-02-25 21:53:46.042 [info] > git show --textconv HEAD:src/main/java/dev/th7bo/meleesim/weapons/WeaponsManager.java [8ms]
+2025-02-25 21:53:46.047 [info] > git show --textconv :src/main/java/dev/th7bo/meleesim/weapons/WeaponsManager.java [6ms]
+2025-02-25 21:54:09.512 [info] [Git][getRemotes] No remotes found in the git config file
+2025-02-25 21:54:09.512 [info] > git config --get commit.template [7ms]
+2025-02-25 21:54:09.513 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2025-02-25 21:54:09.513 [warning] [Git][getBranch] No such branch: master
+2025-02-25 21:54:09.526 [info] > git status -z -uall [7ms]
+2025-02-25 21:54:09.527 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [1ms]
+2025-02-25 21:54:23.353 [info] [Git][getRemotes] No remotes found in the git config file
+2025-02-25 21:54:23.353 [info] > git config --get commit.template [7ms]
+2025-02-25 21:54:23.354 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2025-02-25 21:54:23.354 [warning] [Git][getBranch] No such branch: master
+2025-02-25 21:54:23.368 [info] > git status -z -uall [8ms]
+2025-02-25 21:54:23.368 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [1ms]
+2025-02-25 21:55:40.177 [info] [Git][getRemotes] No remotes found in the git config file
+2025-02-25 21:55:40.177 [info] > git config --get commit.template [14ms]
+2025-02-25 21:55:40.178 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2025-02-25 21:55:40.178 [warning] [Git][getBranch] No such branch: master
+2025-02-25 21:55:40.195 [info] > git status -z -uall [8ms]
+2025-02-25 21:55:40.196 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [1ms]
+2025-02-25 21:55:46.603 [info] [Git][getRemotes] No remotes found in the git config file
+2025-02-25 21:55:46.604 [info] > git config --get commit.template [7ms]
+2025-02-25 21:55:46.604 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2025-02-25 21:55:46.604 [warning] [Git][getBranch] No such branch: master
+2025-02-25 21:55:46.617 [info] > git status -z -uall [7ms]
+2025-02-25 21:55:46.618 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [1ms]
+2025-02-25 21:55:57.862 [info] [Git][getRemotes] No remotes found in the git config file
+2025-02-25 21:55:57.863 [info] > git config --get commit.template [14ms]
+2025-02-25 21:55:57.864 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2025-02-25 21:55:57.864 [warning] [Git][getBranch] No such branch: master
+2025-02-25 21:55:57.892 [info] > git status -z -uall [15ms]
+2025-02-25 21:55:57.894 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]
+2025-02-25 21:56:47.771 [info] > git fetch [3ms]
+2025-02-25 21:56:47.785 [info] [Git][getRemotes] No remotes found in the git config file
+2025-02-25 21:56:47.785 [info] > git config --get commit.template [7ms]
+2025-02-25 21:56:47.786 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2025-02-25 21:56:47.786 [warning] [Git][getBranch] No such branch: master
+2025-02-25 21:56:47.800 [info] > git status -z -uall [8ms]
+2025-02-25 21:56:47.801 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]
+2025-02-25 21:56:48.930 [info] [Git][getRemotes] No remotes found in the git config file
+2025-02-25 21:56:48.931 [info] > git config --get commit.template [19ms]
+2025-02-25 21:56:48.933 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [3ms]
+2025-02-25 21:56:48.933 [warning] [Git][getBranch] No such branch: master
+2025-02-25 21:56:48.966 [info] > git status -z -uall [15ms]
+2025-02-25 21:56:48.967 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]
+2025-02-25 21:56:49.021 [info] > git ls-files --stage -- /home/zen/Documents/EssenceMC/MeeleeSim/src/main/java/dev/th7bo/meleesim/weapons/WeaponsManager.java [12ms]
+2025-02-25 21:56:49.032 [info] > git ls-tree -l HEAD -- /home/zen/Documents/EssenceMC/MeeleeSim/src/main/java/dev/th7bo/meleesim/weapons/WeaponsManager.java [12ms]
+2025-02-25 21:56:49.032 [info] fatal: Not a valid object name HEAD
+2025-02-25 21:56:49.033 [info] > git cat-file -s 9727d7d024b8c55e893141c0afc8b952f9e5820d [2ms]
+2025-02-25 21:56:49.056 [info] > git show --textconv HEAD:src/main/java/dev/th7bo/meleesim/weapons/WeaponsManager.java [11ms]
+2025-02-25 21:56:49.058 [info] > git show --textconv :src/main/java/dev/th7bo/meleesim/weapons/WeaponsManager.java [2ms]
+2025-02-25 21:57:12.811 [info] [Git][getRemotes] No remotes found in the git config file
+2025-02-25 21:57:12.811 [info] > git config --get commit.template [7ms]
+2025-02-25 21:57:12.812 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2025-02-25 21:57:12.812 [warning] [Git][getBranch] No such branch: master
+2025-02-25 21:57:12.826 [info] > git status -z -uall [7ms]
+2025-02-25 21:57:12.827 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [1ms]

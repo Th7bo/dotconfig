@@ -1,0 +1,67 @@
+2025-02-25 20:54:28.639 [info] Added views:workbench.panel.composerViewPane2.view in workbench.panel.composerViewPane2
+2025-02-25 20:54:28.639 [info] Added views:workbench.panel.aichat.view in workbench.panel.aichat
+2025-02-25 20:54:28.639 [info] Added views:outline in workbench.view.explorer
+2025-02-25 20:54:28.639 [info] Added views:workbench.view.search in workbench.view.search
+2025-02-25 20:54:28.639 [info] Added views:workbench.scm in workbench.view.scm
+2025-02-25 20:54:28.639 [info] Added views:workbench.panel.markers.view in workbench.panel.markers
+2025-02-25 20:54:28.639 [info] Added views:workbench.panel.output in workbench.panel.output
+2025-02-25 20:54:28.639 [info] Added views:terminal in terminal
+2025-02-25 20:54:28.639 [info] Added views:timeline in workbench.view.explorer
+2025-02-25 20:54:28.639 [info] Added views:workbench.explorer.emptyView in workbench.view.explorer
+2025-02-25 20:54:29.001 [info] Added views:workbench.debug.variablesView,workbench.debug.watchExpressionsView,workbench.debug.callStackView,workbench.debug.breakPointsView in workbench.view.debug
+2025-02-25 20:54:29.053 [info] Added views:~remote.forwardedPorts in ~remote.forwardedPortsContainer
+2025-02-25 20:54:29.552 [info] Added views:workbench.panel.repl.view in workbench.panel.repl
+2025-02-25 20:54:29.553 [info] Removed views:workbench.debug.breakPointsView,workbench.debug.callStackView,workbench.debug.watchExpressionsView,workbench.debug.variablesView from workbench.view.debug
+2025-02-25 20:54:29.553 [info] Added views:workbench.debug.welcome in workbench.view.debug
+2025-02-25 20:54:41.022 [info] Added views:postman-for-vscode.sidebar-panel in workbench.view.extension.sidebar-panel
+2025-02-25 20:54:41.022 [info] Added views:postman-console-view in workbench.view.extension.postman-console-view-container
+2025-02-25 20:54:41.023 [info] Added views:cSpellIssuesViewByFile,cSpellIssuesViewByIssue in workbench.view.extension.cspellPanel
+2025-02-25 20:55:25.436 [info] Added views:workbench.panel.composerViewPane2.view in workbench.panel.composerViewPane2
+2025-02-25 20:55:25.436 [info] Added views:workbench.panel.aichat.view in workbench.panel.aichat
+2025-02-25 20:55:25.436 [info] Added views:outline in workbench.view.explorer
+2025-02-25 20:55:25.436 [info] Added view workbench.view.testing in the container workbench.view.extension.test and showing it. undefined undefined undefined
+2025-02-25 20:55:25.436 [info] Added view workbench.view.testCoverage in the container workbench.view.extension.test and showing it. undefined undefined undefined
+2025-02-25 20:55:25.436 [info] Added views:workbench.view.search in workbench.view.search
+2025-02-25 20:55:25.436 [info] Added views:workbench.scm in workbench.view.scm
+2025-02-25 20:55:25.436 [info] Added views:workbench.panel.markers.view in workbench.panel.markers
+2025-02-25 20:55:25.436 [info] Added views:workbench.panel.output in workbench.panel.output
+2025-02-25 20:55:25.436 [info] Added views:terminal in terminal
+2025-02-25 20:55:25.436 [info] Added view workbench.panel.chat.view.copilot in the container workbench.panel.chat and showing it. undefined undefined undefined
+2025-02-25 20:55:25.436 [info] Added view workbench.panel.chat.view.edits in the container workbench.panel.chatEditing and showing it. undefined undefined undefined
+2025-02-25 20:55:25.436 [info] Added views:timeline in workbench.view.explorer
+2025-02-25 20:55:25.436 [info] Added view workbench.explorer.fileView in the container workbench.view.explorer and showing it. undefined undefined undefined
+2025-02-25 20:55:25.436 [info] Added views:workbench.explorer.fileView in workbench.view.explorer
+2025-02-25 20:55:25.656 [info] Added views:workbench.debug.welcome in workbench.view.debug
+2025-02-25 20:55:25.922 [info] Added views:postman-for-vscode.sidebar-panel in workbench.view.extension.sidebar-panel
+2025-02-25 20:55:25.922 [info] Added views:postman-console-view in workbench.view.extension.postman-console-view-container
+2025-02-25 20:55:25.926 [info] Added views:cSpellIssuesViewByFile,cSpellIssuesViewByIssue in workbench.view.extension.cspellPanel
+2025-02-25 20:55:26.197 [info] Added views:notepad in workbench.view.explorer
+2025-02-25 20:55:26.308 [info] Added views:workbench.panel.repl.view in workbench.panel.repl
+2025-02-25 20:55:26.333 [info] Added view workbench.views.extensions.installed in the container workbench.view.extensions and showing it. undefined undefined undefined
+2025-02-25 20:55:26.333 [info] Added view workbench.views.extensions.popular in the container workbench.view.extensions and showing it. undefined undefined undefined
+2025-02-25 20:55:26.333 [info] Added view extensions.recommendedList in the container workbench.view.extensions and showing it. undefined undefined undefined
+2025-02-25 20:55:26.333 [info] Added view workbench.views.extensions.marketplace in the container workbench.view.extensions and showing it. undefined undefined undefined
+2025-02-25 20:55:26.333 [info] Added view workbench.views.extensions.searchInstalled in the container workbench.view.extensions and showing it. undefined undefined undefined
+2025-02-25 20:55:26.333 [info] Added view workbench.views.extensions.searchRecentlyUpdated in the container workbench.view.extensions and showing it. undefined undefined undefined
+2025-02-25 20:55:26.333 [info] Added view workbench.views.extensions.searchEnabled in the container workbench.view.extensions and showing it. undefined undefined undefined
+2025-02-25 20:55:26.333 [info] Added view workbench.views.extensions.searchDisabled in the container workbench.view.extensions and showing it. undefined undefined undefined
+2025-02-25 20:55:26.333 [info] Added view workbench.views.extensions.searchOutdated in the container workbench.view.extensions and showing it. undefined undefined undefined
+2025-02-25 20:55:26.333 [info] Added view workbench.views.extensions.searchBuiltin in the container workbench.view.extensions and showing it. undefined undefined undefined
+2025-02-25 20:55:26.333 [info] Added view workbench.views.extensions.searchWorkspaceUnsupported in the container workbench.view.extensions and showing it. undefined undefined undefined
+2025-02-25 20:55:26.333 [info] Added view workbench.views.extensions.workspaceRecommendations in the container workbench.view.extensions and showing it. undefined undefined undefined
+2025-02-25 20:55:26.333 [info] Added view workbench.views.extensions.otherRecommendations in the container workbench.view.extensions and showing it. undefined undefined undefined
+2025-02-25 20:55:26.334 [info] Added view workbench.views.extensions.builtinFeatureExtensions in the container workbench.view.extensions and showing it. undefined undefined undefined
+2025-02-25 20:55:26.334 [info] Added view workbench.views.extensions.builtinThemeExtensions in the container workbench.view.extensions and showing it. undefined undefined undefined
+2025-02-25 20:55:26.334 [info] Added view workbench.views.extensions.builtinProgrammingLanguageExtensions in the container workbench.view.extensions and showing it. undefined undefined undefined
+2025-02-25 20:55:26.334 [info] Added view workbench.views.extensions.untrustedUnsupportedExtensions in the container workbench.view.extensions and showing it. undefined undefined undefined
+2025-02-25 20:55:26.334 [info] Added view workbench.views.extensions.untrustedPartiallySupportedExtensions in the container workbench.view.extensions and showing it. undefined undefined undefined
+2025-02-25 20:55:26.334 [info] Added view workbench.views.extensions.virtualUnsupportedExtensions in the container workbench.view.extensions and showing it. undefined undefined undefined
+2025-02-25 20:55:26.334 [info] Added view workbench.views.extensions.virtualPartiallySupportedExtensions in the container workbench.view.extensions and showing it. undefined undefined undefined
+2025-02-25 20:55:26.335 [info] Added view workbench.views.extensions.deprecatedExtensions in the container workbench.view.extensions and showing it. undefined undefined undefined
+2025-02-25 20:55:26.368 [info] Added views:~remote.forwardedPorts in ~remote.forwardedPortsContainer
+2025-02-25 20:55:28.403 [info] Added views:workbench.panel.aipane.viewaaaiBugFinder in workbench.panel.aipaneaaaiBugFinder
+2025-02-25 20:55:35.472 [info] Added views:workbench.view.testing in workbench.view.extension.test
+2025-02-25 20:55:37.423 [info] Removed views:workbench.view.testing from workbench.view.extension.test
+2025-02-25 20:55:37.762 [info] Removed views:workbench.panel.repl.view from workbench.panel.repl
+2025-02-25 20:55:38.223 [info] Added views:workbench.panel.repl.view in workbench.panel.repl
+2025-02-25 20:55:38.689 [info] Added views:workbench.view.testing in workbench.view.extension.test

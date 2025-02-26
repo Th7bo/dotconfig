@@ -1,0 +1,19 @@
+2025-02-26 19:18:16.704 [info] Using repo backend url https://repo42.cursor.sh
+2025-02-26 19:18:16.828 [error] Failed to get related files No indexer found for file. Maybe not inside a git repo? /home/zen/Documents/EssenceMC/MeeleeSim/src/main/java/dev/th7bo/meleesim/weapons/WeaponsManager.java
+2025-02-26 19:18:16.828 [error] Failed to get cached related files... falling back to uncached No indexer found for file. Maybe not inside a git repo? /home/zen/Documents/EssenceMC/MeeleeSim/src/main/java/dev/th7bo/meleesim/weapons/WeaponsManager.java
+2025-02-26 19:18:16.828 [error] Failed to get related files No indexer found for file. Maybe not inside a git repo? /home/zen/Documents/EssenceMC/MeeleeSim/src/main/java/dev/th7bo/meleesim/weapons/WeaponsManager.java
+2025-02-26 19:18:16.828 [error] Failed to get cached related files... falling back to uncached No indexer found for file. Maybe not inside a git repo? /home/zen/Documents/EssenceMC/MeeleeSim/src/main/java/dev/th7bo/meleesim/weapons/WeaponsManager.java
+2025-02-26 19:18:16.828 [error] Failed to get related files No indexer found for file. Maybe not inside a git repo? /home/zen/Documents/EssenceMC/MeeleeSim/src/main/java/dev/th7bo/meleesim/weapons/WeaponsManager.java
+2025-02-26 19:18:17.036 [info] Git graph is disabled. shouldIndex: true isEnabled: false
+2025-02-26 19:18:17.727 [info] Using repo backend url https://repo42.cursor.sh
+2025-02-26 19:18:17.727 [info] Git graph is disabled. shouldIndex: true isEnabled: false
+2025-02-26 19:33:38.934 [error] Failed to get related files No indexer found for file. Maybe not inside a git repo? /home/zen/Documents/EssenceMC/MeeleeSim/src/main/java/dev/th7bo/meleesim/database/entities/weapons/WeaponsPlayerData.java
+2025-02-26 19:33:38.938 [error] Failed to get cached related files... falling back to uncached No indexer found for file. Maybe not inside a git repo? /home/zen/Documents/EssenceMC/MeeleeSim/src/main/java/dev/th7bo/meleesim/database/entities/weapons/WeaponsPlayerData.java
+2025-02-26 19:33:38.938 [error] Failed to get related files No indexer found for file. Maybe not inside a git repo? /home/zen/Documents/EssenceMC/MeeleeSim/src/main/java/dev/th7bo/meleesim/database/entities/weapons/WeaponsPlayerData.java
+2025-02-26 19:34:25.141 [error] Failed to get related files No indexer found for file. Maybe not inside a git repo? /home/zen/Documents/EssenceMC/MeeleeSim/src/main/java/dev/th7bo/meleesim/inventory/WeaponDeleteGUI.java
+2025-02-26 19:34:25.145 [error] Failed to get cached related files... falling back to uncached No indexer found for file. Maybe not inside a git repo? /home/zen/Documents/EssenceMC/MeeleeSim/src/main/java/dev/th7bo/meleesim/inventory/WeaponDeleteGUI.java
+2025-02-26 19:34:25.145 [error] Failed to get related files No indexer found for file. Maybe not inside a git repo? /home/zen/Documents/EssenceMC/MeeleeSim/src/main/java/dev/th7bo/meleesim/inventory/WeaponDeleteGUI.java
+2025-02-26 20:43:17.098 [error] Failed to check if git graph is enabled [internal] Stream closed with error code NGHTTP2_REFUSED_STREAM
+2025-02-26 21:23:17.104 [error] Failed to check if git graph is enabled [internal] Stream closed with error code NGHTTP2_REFUSED_STREAM
+2025-02-26 21:58:17.108 [error] Failed to check if git graph is enabled [internal] Stream closed with error code NGHTTP2_REFUSED_STREAM
+2025-02-26 22:38:17.109 [error] Failed to check if git graph is enabled [internal] Stream closed with error code NGHTTP2_REFUSED_STREAM

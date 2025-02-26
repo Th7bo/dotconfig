@@ -1,0 +1,10 @@
+2025-02-25 20:54:30.251 [info] Using repo backend url https://repo42.cursor.sh
+2025-02-25 20:54:32.231 [error] Failed to get git graph client
+2025-02-25 20:55:04.814 [info] Using repo backend url https://repo42.cursor.sh
+2025-02-25 20:55:27.577 [info] Using repo backend url https://repo42.cursor.sh
+2025-02-25 20:55:27.982 [info] Git graph is disabled. shouldIndex: true isEnabled: false
+2025-02-25 20:55:28.186 [error] Failed to get related files No indexer found for file. Maybe not inside a git repo? /home/zen/Downloads/newSwords.sk
+2025-02-25 20:55:28.691 [info] Using repo backend url https://repo42.cursor.sh
+2025-02-25 20:55:28.691 [info] Git graph is disabled. shouldIndex: true isEnabled: false
+2025-02-25 20:55:40.300 [info] Using repo backend url https://repo42.cursor.sh
+2025-02-25 20:55:40.711 [info] Git graph is disabled. shouldIndex: true isEnabled: false

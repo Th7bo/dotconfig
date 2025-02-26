@@ -1,0 +1,740 @@
+2025-02-26 19:18:16.704 [info] Creating Indexing Repo client:  https://repo42.cursor.sh
+2025-02-26 19:18:16.704 [info] Creating repo client with backend url: https://repo42.cursor.sh
+2025-02-26 19:18:16.704 [error] Git command failed: git config --get remote.origin.url Command failed: git config --get remote.origin.url
+
+2025-02-26 19:18:16.704 [error] Error getting repo info: Command failed: git config --get remote.origin.url
+
+2025-02-26 19:18:16.704 [error] Error: Command failed: git config --get remote.origin.url
+
+	at genericNodeError (node:internal/errors:984:15)
+	at wrappedFn (node:internal/errors:538:14)
+	at ChildProcess.exithandler (node:child_process:422:12)
+	at ChildProcess.emit (node:events:518:28)
+	at ChildProcess.emit (node:domain:489:12)
+	at maybeClose (node:internal/child_process:1104:16)
+	at Socket.<anonymous> (node:internal/child_process:456:11)
+	at Socket.emit (node:events:518:28)
+	at Socket.emit (node:domain:489:12)
+	at Pipe.<anonymous> (node:net:343:12)
+2025-02-26 19:18:16.787 [info] InternalRepoInfo constructor with preferredEmbeddingModel 0
+2025-02-26 19:18:16.827 [info] Doing a startup handshake.
+2025-02-26 19:18:16.827 [info] Creating merkle client.
+2025-02-26 19:18:16.827 [info] Done creating merkle client.
+2025-02-26 19:18:17.045 [info] Finished initializing merkle tree in 77.63248999999996 ms.
+2025-02-26 19:18:17.045 [info] Doing the initial handshake with hash: fdb4eef01ea7af98d4f008b3860f178f9971ddbf0b6dfc9e41f43bee500f7d74
+2025-02-26 19:18:17.047 [info] Handshake start
+2025-02-26 19:18:17.466 [info] Handshake timing: 419.83855499999936, response: {"status":"STATUS_SUCCESS","codebases":[{"codebaseId":"4e3a2095-d0ce-43db-9212-266c5659b21f","status":"STATUS_UP_TO_DATE"}]}
+2025-02-26 19:18:17.466 [info] Handshake result: {"status":"STATUS_SUCCESS","codebases":[{"codebaseId":"4e3a2095-d0ce-43db-9212-266c5659b21f","status":"STATUS_UP_TO_DATE"}]}
+2025-02-26 19:18:17.466 [info] Starting fast remote sync.
+2025-02-26 19:18:17.466 [info] Total num embeddable files: 34
+2025-02-26 19:18:17.467 [info] Root hash: fdb4eef01ea7af98d4f008b3860f178f9971ddbf0b6dfc9e41f43bee500f7d74
+2025-02-26 19:18:17.507 [info] Search by message took 13.127155999999559ms for query ""
+2025-02-26 19:18:17.517 [info] Search by sha took 17.772281999999905ms for query ""
+2025-02-26 19:18:17.577 [info] Finished indexing repository.
+2025-02-26 19:18:17.577 [info] Indexing job successfully done or aborted.
+2025-02-26 19:18:17.666 [info] Search by message took 10.262160000000222ms for query ""
+2025-02-26 19:18:17.670 [info] Search by sha took 8.95277999999962ms for query ""
+2025-02-26 19:18:17.727 [info] Creating Indexing Repo client:  https://repo42.cursor.sh
+2025-02-26 19:18:17.727 [info] Creating repo client with backend url: https://repo42.cursor.sh
+2025-02-26 19:18:17.727 [info] multiCodebaseIndexingJob dispose
+2025-02-26 19:18:17.727 [info] Aborting indexing job.
+2025-02-26 19:18:17.727 [info] InternalRepoInfo constructor with preferredEmbeddingModel 0
+2025-02-26 19:18:17.731 [info] Doing a startup handshake.
+2025-02-26 19:18:17.731 [info] Creating merkle client.
+2025-02-26 19:18:17.731 [info] Done creating merkle client.
+2025-02-26 19:18:17.739 [info] Finished initializing merkle tree in 5.709972999999991 ms.
+2025-02-26 19:18:17.739 [info] Doing the initial handshake with hash: fdb4eef01ea7af98d4f008b3860f178f9971ddbf0b6dfc9e41f43bee500f7d74
+2025-02-26 19:18:17.740 [info] Handshake start
+2025-02-26 19:18:18.117 [info] Handshake timing: 377.8972279999998, response: {"status":"STATUS_SUCCESS","codebases":[{"codebaseId":"4e3a2095-d0ce-43db-9212-266c5659b21f","status":"STATUS_UP_TO_DATE"}]}
+2025-02-26 19:18:18.117 [info] Handshake result: {"status":"STATUS_SUCCESS","codebases":[{"codebaseId":"4e3a2095-d0ce-43db-9212-266c5659b21f","status":"STATUS_UP_TO_DATE"}]}
+2025-02-26 19:18:18.117 [info] Starting fast remote sync.
+2025-02-26 19:18:18.118 [info] Total num embeddable files: 34
+2025-02-26 19:18:18.118 [info] Root hash: fdb4eef01ea7af98d4f008b3860f178f9971ddbf0b6dfc9e41f43bee500f7d74
+2025-02-26 19:18:18.232 [info] Finished indexing repository.
+2025-02-26 19:18:18.232 [info] Indexing job successfully done or aborted.
+2025-02-26 19:18:18.284 [info] Search by message took 21.535382000000027ms for query ""
+2025-02-26 19:18:18.286 [info] Search by sha took 13.282208999999966ms for query ""
+2025-02-26 19:18:21.817 [info] Search by message took 14.136789999998655ms for query ""
+2025-02-26 19:18:21.830 [info] Search by message took 12.611526999999114ms for query ""
+2025-02-26 19:18:21.830 [info] Search by sha took 19.571507999999085ms for query ""
+2025-02-26 19:18:21.832 [info] Search by sha took 8.484145999998873ms for query ""
+2025-02-26 19:18:21.851 [info] Search by message took 10.516222000000198ms for query ""
+2025-02-26 19:18:21.853 [info] Search by sha took 7.229778000000806ms for query ""
+2025-02-26 19:18:22.628 [info] Search by message took 31.409725999999864ms for query ""
+2025-02-26 19:18:22.632 [info] Search by sha took 14.734478000000308ms for query ""
+2025-02-26 19:18:25.926 [info] Search by message took 10.285628000001452ms for query ""
+2025-02-26 19:18:25.937 [info] Search by message took 9.675396999999066ms for query ""
+2025-02-26 19:18:25.937 [info] Search by sha took 16.295043000000078ms for query ""
+2025-02-26 19:18:25.938 [info] Search by sha took 6.58497399999942ms for query ""
+2025-02-26 19:18:26.136 [info] Search by message took 33.869966999998724ms for query ""
+2025-02-26 19:18:26.141 [info] Search by sha took 16.47897699999885ms for query ""
+2025-02-26 19:23:13.003 [info] Search by message took 11.935307000007015ms for query ""
+2025-02-26 19:23:13.005 [info] Search by sha took 8.235158000024967ms for query ""
+2025-02-26 19:28:12.995 [info] Search by message took 19.07675200002268ms for query ""
+2025-02-26 19:28:12.999 [info] Search by sha took 15.354282999993302ms for query ""
+2025-02-26 19:28:17.729 [info] multiCodebaseIndexingJob dispose
+2025-02-26 19:28:17.729 [info] Aborting indexing job.
+2025-02-26 19:28:17.729 [info] Doing a startup handshake.
+2025-02-26 19:28:17.729 [info] Creating merkle client.
+2025-02-26 19:28:17.729 [info] Done creating merkle client.
+2025-02-26 19:28:17.735 [info] Finished initializing merkle tree in 4.08932500006631 ms.
+2025-02-26 19:28:17.735 [info] Doing the initial handshake with hash: c9828b8fa08373966359e52f04bb34d177df060c1d5847766a2eb35bc006486a
+2025-02-26 19:28:17.737 [info] Handshake start
+2025-02-26 19:28:18.103 [info] Handshake timing: 367.6193600000115, response: {"status":"STATUS_SUCCESS","codebases":[{"codebaseId":"4e3a2095-d0ce-43db-9212-266c5659b21f","status":"STATUS_OUT_OF_SYNC"}]}
+2025-02-26 19:28:18.103 [info] Handshake result: {"status":"STATUS_SUCCESS","codebases":[{"codebaseId":"4e3a2095-d0ce-43db-9212-266c5659b21f","status":"STATUS_OUT_OF_SYNC"}]}
+2025-02-26 19:28:18.103 [info] Starting fast remote sync.
+2025-02-26 19:28:18.103 [info] Total num embeddable files: 34
+2025-02-26 19:28:18.104 [info] Root hash: c9828b8fa08373966359e52f04bb34d177df060c1d5847766a2eb35bc006486a
+2025-02-26 19:28:18.104 [info] In the out of sync case.
+2025-02-26 19:28:18.105 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":".","hash":"c9828b8fa08373966359e52f04bb34d177df060c1d5847766a2eb35bc006486a"}
+2025-02-26 19:28:18.106 [info] Waiting on semaphore to be released 1
+2025-02-26 19:28:18.305 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":"./src","hash":"e342f3bfbe5f505a94241fb5e51b15b80d2be0de55fa399381f44bfa6ec05c55"}
+2025-02-26 19:28:18.306 [info] Waiting on semaphore to be released 1
+2025-02-26 19:28:18.506 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":"./src/main","hash":"1101ffa3fb4eafec910fcfeb5f3dd388392cdd51ae8932c918ee09f0b64b1318"}
+2025-02-26 19:28:18.507 [info] Waiting on semaphore to be released 1
+2025-02-26 19:28:18.706 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":"./src/main/java","hash":"03cde06ebac1984fbd93a8e3061eab6c95b635da76930080e9141a1cc55663b3"}
+2025-02-26 19:28:18.708 [info] Waiting on semaphore to be released 1
+2025-02-26 19:28:18.905 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":"./src/main/java/dev","hash":"f9e1c77347e45f78af9abfeddbe7c0c194096c36dbf180d36435c8df408f780b"}
+2025-02-26 19:28:18.906 [info] Waiting on semaphore to be released 1
+2025-02-26 19:28:19.106 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":"./src/main/java/dev/th7bo","hash":"fa07c2464f6c1fd019baa26cd9ab6695b24b8fc457c607a3663d343f558b3d6b"}
+2025-02-26 19:28:19.107 [info] Waiting on semaphore to be released 1
+2025-02-26 19:28:19.307 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":"./src/main/java/dev/th7bo/meleesim","hash":"7a0e53587ac5705cfeb05d560dca544d27a369818f79792cbb71a0f0e9dfba60"}
+2025-02-26 19:28:19.308 [info] Waiting on semaphore to be released 1
+2025-02-26 19:28:19.507 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":"./src/main/java/dev/th7bo/meleesim/inventory","hash":"e5a2951c4f108c1523f4d4070588b7e5efeb79327797a33c8f3f0a6e2513fdd0"}
+2025-02-26 19:28:19.508 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":"./src/main/java/dev/th7bo/meleesim/database","hash":"ebd087ee91355552c49a42734cee0172e9347682294bf487d215a59053d13954"}
+2025-02-26 19:28:19.510 [info] Waiting on semaphore to be released 2
+2025-02-26 19:28:19.708 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":"./src/main/java/dev/th7bo/meleesim/database/entities","hash":"898d800679704cc1d26ce619633be24d81b68ee60332d5ce975329fa7d887833"}
+2025-02-26 19:28:19.709 [info] Waiting on semaphore to be released 1
+2025-02-26 19:28:19.908 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":"./src/main/java/dev/th7bo/meleesim/database/entities/weapons","hash":"c1d84eaeaccce13691b8ff021dfdc13dea6e26273f109d80f5f0a9501920b4b6"}
+2025-02-26 19:28:19.908 [info] Waiting on semaphore to be released 1
+2025-02-26 19:28:20.108 [info] setting numJobsToGo to 2
+2025-02-26 19:28:20.109 [info] [startSync]: numJobs: 2
+2025-02-26 19:28:20.110 [info] Uploading 2 files.
+2025-02-26 19:28:20.116 [info] Total number of files to embed: 34
+2025-02-26 19:28:20.116 [info] Not aborted
+2025-02-26 19:28:20.116 [info] Starting while loop.
+2025-02-26 19:28:20.116 [info] fileQueue.length: 2
+2025-02-26 19:28:20.116 [info] fileQueue.length: 1
+2025-02-26 19:28:20.116 [info] fileQueue.length: 0
+2025-02-26 19:28:20.116 [info] Waiting for jobs to finish. currentIndexingJobs.length: 2 concurrentUploads.current: 2 fileQueue.length: 0
+2025-02-26 19:28:21.818 [info] Completed job successfully: 4e3a2095-d0ce-43db-9212-266c5659b21f ./src/main/java/dev/th7bo/meleesim/inventory/WeaponStorageGUI.java
+2025-02-26 19:28:21.818 [info] Waiting for jobs to finish. currentIndexingJobs.length: 1 concurrentUploads.current: 3 fileQueue.length: 0
+2025-02-26 19:28:23.084 [info] Completed job successfully: 4e3a2095-d0ce-43db-9212-266c5659b21f ./src/main/java/dev/th7bo/meleesim/database/entities/weapons/WeaponsPlayerData.java
+2025-02-26 19:28:23.084 [info] Waiting for jobs to finish. currentIndexingJobs.length: 0 concurrentUploads.current: 4 fileQueue.length: 0
+2025-02-26 19:28:23.319 [info] Finished indexing repository.
+2025-02-26 19:28:23.319 [info] Indexing job successfully done or aborted.
+2025-02-26 19:31:01.725 [info] Search by message took 34.053898000041954ms for query ""
+2025-02-26 19:31:01.727 [info] Search by sha took 19.62791199993808ms for query ""
+2025-02-26 19:31:01.754 [info] Search by message took 14.874256999930367ms for query ""
+2025-02-26 19:31:01.757 [info] Search by sha took 10.402455999981612ms for query ""
+2025-02-26 19:33:05.474 [info] Search by message took 28.985160999931395ms for query ""
+2025-02-26 19:33:05.480 [info] Search by sha took 22.19300500000827ms for query ""
+2025-02-26 19:33:06.304 [info] Search by message took 11.832135999924503ms for query ""
+2025-02-26 19:33:06.306 [info] Search by sha took 8.04011800000444ms for query ""
+2025-02-26 19:33:13.132 [info] Search by message took 16.404255000059493ms for query ""
+2025-02-26 19:33:13.134 [info] Search by sha took 10.832533999928273ms for query ""
+2025-02-26 19:38:13.002 [info] Search by message took 11.091153000015765ms for query ""
+2025-02-26 19:38:13.004 [info] Search by sha took 7.5319019998423755ms for query ""
+2025-02-26 19:38:17.729 [info] multiCodebaseIndexingJob dispose
+2025-02-26 19:38:17.729 [info] Aborting indexing job.
+2025-02-26 19:38:17.729 [info] Doing a startup handshake.
+2025-02-26 19:38:17.729 [info] Creating merkle client.
+2025-02-26 19:38:17.729 [info] Done creating merkle client.
+2025-02-26 19:38:17.740 [info] Finished initializing merkle tree in 3.4245220001321286 ms.
+2025-02-26 19:38:17.741 [info] Doing the initial handshake with hash: 92eb253b0c179e6d85ea6f058d32de102db64397c27af0bf890795d166f5a1e8
+2025-02-26 19:38:17.741 [info] Handshake start
+2025-02-26 19:38:18.115 [info] Handshake timing: 374.58777999994345, response: {"status":"STATUS_SUCCESS","codebases":[{"codebaseId":"4e3a2095-d0ce-43db-9212-266c5659b21f","status":"STATUS_OUT_OF_SYNC"}]}
+2025-02-26 19:38:18.115 [info] Handshake result: {"status":"STATUS_SUCCESS","codebases":[{"codebaseId":"4e3a2095-d0ce-43db-9212-266c5659b21f","status":"STATUS_OUT_OF_SYNC"}]}
+2025-02-26 19:38:18.115 [info] Starting fast remote sync.
+2025-02-26 19:38:18.116 [info] Total num embeddable files: 34
+2025-02-26 19:38:18.116 [info] Root hash: 92eb253b0c179e6d85ea6f058d32de102db64397c27af0bf890795d166f5a1e8
+2025-02-26 19:38:18.116 [info] In the out of sync case.
+2025-02-26 19:38:18.116 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":".","hash":"92eb253b0c179e6d85ea6f058d32de102db64397c27af0bf890795d166f5a1e8"}
+2025-02-26 19:38:18.116 [info] Waiting on semaphore to be released 1
+2025-02-26 19:38:18.316 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":"./src","hash":"38caa869c2dc8ad6c17a3dcb3bb3b83aba7cb969e9806e4a89a4da7778bb4c79"}
+2025-02-26 19:38:18.317 [info] Waiting on semaphore to be released 1
+2025-02-26 19:38:18.516 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":"./src/main","hash":"725760007acab8b987bb5e8770aa2afdac30ad20f6568c01ceeeb3e9fb6688d4"}
+2025-02-26 19:38:18.517 [info] Waiting on semaphore to be released 1
+2025-02-26 19:38:18.717 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":"./src/main/java","hash":"9a19b11009a93b2062c3fd29440f35b7c6c7fafe00fa29fb0d6cf9655348ac2b"}
+2025-02-26 19:38:18.717 [info] Waiting on semaphore to be released 1
+2025-02-26 19:38:18.916 [info] Waiting on semaphore to be released 1
+2025-02-26 19:38:19.117 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":"./src/main/java/dev","hash":"d3825ebecded990bea24c78cfde469ff0f326ee7615b85f577f526c2dd75a402"}
+2025-02-26 19:38:19.117 [info] Waiting on semaphore to be released 1
+2025-02-26 19:38:19.318 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":"./src/main/java/dev/th7bo","hash":"375866ad9badc2bb3a59adeae8f6b673ed9d762703cedd863c08b1658e3f2a3e"}
+2025-02-26 19:38:19.318 [info] Waiting on semaphore to be released 1
+2025-02-26 19:38:19.517 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":"./src/main/java/dev/th7bo/meleesim","hash":"c6d2d5d17ab79cc0c54e108b6ff3cf590c638f2044a798a9a8534525d15906d2"}
+2025-02-26 19:38:19.518 [info] Waiting on semaphore to be released 1
+2025-02-26 19:38:19.718 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":"./src/main/java/dev/th7bo/meleesim/inventory","hash":"1e27196bf09ae677570c5f4e821d346823ad0bdf25e93b0451e3f0af021bc791"}
+2025-02-26 19:38:19.718 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":"./src/main/java/dev/th7bo/meleesim/database","hash":"7134fcc27fae87ed531e801bb7c11bee27fdaccffcac91d2fbe9586d9c6c8321"}
+2025-02-26 19:38:19.719 [info] Waiting on semaphore to be released 2
+2025-02-26 19:38:19.918 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":"./src/main/java/dev/th7bo/meleesim/database/entities","hash":"f60398741bce58cf40eaa750bc124c1b17217e64afc2ebd4c9d3a3e6c6faa354"}
+2025-02-26 19:38:19.919 [info] Waiting on semaphore to be released 1
+2025-02-26 19:38:20.119 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":"./src/main/java/dev/th7bo/meleesim/database/entities/weapons","hash":"3e62998503d6940b7fb967eda084940a3efe5fe919dfbc2e3eae904c9b7e0517"}
+2025-02-26 19:38:20.119 [info] Waiting on semaphore to be released 1
+2025-02-26 19:38:20.319 [info] setting numJobsToGo to 3
+2025-02-26 19:38:20.319 [info] [startSync]: numJobs: 3
+2025-02-26 19:38:20.319 [info] Uploading 3 files.
+2025-02-26 19:38:20.321 [info] Total number of files to embed: 34
+2025-02-26 19:38:20.321 [info] Not aborted
+2025-02-26 19:38:20.321 [info] Starting while loop.
+2025-02-26 19:38:20.321 [info] fileQueue.length: 3
+2025-02-26 19:38:20.321 [info] fileQueue.length: 2
+2025-02-26 19:38:20.321 [info] fileQueue.length: 1
+2025-02-26 19:38:20.321 [info] Waiting for jobs to finish. currentIndexingJobs.length: 2 concurrentUploads.current: 2 fileQueue.length: 1
+2025-02-26 19:38:21.767 [info] Completed job successfully: 4e3a2095-d0ce-43db-9212-266c5659b21f ./src/main/java/dev/th7bo/meleesim/inventory/WeaponDeleteGUI.java
+2025-02-26 19:38:21.767 [info] fileQueue.length: 0
+2025-02-26 19:38:21.767 [info] Waiting for jobs to finish. currentIndexingJobs.length: 2 concurrentUploads.current: 3 fileQueue.length: 0
+2025-02-26 19:38:21.769 [info] Completed job successfully: 4e3a2095-d0ce-43db-9212-266c5659b21f ./src/main/java/dev/th7bo/meleesim/inventory/WeaponStorageGUI.java
+2025-02-26 19:38:21.769 [info] Waiting for jobs to finish. currentIndexingJobs.length: 1 concurrentUploads.current: 4 fileQueue.length: 0
+2025-02-26 19:38:23.752 [info] Completed job successfully: 4e3a2095-d0ce-43db-9212-266c5659b21f ./src/main/java/dev/th7bo/meleesim/database/entities/weapons/WeaponsPlayerData.java
+2025-02-26 19:38:23.752 [info] Waiting for jobs to finish. currentIndexingJobs.length: 0 concurrentUploads.current: 5 fileQueue.length: 0
+2025-02-26 19:38:23.980 [info] Finished indexing repository.
+2025-02-26 19:38:23.980 [info] Indexing job successfully done or aborted.
+2025-02-26 19:43:13.008 [info] Search by message took 15.529653999954462ms for query ""
+2025-02-26 19:43:13.011 [info] Search by sha took 11.647432999918237ms for query ""
+2025-02-26 19:48:13.040 [info] Search by message took 20.093881000066176ms for query ""
+2025-02-26 19:48:13.045 [info] Search by sha took 16.899093999993056ms for query ""
+2025-02-26 19:48:17.731 [info] multiCodebaseIndexingJob dispose
+2025-02-26 19:48:17.731 [info] Aborting indexing job.
+2025-02-26 19:48:17.731 [info] Doing a startup handshake.
+2025-02-26 19:48:17.731 [info] Creating merkle client.
+2025-02-26 19:48:17.731 [info] Done creating merkle client.
+2025-02-26 19:48:17.745 [info] Finished initializing merkle tree in 5.5570320000406355 ms.
+2025-02-26 19:48:17.746 [info] Doing the initial handshake with hash: 8f1393d0a3f8e84ea15d1323b2127e38890a946e3b27172021af655636346e34
+2025-02-26 19:48:17.747 [info] Handshake start
+2025-02-26 19:48:18.106 [info] Handshake timing: 360.3967310001608, response: {"status":"STATUS_SUCCESS","codebases":[{"codebaseId":"4e3a2095-d0ce-43db-9212-266c5659b21f","status":"STATUS_OUT_OF_SYNC"}]}
+2025-02-26 19:48:18.106 [info] Handshake result: {"status":"STATUS_SUCCESS","codebases":[{"codebaseId":"4e3a2095-d0ce-43db-9212-266c5659b21f","status":"STATUS_OUT_OF_SYNC"}]}
+2025-02-26 19:48:18.106 [info] Starting fast remote sync.
+2025-02-26 19:48:18.107 [info] Total num embeddable files: 34
+2025-02-26 19:48:18.107 [info] Root hash: 8f1393d0a3f8e84ea15d1323b2127e38890a946e3b27172021af655636346e34
+2025-02-26 19:48:18.107 [info] In the out of sync case.
+2025-02-26 19:48:18.107 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":".","hash":"8f1393d0a3f8e84ea15d1323b2127e38890a946e3b27172021af655636346e34"}
+2025-02-26 19:48:18.108 [info] Waiting on semaphore to be released 1
+2025-02-26 19:48:18.308 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":"./src","hash":"e4294b5883ecf3c57c21fe791daa3b8ac071aca8540e64465643a73226e587f3"}
+2025-02-26 19:48:18.309 [info] Waiting on semaphore to be released 1
+2025-02-26 19:48:18.508 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":"./src/main","hash":"cd84e834748f51e3d4abdcd3830fb1d2a2352fc92fc864c1c6711f748621ac2d"}
+2025-02-26 19:48:18.509 [info] Waiting on semaphore to be released 1
+2025-02-26 19:48:18.709 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":"./src/main/java","hash":"150e243fbd9f428b67d9119b8da258a681f96562f7ac70630374e99afb8c3403"}
+2025-02-26 19:48:18.711 [info] Waiting on semaphore to be released 1
+2025-02-26 19:48:18.910 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":"./src/main/java/dev","hash":"f700a8fa2c4e354baf639b7f3f83e5f2083479770b15c39a3e40093244c9b99c"}
+2025-02-26 19:48:18.911 [info] Waiting on semaphore to be released 1
+2025-02-26 19:48:19.110 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":"./src/main/java/dev/th7bo","hash":"6850001b65bcd98ba6d4f87ae76babbafb9ca14e8badd01d3e334ce51fe1c0ab"}
+2025-02-26 19:48:19.111 [info] Waiting on semaphore to be released 1
+2025-02-26 19:48:19.311 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":"./src/main/java/dev/th7bo/meleesim","hash":"fd68b6076ae14a9b3d2d318692f0f015a603b6af0828a792ada72fb6c0bf180b"}
+2025-02-26 19:48:19.314 [info] Waiting on semaphore to be released 1
+2025-02-26 19:48:19.512 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":"./src/main/java/dev/th7bo/meleesim/weapons","hash":"5fce94083d76bdcbb829c573552f5e77bb4da1108cc5ccf6400883372cddbc30"}
+2025-02-26 19:48:19.513 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":"./src/main/java/dev/th7bo/meleesim/inventory","hash":"24b6353c09e81877da2ae2ba0aa9558e4c90c44b21697895746f002edfd2d41f"}
+2025-02-26 19:48:19.514 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":"./src/main/java/dev/th7bo/meleesim/database","hash":"43c9cd3fb2641ec6c330cb5f5b598ea796e3bfbb7ecb2ae937552d1cb877f35d"}
+2025-02-26 19:48:19.515 [info] Waiting on semaphore to be released 3
+2025-02-26 19:48:19.711 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":"./src/main/java/dev/th7bo/meleesim/database/entities","hash":"a21e6984a9e6431ce23c20891a50338d46e52421a810d37cf1310be02e92d082"}
+2025-02-26 19:48:19.712 [info] Waiting on semaphore to be released 1
+2025-02-26 19:48:19.911 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":"./src/main/java/dev/th7bo/meleesim/database/entities/weapons","hash":"bb0cc573c7fd882b362dbb4b06dbc53895c09cfd9bab8eb09ed2ad2d385ee48d"}
+2025-02-26 19:48:19.912 [info] Waiting on semaphore to be released 1
+2025-02-26 19:48:20.113 [info] setting numJobsToGo to 7
+2025-02-26 19:48:20.113 [info] [startSync]: numJobs: 7
+2025-02-26 19:48:20.113 [info] Uploading 7 files.
+2025-02-26 19:48:20.117 [info] Total number of files to embed: 34
+2025-02-26 19:48:20.117 [info] Not aborted
+2025-02-26 19:48:20.117 [info] Starting while loop.
+2025-02-26 19:48:20.117 [info] fileQueue.length: 7
+2025-02-26 19:48:20.117 [info] fileQueue.length: 6
+2025-02-26 19:48:20.117 [info] fileQueue.length: 5
+2025-02-26 19:48:20.117 [info] Waiting for jobs to finish. currentIndexingJobs.length: 2 concurrentUploads.current: 2 fileQueue.length: 5
+2025-02-26 19:48:25.389 [info] Completed job successfully: 4e3a2095-d0ce-43db-9212-266c5659b21f ./src/main/java/dev/th7bo/meleesim/inventory/WeaponDeleteGUI.java
+2025-02-26 19:48:25.389 [info] fileQueue.length: 4
+2025-02-26 19:48:25.389 [info] fileQueue.length: 3
+2025-02-26 19:48:25.389 [info] Waiting for jobs to finish. currentIndexingJobs.length: 3 concurrentUploads.current: 3 fileQueue.length: 3
+2025-02-26 19:48:29.474 [info] Completed job successfully: 4e3a2095-d0ce-43db-9212-266c5659b21f ./src/main/java/dev/th7bo/meleesim/inventory/WeaponStorageGUI.java
+2025-02-26 19:48:29.474 [info] fileQueue.length: 2
+2025-02-26 19:48:29.474 [info] fileQueue.length: 1
+2025-02-26 19:48:29.474 [info] Waiting for jobs to finish. currentIndexingJobs.length: 4 concurrentUploads.current: 4 fileQueue.length: 1
+2025-02-26 19:48:35.782 [info] Completed job successfully: 4e3a2095-d0ce-43db-9212-266c5659b21f ./src/main/java/dev/th7bo/meleesim/weapons/WeaponRarity.java
+2025-02-26 19:48:35.782 [info] fileQueue.length: 0
+2025-02-26 19:48:35.782 [info] Waiting for jobs to finish. currentIndexingJobs.length: 4 concurrentUploads.current: 5 fileQueue.length: 0
+2025-02-26 19:48:36.747 [info] Completed job successfully: 4e3a2095-d0ce-43db-9212-266c5659b21f ./src/main/java/dev/th7bo/meleesim/weapons/WeaponModel.java
+2025-02-26 19:48:36.747 [info] Waiting for jobs to finish. currentIndexingJobs.length: 3 concurrentUploads.current: 6 fileQueue.length: 0
+2025-02-26 19:48:37.760 [info] Completed job successfully: 4e3a2095-d0ce-43db-9212-266c5659b21f ./src/main/java/dev/th7bo/meleesim/database/entities/weapons/StoredWeapon.java
+2025-02-26 19:48:37.760 [info] Waiting for jobs to finish. currentIndexingJobs.length: 2 concurrentUploads.current: 7 fileQueue.length: 0
+2025-02-26 19:48:39.370 [info] Completed job successfully: 4e3a2095-d0ce-43db-9212-266c5659b21f ./src/main/java/dev/th7bo/meleesim/weapons/WeaponMergeHandler.java
+2025-02-26 19:48:39.370 [info] Waiting for jobs to finish. currentIndexingJobs.length: 1 concurrentUploads.current: 8 fileQueue.length: 0
+2025-02-26 19:48:48.596 [info] Completed job successfully: 4e3a2095-d0ce-43db-9212-266c5659b21f ./src/main/java/dev/th7bo/meleesim/database/entities/weapons/WeaponsPlayerData.java
+2025-02-26 19:48:48.596 [info] Waiting for jobs to finish. currentIndexingJobs.length: 0 concurrentUploads.current: 9 fileQueue.length: 0
+2025-02-26 19:48:48.826 [info] Finished indexing repository.
+2025-02-26 19:48:48.826 [info] Indexing job successfully done or aborted.
+2025-02-26 19:53:13.002 [info] Search by message took 11.148011000361294ms for query ""
+2025-02-26 19:53:13.005 [info] Search by sha took 7.84578900039196ms for query ""
+2025-02-26 19:58:13.026 [info] Search by message took 11.687696000095457ms for query ""
+2025-02-26 19:58:13.028 [info] Search by sha took 8.20346900029108ms for query ""
+2025-02-26 19:58:17.731 [info] multiCodebaseIndexingJob dispose
+2025-02-26 19:58:17.731 [info] Aborting indexing job.
+2025-02-26 19:58:17.731 [info] Doing a startup handshake.
+2025-02-26 19:58:17.731 [info] Creating merkle client.
+2025-02-26 19:58:17.731 [info] Done creating merkle client.
+2025-02-26 19:58:17.746 [info] Finished initializing merkle tree in 6.101481999736279 ms.
+2025-02-26 19:58:17.746 [info] Doing the initial handshake with hash: a7660f30f8840b4f3f077b54dabfddb4cd75d7d1659f35c459c48a312db3ce78
+2025-02-26 19:58:17.748 [info] Handshake start
+2025-02-26 19:58:18.106 [info] Handshake timing: 359.6991329998709, response: {"status":"STATUS_SUCCESS","codebases":[{"codebaseId":"4e3a2095-d0ce-43db-9212-266c5659b21f","status":"STATUS_OUT_OF_SYNC"}]}
+2025-02-26 19:58:18.106 [info] Handshake result: {"status":"STATUS_SUCCESS","codebases":[{"codebaseId":"4e3a2095-d0ce-43db-9212-266c5659b21f","status":"STATUS_OUT_OF_SYNC"}]}
+2025-02-26 19:58:18.106 [info] Starting fast remote sync.
+2025-02-26 19:58:18.107 [info] Total num embeddable files: 34
+2025-02-26 19:58:18.107 [info] Root hash: a7660f30f8840b4f3f077b54dabfddb4cd75d7d1659f35c459c48a312db3ce78
+2025-02-26 19:58:18.107 [info] In the out of sync case.
+2025-02-26 19:58:18.107 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":".","hash":"a7660f30f8840b4f3f077b54dabfddb4cd75d7d1659f35c459c48a312db3ce78"}
+2025-02-26 19:58:18.107 [info] Waiting on semaphore to be released 1
+2025-02-26 19:58:18.308 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":"./src","hash":"4dfb145a4aee4155a4e6713e67429a63af44fd000f0aeb8fc90d79791056c327"}
+2025-02-26 19:58:18.310 [info] Waiting on semaphore to be released 1
+2025-02-26 19:58:18.508 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":"./src/main","hash":"1c885cdbe86b355a7f9e5c5b7ea5eb73b67cdd20c4f0e0c74b4401abeb5a32ff"}
+2025-02-26 19:58:18.510 [info] Waiting on semaphore to be released 1
+2025-02-26 19:58:18.709 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":"./src/main/java","hash":"132bc0ef332f4e29654bf346fff1427f86fa09b16e7b7d7c4782f36b996d7ecb"}
+2025-02-26 19:58:18.710 [info] Waiting on semaphore to be released 1
+2025-02-26 19:58:18.909 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":"./src/main/java/dev","hash":"ef8d6f9fd12da73ad08883089015dfb0bc18bf4920535386e00b66f60601af43"}
+2025-02-26 19:58:18.910 [info] Waiting on semaphore to be released 1
+2025-02-26 19:58:19.109 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":"./src/main/java/dev/th7bo","hash":"6e3d3c531717932afc9cd2215f502b81470eadbf9291c8e907499eaa6b211bb8"}
+2025-02-26 19:58:19.110 [info] Waiting on semaphore to be released 1
+2025-02-26 19:58:19.310 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":"./src/main/java/dev/th7bo/meleesim","hash":"6b5570907e54a2bda5ce201be6463599b720c26e97a787bd64280d9f9589c49d"}
+2025-02-26 19:58:19.312 [info] Waiting on semaphore to be released 1
+2025-02-26 19:58:19.510 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":"./src/main/java/dev/th7bo/meleesim/commands","hash":"4970ec5f5f01b312cfea9971cc79750e791164156048c1bf4eb7a37379ed8931"}
+2025-02-26 19:58:19.512 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":"./src/main/java/dev/th7bo/meleesim/weapons","hash":"a1631c41f340cdd8fc15be2dccb9c4e65483925af94eda2572ee3e4b0956964d"}
+2025-02-26 19:58:19.513 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":"./src/main/java/dev/th7bo/meleesim/inventory","hash":"4b40c597aaee5174f4e7ec727349822f64c2cccbabe6a737a084c6875a851729"}
+2025-02-26 19:58:19.514 [info] Waiting on semaphore to be released 3
+2025-02-26 19:58:19.711 [info] setting numJobsToGo to 3
+2025-02-26 19:58:19.711 [info] [startSync]: numJobs: 3
+2025-02-26 19:58:19.711 [info] Uploading 3 files.
+2025-02-26 19:58:19.714 [info] Total number of files to embed: 34
+2025-02-26 19:58:19.714 [info] Not aborted
+2025-02-26 19:58:19.714 [info] Starting while loop.
+2025-02-26 19:58:19.714 [info] fileQueue.length: 3
+2025-02-26 19:58:19.714 [info] fileQueue.length: 2
+2025-02-26 19:58:19.714 [info] fileQueue.length: 1
+2025-02-26 19:58:19.715 [info] Waiting for jobs to finish. currentIndexingJobs.length: 2 concurrentUploads.current: 2 fileQueue.length: 1
+2025-02-26 19:58:24.093 [info] Completed job successfully: 4e3a2095-d0ce-43db-9212-266c5659b21f ./src/main/java/dev/th7bo/meleesim/inventory/WeaponStorageGUI.java
+2025-02-26 19:58:24.093 [info] fileQueue.length: 0
+2025-02-26 19:58:24.093 [info] Waiting for jobs to finish. currentIndexingJobs.length: 2 concurrentUploads.current: 3 fileQueue.length: 0
+2025-02-26 19:58:25.100 [info] Completed job successfully: 4e3a2095-d0ce-43db-9212-266c5659b21f ./src/main/java/dev/th7bo/meleesim/weapons/WeaponsManager.java
+2025-02-26 19:58:25.100 [info] Waiting for jobs to finish. currentIndexingJobs.length: 1 concurrentUploads.current: 4 fileQueue.length: 0
+2025-02-26 19:58:28.752 [info] Completed job successfully: 4e3a2095-d0ce-43db-9212-266c5659b21f ./src/main/java/dev/th7bo/meleesim/commands/WeaponAdminCommand.java
+2025-02-26 19:58:28.752 [info] Waiting for jobs to finish. currentIndexingJobs.length: 0 concurrentUploads.current: 5 fileQueue.length: 0
+2025-02-26 19:58:28.987 [info] Finished indexing repository.
+2025-02-26 19:58:28.987 [info] Indexing job successfully done or aborted.
+2025-02-26 20:03:13.037 [info] Search by message took 13.90382400015369ms for query ""
+2025-02-26 20:03:13.045 [info] Search by sha took 13.076015000231564ms for query ""
+2025-02-26 20:08:13.050 [info] Search by message took 31.90339200012386ms for query ""
+2025-02-26 20:08:13.055 [info] Search by sha took 22.630032000131905ms for query ""
+2025-02-26 20:08:17.731 [info] multiCodebaseIndexingJob dispose
+2025-02-26 20:08:17.731 [info] Aborting indexing job.
+2025-02-26 20:08:17.731 [info] Doing a startup handshake.
+2025-02-26 20:08:17.731 [info] Creating merkle client.
+2025-02-26 20:08:17.731 [info] Done creating merkle client.
+2025-02-26 20:08:17.748 [info] Finished initializing merkle tree in 8.457121000159532 ms.
+2025-02-26 20:08:17.748 [info] Doing the initial handshake with hash: 536d8633cc97187ee611e32c65ff70c9598f2b3cade9c43fddae227cf1915234
+2025-02-26 20:08:17.750 [info] Handshake start
+2025-02-26 20:08:18.118 [info] Handshake timing: 369.3220559996553, response: {"status":"STATUS_SUCCESS","codebases":[{"codebaseId":"4e3a2095-d0ce-43db-9212-266c5659b21f","status":"STATUS_OUT_OF_SYNC"}]}
+2025-02-26 20:08:18.118 [info] Handshake result: {"status":"STATUS_SUCCESS","codebases":[{"codebaseId":"4e3a2095-d0ce-43db-9212-266c5659b21f","status":"STATUS_OUT_OF_SYNC"}]}
+2025-02-26 20:08:18.118 [info] Starting fast remote sync.
+2025-02-26 20:08:18.119 [info] Total num embeddable files: 34
+2025-02-26 20:08:18.119 [info] Root hash: 536d8633cc97187ee611e32c65ff70c9598f2b3cade9c43fddae227cf1915234
+2025-02-26 20:08:18.119 [info] In the out of sync case.
+2025-02-26 20:08:18.119 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":".","hash":"536d8633cc97187ee611e32c65ff70c9598f2b3cade9c43fddae227cf1915234"}
+2025-02-26 20:08:18.120 [info] Waiting on semaphore to be released 1
+2025-02-26 20:08:18.320 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":"./src","hash":"ee4c303cb7ff1f8bc2fc7e7555c18cb283d91064cd1270c11b353c95fd59e96a"}
+2025-02-26 20:08:18.320 [info] Waiting on semaphore to be released 1
+2025-02-26 20:08:18.521 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":"./src/main","hash":"df5e8d6fae1d3a46c4656d755779599db277fd0599cd455ed616c1ee31f8a560"}
+2025-02-26 20:08:18.522 [info] Waiting on semaphore to be released 1
+2025-02-26 20:08:18.721 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":"./src/main/java","hash":"9925fb9f4a2bb310df769bd78fb433934610ab0d00f6ce7b23e959a27e86deeb"}
+2025-02-26 20:08:18.722 [info] Waiting on semaphore to be released 1
+2025-02-26 20:08:18.922 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":"./src/main/java/dev","hash":"fb2c8382e3cfb64e6d86cfcd4bd474f1b8c75fef5b2a6edbdb596a67348375f6"}
+2025-02-26 20:08:18.923 [info] Waiting on semaphore to be released 1
+2025-02-26 20:08:19.123 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":"./src/main/java/dev/th7bo","hash":"7031a1e12666737f870a6de5b018f4fab09873739ba96585cb1c3c42a72495fd"}
+2025-02-26 20:08:19.125 [info] Waiting on semaphore to be released 1
+2025-02-26 20:08:19.324 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":"./src/main/java/dev/th7bo/meleesim","hash":"0214176ff287c2d55df1cff3fb5b9d1f5cb474a4d8cd2373ef672b9b6b2e7879"}
+2025-02-26 20:08:19.325 [info] Waiting on semaphore to be released 1
+2025-02-26 20:08:19.525 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":"./src/main/java/dev/th7bo/meleesim/inventory","hash":"dd984921c76daff1a87aad88bcb9a178e5a6010c58674995c695e7591eb8c333"}
+2025-02-26 20:08:19.526 [info] Waiting on semaphore to be released 1
+2025-02-26 20:08:19.726 [info] setting numJobsToGo to 1
+2025-02-26 20:08:19.726 [info] [startSync]: numJobs: 1
+2025-02-26 20:08:19.726 [info] Uploading 1 files.
+2025-02-26 20:08:19.729 [info] Total number of files to embed: 34
+2025-02-26 20:08:19.729 [info] Not aborted
+2025-02-26 20:08:19.729 [info] Starting while loop.
+2025-02-26 20:08:19.729 [info] fileQueue.length: 1
+2025-02-26 20:08:19.729 [info] fileQueue.length: 0
+2025-02-26 20:08:19.729 [info] Waiting for jobs to finish. currentIndexingJobs.length: 1 concurrentUploads.current: 2 fileQueue.length: 0
+2025-02-26 20:08:23.403 [info] Completed job successfully: 4e3a2095-d0ce-43db-9212-266c5659b21f ./src/main/java/dev/th7bo/meleesim/inventory/WeaponStorageGUI.java
+2025-02-26 20:08:23.403 [info] Waiting for jobs to finish. currentIndexingJobs.length: 0 concurrentUploads.current: 3 fileQueue.length: 0
+2025-02-26 20:08:23.632 [info] Finished indexing repository.
+2025-02-26 20:08:23.632 [info] Indexing job successfully done or aborted.
+2025-02-26 20:13:13.050 [info] Search by message took 18.58488899981603ms for query ""
+2025-02-26 20:13:13.052 [info] Search by sha took 7.7222420000471175ms for query ""
+2025-02-26 20:18:13.104 [info] Search by message took 21.55122199980542ms for query ""
+2025-02-26 20:18:13.107 [info] Search by sha took 7.53482999978587ms for query ""
+2025-02-26 20:18:17.731 [info] multiCodebaseIndexingJob dispose
+2025-02-26 20:18:17.731 [info] Aborting indexing job.
+2025-02-26 20:18:17.731 [info] Doing a startup handshake.
+2025-02-26 20:18:17.731 [info] Creating merkle client.
+2025-02-26 20:18:17.731 [info] Done creating merkle client.
+2025-02-26 20:18:17.746 [info] Finished initializing merkle tree in 6.474334000144154 ms.
+2025-02-26 20:18:17.747 [info] Doing the initial handshake with hash: 536d8633cc97187ee611e32c65ff70c9598f2b3cade9c43fddae227cf1915234
+2025-02-26 20:18:17.749 [info] Handshake start
+2025-02-26 20:18:18.146 [info] Handshake timing: 398.8853809996508, response: {"status":"STATUS_SUCCESS","codebases":[{"codebaseId":"4e3a2095-d0ce-43db-9212-266c5659b21f","status":"STATUS_UP_TO_DATE"}]}
+2025-02-26 20:18:18.146 [info] Handshake result: {"status":"STATUS_SUCCESS","codebases":[{"codebaseId":"4e3a2095-d0ce-43db-9212-266c5659b21f","status":"STATUS_UP_TO_DATE"}]}
+2025-02-26 20:18:18.146 [info] Starting fast remote sync.
+2025-02-26 20:18:18.147 [info] Total num embeddable files: 34
+2025-02-26 20:18:18.147 [info] Root hash: 536d8633cc97187ee611e32c65ff70c9598f2b3cade9c43fddae227cf1915234
+2025-02-26 20:18:18.259 [info] Finished indexing repository.
+2025-02-26 20:18:18.259 [info] Indexing job successfully done or aborted.
+2025-02-26 20:23:13.096 [info] Search by message took 34.36753799999133ms for query ""
+2025-02-26 20:23:13.102 [info] Search by sha took 23.671879000030458ms for query ""
+2025-02-26 20:28:13.168 [info] Search by message took 34.69890599977225ms for query ""
+2025-02-26 20:28:13.172 [info] Search by sha took 19.743983999826014ms for query ""
+2025-02-26 20:28:17.731 [info] multiCodebaseIndexingJob dispose
+2025-02-26 20:28:17.731 [info] Aborting indexing job.
+2025-02-26 20:28:17.731 [info] Doing a startup handshake.
+2025-02-26 20:28:17.731 [info] Creating merkle client.
+2025-02-26 20:28:17.731 [info] Done creating merkle client.
+2025-02-26 20:28:17.745 [info] Finished initializing merkle tree in 5.365709999576211 ms.
+2025-02-26 20:28:17.746 [info] Doing the initial handshake with hash: 536d8633cc97187ee611e32c65ff70c9598f2b3cade9c43fddae227cf1915234
+2025-02-26 20:28:17.747 [info] Handshake start
+2025-02-26 20:28:18.137 [info] Handshake timing: 390.92567900009453, response: {"status":"STATUS_SUCCESS","codebases":[{"codebaseId":"4e3a2095-d0ce-43db-9212-266c5659b21f","status":"STATUS_UP_TO_DATE"}]}
+2025-02-26 20:28:18.137 [info] Handshake result: {"status":"STATUS_SUCCESS","codebases":[{"codebaseId":"4e3a2095-d0ce-43db-9212-266c5659b21f","status":"STATUS_UP_TO_DATE"}]}
+2025-02-26 20:28:18.137 [info] Starting fast remote sync.
+2025-02-26 20:28:18.138 [info] Total num embeddable files: 34
+2025-02-26 20:28:18.138 [info] Root hash: 536d8633cc97187ee611e32c65ff70c9598f2b3cade9c43fddae227cf1915234
+2025-02-26 20:28:18.248 [info] Finished indexing repository.
+2025-02-26 20:28:18.248 [info] Indexing job successfully done or aborted.
+2025-02-26 20:33:13.075 [info] Search by message took 18.155322999693453ms for query ""
+2025-02-26 20:33:13.077 [info] Search by sha took 7.986716000363231ms for query ""
+2025-02-26 20:38:13.102 [info] Search by message took 11.410217000171542ms for query ""
+2025-02-26 20:38:13.104 [info] Search by sha took 7.613568999804556ms for query ""
+2025-02-26 20:38:17.731 [info] multiCodebaseIndexingJob dispose
+2025-02-26 20:38:17.731 [info] Aborting indexing job.
+2025-02-26 20:38:17.731 [info] Doing a startup handshake.
+2025-02-26 20:38:17.731 [info] Creating merkle client.
+2025-02-26 20:38:17.731 [info] Done creating merkle client.
+2025-02-26 20:38:17.744 [info] Finished initializing merkle tree in 5.044222000055015 ms.
+2025-02-26 20:38:17.744 [info] Doing the initial handshake with hash: 536d8633cc97187ee611e32c65ff70c9598f2b3cade9c43fddae227cf1915234
+2025-02-26 20:38:17.746 [info] Handshake start
+2025-02-26 20:38:18.121 [info] Handshake timing: 375.9487949991599, response: {"status":"STATUS_SUCCESS","codebases":[{"codebaseId":"4e3a2095-d0ce-43db-9212-266c5659b21f","status":"STATUS_UP_TO_DATE"}]}
+2025-02-26 20:38:18.121 [info] Handshake result: {"status":"STATUS_SUCCESS","codebases":[{"codebaseId":"4e3a2095-d0ce-43db-9212-266c5659b21f","status":"STATUS_UP_TO_DATE"}]}
+2025-02-26 20:38:18.121 [info] Starting fast remote sync.
+2025-02-26 20:38:18.121 [info] Total num embeddable files: 34
+2025-02-26 20:38:18.122 [info] Root hash: 536d8633cc97187ee611e32c65ff70c9598f2b3cade9c43fddae227cf1915234
+2025-02-26 20:38:18.232 [info] Finished indexing repository.
+2025-02-26 20:38:18.232 [info] Indexing job successfully done or aborted.
+2025-02-26 20:43:13.052 [info] Search by message took 19.554283999837935ms for query ""
+2025-02-26 20:43:13.055 [info] Search by sha took 12.793886999599636ms for query ""
+2025-02-26 20:48:13.086 [info] Search by message took 15.093902999535203ms for query ""
+2025-02-26 20:48:13.088 [info] Search by sha took 7.695342999882996ms for query ""
+2025-02-26 20:48:17.732 [info] multiCodebaseIndexingJob dispose
+2025-02-26 20:48:17.732 [info] Aborting indexing job.
+2025-02-26 20:48:17.732 [info] Doing a startup handshake.
+2025-02-26 20:48:17.732 [info] Creating merkle client.
+2025-02-26 20:48:17.732 [info] Done creating merkle client.
+2025-02-26 20:48:17.748 [info] Finished initializing merkle tree in 7.607425999827683 ms.
+2025-02-26 20:48:17.749 [info] Doing the initial handshake with hash: 536d8633cc97187ee611e32c65ff70c9598f2b3cade9c43fddae227cf1915234
+2025-02-26 20:48:17.751 [info] Handshake start
+2025-02-26 20:48:18.133 [info] Handshake timing: 383.54369199927896, response: {"status":"STATUS_SUCCESS","codebases":[{"codebaseId":"4e3a2095-d0ce-43db-9212-266c5659b21f","status":"STATUS_UP_TO_DATE"}]}
+2025-02-26 20:48:18.133 [info] Handshake result: {"status":"STATUS_SUCCESS","codebases":[{"codebaseId":"4e3a2095-d0ce-43db-9212-266c5659b21f","status":"STATUS_UP_TO_DATE"}]}
+2025-02-26 20:48:18.133 [info] Starting fast remote sync.
+2025-02-26 20:48:18.133 [info] Total num embeddable files: 34
+2025-02-26 20:48:18.134 [info] Root hash: 536d8633cc97187ee611e32c65ff70c9598f2b3cade9c43fddae227cf1915234
+2025-02-26 20:48:18.241 [info] Finished indexing repository.
+2025-02-26 20:48:18.241 [info] Indexing job successfully done or aborted.
+2025-02-26 20:53:13.045 [info] Search by message took 11.210140000097454ms for query ""
+2025-02-26 20:53:13.047 [info] Search by sha took 7.652166000567377ms for query ""
+2025-02-26 20:58:13.083 [info] Search by sha took 10.06356400065124ms for query ""
+2025-02-26 20:58:13.084 [info] Search by message took 24.09813200030476ms for query ""
+2025-02-26 20:58:17.733 [info] multiCodebaseIndexingJob dispose
+2025-02-26 20:58:17.733 [info] Aborting indexing job.
+2025-02-26 20:58:17.733 [info] Doing a startup handshake.
+2025-02-26 20:58:17.733 [info] Creating merkle client.
+2025-02-26 20:58:17.733 [info] Done creating merkle client.
+2025-02-26 20:58:17.750 [info] Finished initializing merkle tree in 8.511959999799728 ms.
+2025-02-26 20:58:17.751 [info] Doing the initial handshake with hash: 536d8633cc97187ee611e32c65ff70c9598f2b3cade9c43fddae227cf1915234
+2025-02-26 20:58:17.752 [info] Handshake start
+2025-02-26 20:58:18.107 [info] Handshake timing: 356.4253989998251, response: {"status":"STATUS_SUCCESS","codebases":[{"codebaseId":"4e3a2095-d0ce-43db-9212-266c5659b21f","status":"STATUS_UP_TO_DATE"}]}
+2025-02-26 20:58:18.108 [info] Handshake result: {"status":"STATUS_SUCCESS","codebases":[{"codebaseId":"4e3a2095-d0ce-43db-9212-266c5659b21f","status":"STATUS_UP_TO_DATE"}]}
+2025-02-26 20:58:18.108 [info] Starting fast remote sync.
+2025-02-26 20:58:18.108 [info] Total num embeddable files: 34
+2025-02-26 20:58:18.108 [info] Root hash: 536d8633cc97187ee611e32c65ff70c9598f2b3cade9c43fddae227cf1915234
+2025-02-26 20:58:18.219 [info] Finished indexing repository.
+2025-02-26 20:58:18.219 [info] Indexing job successfully done or aborted.
+2025-02-26 21:03:13.100 [info] Search by message took 21.094806000590324ms for query ""
+2025-02-26 21:03:13.102 [info] Search by sha took 7.729399999603629ms for query ""
+2025-02-26 21:08:13.096 [info] Search by message took 28.33741099946201ms for query ""
+2025-02-26 21:08:13.104 [info] Search by sha took 22.156057000160217ms for query ""
+2025-02-26 21:08:17.734 [info] multiCodebaseIndexingJob dispose
+2025-02-26 21:08:17.735 [info] Aborting indexing job.
+2025-02-26 21:08:17.735 [info] Doing a startup handshake.
+2025-02-26 21:08:17.735 [info] Creating merkle client.
+2025-02-26 21:08:17.735 [info] Done creating merkle client.
+2025-02-26 21:08:17.747 [info] Finished initializing merkle tree in 9.729725000448525 ms.
+2025-02-26 21:08:17.748 [info] Doing the initial handshake with hash: 536d8633cc97187ee611e32c65ff70c9598f2b3cade9c43fddae227cf1915234
+2025-02-26 21:08:17.753 [info] Handshake start
+2025-02-26 21:08:18.339 [info] Handshake timing: 586.6901989998296, response: {"status":"STATUS_SUCCESS","codebases":[{"codebaseId":"4e3a2095-d0ce-43db-9212-266c5659b21f","status":"STATUS_UP_TO_DATE"}]}
+2025-02-26 21:08:18.339 [info] Handshake result: {"status":"STATUS_SUCCESS","codebases":[{"codebaseId":"4e3a2095-d0ce-43db-9212-266c5659b21f","status":"STATUS_UP_TO_DATE"}]}
+2025-02-26 21:08:18.339 [info] Starting fast remote sync.
+2025-02-26 21:08:18.339 [info] Total num embeddable files: 34
+2025-02-26 21:08:18.339 [info] Root hash: 536d8633cc97187ee611e32c65ff70c9598f2b3cade9c43fddae227cf1915234
+2025-02-26 21:08:18.459 [info] Finished indexing repository.
+2025-02-26 21:08:18.459 [info] Indexing job successfully done or aborted.
+2025-02-26 21:13:13.069 [info] Search by message took 12.659699000418186ms for query ""
+2025-02-26 21:13:13.071 [info] Search by sha took 8.25023000035435ms for query ""
+2025-02-26 21:18:13.136 [info] Search by message took 51.43127899989486ms for query ""
+2025-02-26 21:18:13.140 [info] Search by sha took 30.235954000614583ms for query ""
+2025-02-26 21:18:17.737 [info] multiCodebaseIndexingJob dispose
+2025-02-26 21:18:17.737 [info] Aborting indexing job.
+2025-02-26 21:18:17.737 [info] Doing a startup handshake.
+2025-02-26 21:18:17.737 [info] Creating merkle client.
+2025-02-26 21:18:17.737 [info] Done creating merkle client.
+2025-02-26 21:18:17.761 [info] Finished initializing merkle tree in 13.172647000290453 ms.
+2025-02-26 21:18:17.762 [info] Doing the initial handshake with hash: 536d8633cc97187ee611e32c65ff70c9598f2b3cade9c43fddae227cf1915234
+2025-02-26 21:18:17.765 [info] Handshake start
+2025-02-26 21:18:18.148 [info] Handshake timing: 385.1774059999734, response: {"status":"STATUS_SUCCESS","codebases":[{"codebaseId":"4e3a2095-d0ce-43db-9212-266c5659b21f","status":"STATUS_UP_TO_DATE"}]}
+2025-02-26 21:18:18.148 [info] Handshake result: {"status":"STATUS_SUCCESS","codebases":[{"codebaseId":"4e3a2095-d0ce-43db-9212-266c5659b21f","status":"STATUS_UP_TO_DATE"}]}
+2025-02-26 21:18:18.148 [info] Starting fast remote sync.
+2025-02-26 21:18:18.149 [info] Total num embeddable files: 34
+2025-02-26 21:18:18.149 [info] Root hash: 536d8633cc97187ee611e32c65ff70c9598f2b3cade9c43fddae227cf1915234
+2025-02-26 21:18:18.262 [info] Finished indexing repository.
+2025-02-26 21:18:18.262 [info] Indexing job successfully done or aborted.
+2025-02-26 21:23:13.130 [info] Search by message took 16.483862000517547ms for query ""
+2025-02-26 21:23:13.132 [info] Search by sha took 8.11555300001055ms for query ""
+2025-02-26 21:28:13.139 [info] Search by message took 24.695159000344574ms for query ""
+2025-02-26 21:28:13.141 [info] Search by sha took 7.832593000493944ms for query ""
+2025-02-26 21:28:17.738 [info] multiCodebaseIndexingJob dispose
+2025-02-26 21:28:17.738 [info] Aborting indexing job.
+2025-02-26 21:28:17.738 [info] Doing a startup handshake.
+2025-02-26 21:28:17.738 [info] Creating merkle client.
+2025-02-26 21:28:17.738 [info] Done creating merkle client.
+2025-02-26 21:28:17.755 [info] Finished initializing merkle tree in 12.989805000834167 ms.
+2025-02-26 21:28:17.757 [info] Doing the initial handshake with hash: 536d8633cc97187ee611e32c65ff70c9598f2b3cade9c43fddae227cf1915234
+2025-02-26 21:28:17.759 [info] Handshake start
+2025-02-26 21:28:18.127 [info] Handshake timing: 370.1976380003616, response: {"status":"STATUS_SUCCESS","codebases":[{"codebaseId":"4e3a2095-d0ce-43db-9212-266c5659b21f","status":"STATUS_UP_TO_DATE"}]}
+2025-02-26 21:28:18.127 [info] Handshake result: {"status":"STATUS_SUCCESS","codebases":[{"codebaseId":"4e3a2095-d0ce-43db-9212-266c5659b21f","status":"STATUS_UP_TO_DATE"}]}
+2025-02-26 21:28:18.127 [info] Starting fast remote sync.
+2025-02-26 21:28:18.128 [info] Total num embeddable files: 34
+2025-02-26 21:28:18.129 [info] Root hash: 536d8633cc97187ee611e32c65ff70c9598f2b3cade9c43fddae227cf1915234
+2025-02-26 21:28:18.237 [info] Finished indexing repository.
+2025-02-26 21:28:18.237 [info] Indexing job successfully done or aborted.
+2025-02-26 21:33:13.107 [info] Search by message took 11.356283999979496ms for query ""
+2025-02-26 21:33:13.108 [info] Search by sha took 7.554099999368191ms for query ""
+2025-02-26 21:38:13.092 [info] Search by message took 20.944976000115275ms for query ""
+2025-02-26 21:38:13.094 [info] Search by sha took 7.309763001278043ms for query ""
+2025-02-26 21:38:17.738 [info] multiCodebaseIndexingJob dispose
+2025-02-26 21:38:17.738 [info] Aborting indexing job.
+2025-02-26 21:38:17.738 [info] Doing a startup handshake.
+2025-02-26 21:38:17.738 [info] Creating merkle client.
+2025-02-26 21:38:17.738 [info] Done creating merkle client.
+2025-02-26 21:38:17.762 [info] Finished initializing merkle tree in 13.057820999994874 ms.
+2025-02-26 21:38:17.763 [info] Doing the initial handshake with hash: 536d8633cc97187ee611e32c65ff70c9598f2b3cade9c43fddae227cf1915234
+2025-02-26 21:38:17.766 [info] Handshake start
+2025-02-26 21:38:18.149 [info] Handshake timing: 385.2247989997268, response: {"status":"STATUS_SUCCESS","codebases":[{"codebaseId":"4e3a2095-d0ce-43db-9212-266c5659b21f","status":"STATUS_UP_TO_DATE"}]}
+2025-02-26 21:38:18.149 [info] Handshake result: {"status":"STATUS_SUCCESS","codebases":[{"codebaseId":"4e3a2095-d0ce-43db-9212-266c5659b21f","status":"STATUS_UP_TO_DATE"}]}
+2025-02-26 21:38:18.149 [info] Starting fast remote sync.
+2025-02-26 21:38:18.149 [info] Total num embeddable files: 34
+2025-02-26 21:38:18.149 [info] Root hash: 536d8633cc97187ee611e32c65ff70c9598f2b3cade9c43fddae227cf1915234
+2025-02-26 21:38:18.261 [info] Finished indexing repository.
+2025-02-26 21:38:18.262 [info] Indexing job successfully done or aborted.
+2025-02-26 21:43:13.111 [info] Search by message took 23.110109999775887ms for query ""
+2025-02-26 21:43:13.113 [info] Search by sha took 7.8454860001802444ms for query ""
+2025-02-26 21:48:13.218 [info] Search by message took 52.881161000579596ms for query ""
+2025-02-26 21:48:13.225 [info] Search by sha took 34.73493900150061ms for query ""
+2025-02-26 21:48:17.738 [info] multiCodebaseIndexingJob dispose
+2025-02-26 21:48:17.738 [info] Aborting indexing job.
+2025-02-26 21:48:17.738 [info] Doing a startup handshake.
+2025-02-26 21:48:17.738 [info] Creating merkle client.
+2025-02-26 21:48:17.738 [info] Done creating merkle client.
+2025-02-26 21:48:17.754 [info] Finished initializing merkle tree in 7.509078999981284 ms.
+2025-02-26 21:48:17.755 [info] Doing the initial handshake with hash: 536d8633cc97187ee611e32c65ff70c9598f2b3cade9c43fddae227cf1915234
+2025-02-26 21:48:17.756 [info] Handshake start
+2025-02-26 21:48:18.134 [info] Handshake timing: 379.1717910002917, response: {"status":"STATUS_SUCCESS","codebases":[{"codebaseId":"4e3a2095-d0ce-43db-9212-266c5659b21f","status":"STATUS_UP_TO_DATE"}]}
+2025-02-26 21:48:18.134 [info] Handshake result: {"status":"STATUS_SUCCESS","codebases":[{"codebaseId":"4e3a2095-d0ce-43db-9212-266c5659b21f","status":"STATUS_UP_TO_DATE"}]}
+2025-02-26 21:48:18.134 [info] Starting fast remote sync.
+2025-02-26 21:48:18.135 [info] Total num embeddable files: 34
+2025-02-26 21:48:18.135 [info] Root hash: 536d8633cc97187ee611e32c65ff70c9598f2b3cade9c43fddae227cf1915234
+2025-02-26 21:48:18.251 [info] Finished indexing repository.
+2025-02-26 21:48:18.251 [info] Indexing job successfully done or aborted.
+2025-02-26 21:53:13.124 [info] Search by message took 15.265364998951554ms for query ""
+2025-02-26 21:53:13.126 [info] Search by sha took 7.822038000449538ms for query ""
+2025-02-26 21:58:13.148 [info] Search by message took 15.17769099958241ms for query ""
+2025-02-26 21:58:13.150 [info] Search by sha took 7.150685999542475ms for query ""
+2025-02-26 21:58:17.739 [info] multiCodebaseIndexingJob dispose
+2025-02-26 21:58:17.739 [info] Aborting indexing job.
+2025-02-26 21:58:17.739 [info] Doing a startup handshake.
+2025-02-26 21:58:17.739 [info] Creating merkle client.
+2025-02-26 21:58:17.739 [info] Done creating merkle client.
+2025-02-26 21:58:17.825 [info] Finished initializing merkle tree in 75.11802999861538 ms.
+2025-02-26 21:58:17.825 [info] Doing the initial handshake with hash: 536d8633cc97187ee611e32c65ff70c9598f2b3cade9c43fddae227cf1915234
+2025-02-26 21:58:17.826 [info] Handshake start
+2025-02-26 21:58:18.211 [info] Handshake timing: 385.0449700001627, response: {"status":"STATUS_SUCCESS","codebases":[{"codebaseId":"4e3a2095-d0ce-43db-9212-266c5659b21f","status":"STATUS_UP_TO_DATE"}]}
+2025-02-26 21:58:18.211 [info] Handshake result: {"status":"STATUS_SUCCESS","codebases":[{"codebaseId":"4e3a2095-d0ce-43db-9212-266c5659b21f","status":"STATUS_UP_TO_DATE"}]}
+2025-02-26 21:58:18.211 [info] Starting fast remote sync.
+2025-02-26 21:58:18.212 [info] Total num embeddable files: 34
+2025-02-26 21:58:18.212 [info] Root hash: 536d8633cc97187ee611e32c65ff70c9598f2b3cade9c43fddae227cf1915234
+2025-02-26 21:58:18.330 [info] Finished indexing repository.
+2025-02-26 21:58:18.330 [info] Indexing job successfully done or aborted.
+2025-02-26 22:03:13.155 [info] Search by message took 23.499509999528527ms for query ""
+2025-02-26 22:03:13.157 [info] Search by sha took 7.769407000392675ms for query ""
+2025-02-26 22:08:13.153 [info] Search by message took 50.98826100118458ms for query ""
+2025-02-26 22:08:13.159 [info] Search by sha took 32.13901500031352ms for query ""
+2025-02-26 22:08:17.740 [info] multiCodebaseIndexingJob dispose
+2025-02-26 22:08:17.740 [info] Aborting indexing job.
+2025-02-26 22:08:17.740 [info] Doing a startup handshake.
+2025-02-26 22:08:17.740 [info] Creating merkle client.
+2025-02-26 22:08:17.740 [info] Done creating merkle client.
+2025-02-26 22:08:17.760 [info] Finished initializing merkle tree in 9.532048000022769 ms.
+2025-02-26 22:08:17.760 [info] Doing the initial handshake with hash: 536d8633cc97187ee611e32c65ff70c9598f2b3cade9c43fddae227cf1915234
+2025-02-26 22:08:17.761 [info] Handshake start
+2025-02-26 22:08:18.134 [info] Handshake timing: 373.1889299992472, response: {"status":"STATUS_SUCCESS","codebases":[{"codebaseId":"4e3a2095-d0ce-43db-9212-266c5659b21f","status":"STATUS_UP_TO_DATE"}]}
+2025-02-26 22:08:18.134 [info] Handshake result: {"status":"STATUS_SUCCESS","codebases":[{"codebaseId":"4e3a2095-d0ce-43db-9212-266c5659b21f","status":"STATUS_UP_TO_DATE"}]}
+2025-02-26 22:08:18.134 [info] Starting fast remote sync.
+2025-02-26 22:08:18.135 [info] Total num embeddable files: 34
+2025-02-26 22:08:18.135 [info] Root hash: 536d8633cc97187ee611e32c65ff70c9598f2b3cade9c43fddae227cf1915234
+2025-02-26 22:08:18.247 [info] Finished indexing repository.
+2025-02-26 22:08:18.247 [info] Indexing job successfully done or aborted.
+2025-02-26 22:13:13.175 [info] Search by message took 49.93658200092614ms for query ""
+2025-02-26 22:13:13.186 [info] Search by sha took 35.963025998324156ms for query ""
+2025-02-26 22:18:13.149 [info] Search by message took 14.947754999622703ms for query ""
+2025-02-26 22:18:13.152 [info] Search by sha took 7.859743999317288ms for query ""
+2025-02-26 22:18:17.740 [info] multiCodebaseIndexingJob dispose
+2025-02-26 22:18:17.740 [info] Aborting indexing job.
+2025-02-26 22:18:17.740 [info] Doing a startup handshake.
+2025-02-26 22:18:17.740 [info] Creating merkle client.
+2025-02-26 22:18:17.740 [info] Done creating merkle client.
+2025-02-26 22:18:17.766 [info] Finished initializing merkle tree in 13.08448800072074 ms.
+2025-02-26 22:18:17.767 [info] Doing the initial handshake with hash: 536d8633cc97187ee611e32c65ff70c9598f2b3cade9c43fddae227cf1915234
+2025-02-26 22:18:17.770 [info] Handshake start
+2025-02-26 22:18:18.133 [info] Handshake timing: 366.2682689987123, response: {"status":"STATUS_SUCCESS","codebases":[{"codebaseId":"4e3a2095-d0ce-43db-9212-266c5659b21f","status":"STATUS_UP_TO_DATE"}]}
+2025-02-26 22:18:18.134 [info] Handshake result: {"status":"STATUS_SUCCESS","codebases":[{"codebaseId":"4e3a2095-d0ce-43db-9212-266c5659b21f","status":"STATUS_UP_TO_DATE"}]}
+2025-02-26 22:18:18.134 [info] Starting fast remote sync.
+2025-02-26 22:18:18.134 [info] Total num embeddable files: 34
+2025-02-26 22:18:18.135 [info] Root hash: 536d8633cc97187ee611e32c65ff70c9598f2b3cade9c43fddae227cf1915234
+2025-02-26 22:18:18.246 [info] Finished indexing repository.
+2025-02-26 22:18:18.246 [info] Indexing job successfully done or aborted.
+2025-02-26 22:23:13.202 [info] Search by message took 50.740829998627305ms for query ""
+2025-02-26 22:23:13.212 [info] Search by sha took 36.57152599841356ms for query ""
+2025-02-26 22:28:13.221 [info] Search by message took 50.22954099997878ms for query ""
+2025-02-26 22:28:13.232 [info] Search by sha took 35.88245400041342ms for query ""
+2025-02-26 22:28:17.738 [info] multiCodebaseIndexingJob dispose
+2025-02-26 22:28:17.738 [info] Aborting indexing job.
+2025-02-26 22:28:17.738 [info] Doing a startup handshake.
+2025-02-26 22:28:17.738 [info] Creating merkle client.
+2025-02-26 22:28:17.738 [info] Done creating merkle client.
+2025-02-26 22:28:17.750 [info] Finished initializing merkle tree in 3.942491000518203 ms.
+2025-02-26 22:28:17.750 [info] Doing the initial handshake with hash: 536d8633cc97187ee611e32c65ff70c9598f2b3cade9c43fddae227cf1915234
+2025-02-26 22:28:17.751 [info] Handshake start
+2025-02-26 22:28:18.117 [info] Handshake timing: 366.7951459996402, response: {"status":"STATUS_SUCCESS","codebases":[{"codebaseId":"4e3a2095-d0ce-43db-9212-266c5659b21f","status":"STATUS_UP_TO_DATE"}]}
+2025-02-26 22:28:18.117 [info] Handshake result: {"status":"STATUS_SUCCESS","codebases":[{"codebaseId":"4e3a2095-d0ce-43db-9212-266c5659b21f","status":"STATUS_UP_TO_DATE"}]}
+2025-02-26 22:28:18.117 [info] Starting fast remote sync.
+2025-02-26 22:28:18.117 [info] Total num embeddable files: 34
+2025-02-26 22:28:18.118 [info] Root hash: 536d8633cc97187ee611e32c65ff70c9598f2b3cade9c43fddae227cf1915234
+2025-02-26 22:28:18.232 [info] Finished indexing repository.
+2025-02-26 22:28:18.232 [info] Indexing job successfully done or aborted.
+2025-02-26 22:33:13.142 [info] Search by message took 14.643923999741673ms for query ""
+2025-02-26 22:33:13.144 [info] Search by sha took 7.706406999379396ms for query ""
+2025-02-26 22:38:13.185 [info] Search by message took 51.367363000288606ms for query ""
+2025-02-26 22:38:13.189 [info] Search by sha took 30.98818999901414ms for query ""
+2025-02-26 22:38:17.740 [info] multiCodebaseIndexingJob dispose
+2025-02-26 22:38:17.741 [info] Aborting indexing job.
+2025-02-26 22:38:17.741 [info] Doing a startup handshake.
+2025-02-26 22:38:17.741 [info] Creating merkle client.
+2025-02-26 22:38:17.741 [info] Done creating merkle client.
+2025-02-26 22:38:17.764 [info] Finished initializing merkle tree in 13.060348998755217 ms.
+2025-02-26 22:38:17.765 [info] Doing the initial handshake with hash: 536d8633cc97187ee611e32c65ff70c9598f2b3cade9c43fddae227cf1915234
+2025-02-26 22:38:17.768 [info] Handshake start
+2025-02-26 22:38:18.152 [info] Handshake timing: 386.27682200074196, response: {"status":"STATUS_SUCCESS","codebases":[{"codebaseId":"4e3a2095-d0ce-43db-9212-266c5659b21f","status":"STATUS_UP_TO_DATE"}]}
+2025-02-26 22:38:18.152 [info] Handshake result: {"status":"STATUS_SUCCESS","codebases":[{"codebaseId":"4e3a2095-d0ce-43db-9212-266c5659b21f","status":"STATUS_UP_TO_DATE"}]}
+2025-02-26 22:38:18.152 [info] Starting fast remote sync.
+2025-02-26 22:38:18.153 [info] Total num embeddable files: 34
+2025-02-26 22:38:18.153 [info] Root hash: 536d8633cc97187ee611e32c65ff70c9598f2b3cade9c43fddae227cf1915234
+2025-02-26 22:38:18.267 [info] Finished indexing repository.
+2025-02-26 22:38:18.267 [info] Indexing job successfully done or aborted.
+2025-02-26 22:43:13.161 [info] Search by message took 11.89288100041449ms for query ""
+2025-02-26 22:43:13.163 [info] Search by sha took 8.482176000252366ms for query ""
+2025-02-26 22:48:13.211 [info] Search by message took 15.486642001196742ms for query ""
+2025-02-26 22:48:13.213 [info] Search by sha took 7.9257009997963905ms for query ""
+2025-02-26 22:48:17.739 [info] multiCodebaseIndexingJob dispose
+2025-02-26 22:48:17.739 [info] Aborting indexing job.
+2025-02-26 22:48:17.739 [info] Doing a startup handshake.
+2025-02-26 22:48:17.739 [info] Creating merkle client.
+2025-02-26 22:48:17.739 [info] Done creating merkle client.
+2025-02-26 22:48:17.760 [info] Finished initializing merkle tree in 12.990768998861313 ms.
+2025-02-26 22:48:17.761 [info] Doing the initial handshake with hash: 536d8633cc97187ee611e32c65ff70c9598f2b3cade9c43fddae227cf1915234
+2025-02-26 22:48:17.764 [info] Handshake start
+2025-02-26 22:48:18.125 [info] Handshake timing: 363.5394649989903, response: {"status":"STATUS_SUCCESS","codebases":[{"codebaseId":"4e3a2095-d0ce-43db-9212-266c5659b21f","status":"STATUS_UP_TO_DATE"}]}
+2025-02-26 22:48:18.125 [info] Handshake result: {"status":"STATUS_SUCCESS","codebases":[{"codebaseId":"4e3a2095-d0ce-43db-9212-266c5659b21f","status":"STATUS_UP_TO_DATE"}]}
+2025-02-26 22:48:18.126 [info] Starting fast remote sync.
+2025-02-26 22:48:18.126 [info] Total num embeddable files: 34
+2025-02-26 22:48:18.127 [info] Root hash: 536d8633cc97187ee611e32c65ff70c9598f2b3cade9c43fddae227cf1915234
+2025-02-26 22:48:18.240 [info] Finished indexing repository.
+2025-02-26 22:48:18.240 [info] Indexing job successfully done or aborted.
+2025-02-26 22:53:13.286 [info] Search by message took 11.103086000308394ms for query ""
+2025-02-26 22:53:13.287 [info] Search by sha took 7.177811000496149ms for query ""
+2025-02-26 22:58:13.160 [info] Search by message took 24.72702599875629ms for query ""
+2025-02-26 22:58:13.162 [info] Search by sha took 7.576632000505924ms for query ""
+2025-02-26 22:58:17.741 [info] multiCodebaseIndexingJob dispose
+2025-02-26 22:58:17.741 [info] Aborting indexing job.
+2025-02-26 22:58:17.741 [info] Doing a startup handshake.
+2025-02-26 22:58:17.741 [info] Creating merkle client.
+2025-02-26 22:58:17.741 [info] Done creating merkle client.
+2025-02-26 22:58:17.761 [info] Finished initializing merkle tree in 9.20754799991846 ms.
+2025-02-26 22:58:17.762 [info] Doing the initial handshake with hash: 536d8633cc97187ee611e32c65ff70c9598f2b3cade9c43fddae227cf1915234
+2025-02-26 22:58:17.763 [info] Handshake start
+2025-02-26 22:58:18.139 [info] Handshake timing: 376.8832609988749, response: {"status":"STATUS_SUCCESS","codebases":[{"codebaseId":"4e3a2095-d0ce-43db-9212-266c5659b21f","status":"STATUS_UP_TO_DATE"}]}
+2025-02-26 22:58:18.139 [info] Handshake result: {"status":"STATUS_SUCCESS","codebases":[{"codebaseId":"4e3a2095-d0ce-43db-9212-266c5659b21f","status":"STATUS_UP_TO_DATE"}]}
+2025-02-26 22:58:18.139 [info] Starting fast remote sync.
+2025-02-26 22:58:18.140 [info] Total num embeddable files: 34
+2025-02-26 22:58:18.140 [info] Root hash: 536d8633cc97187ee611e32c65ff70c9598f2b3cade9c43fddae227cf1915234
+2025-02-26 22:58:18.258 [info] Finished indexing repository.
+2025-02-26 22:58:18.258 [info] Indexing job successfully done or aborted.
