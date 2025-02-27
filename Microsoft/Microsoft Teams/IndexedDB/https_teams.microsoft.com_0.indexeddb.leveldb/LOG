@@ -1,0 +1,41 @@
+2025/02/27-02:20:43.661 22649 Reusing MANIFEST /home/dark/.config/Microsoft/Microsoft Teams/IndexedDB/https_teams.microsoft.com_0.indexeddb.leveldb/MANIFEST-000001
+2025/02/27-02:20:45.864 22696 Level-0 table #5: started
+2025/02/27-02:20:45.866 22696 Level-0 table #5: 71571 bytes OK
+2025/02/27-02:20:45.867 22696 Delete type=0 #3
+2025/02/27-02:20:45.867 22696 Manual compaction at level-0 from '\x00*\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00+\x00\x00\x00' @ 0 : 0; will stop at (end)
+2025/02/27-02:20:49.191 22696 Level-0 table #7: started
+2025/02/27-02:20:49.198 22696 Level-0 table #7: 1063354 bytes OK
+2025/02/27-02:20:49.200 22696 Delete type=0 #4
+2025/02/27-02:20:49.307 22696 Compacting 1@1 + 1@2 files
+2025/02/27-02:20:49.313 22696 Generated table #8@1: 3118 keys, 467678 bytes
+2025/02/27-02:20:49.313 22696 Compacted 1@1 + 1@2 files => 467678 bytes
+2025/02/27-02:20:49.314 22696 compacted to: files[ 0 0 1 0 0 0 0 ]
+2025/02/27-02:20:49.314 22696 Delete type=2 #7
+2025/02/27-02:20:49.314 22696 Delete type=2 #5
+2025/02/27-02:20:49.406 22696 Level-0 table #10: started
+2025/02/27-02:20:49.413 22696 Level-0 table #10: 801002 bytes OK
+2025/02/27-02:20:49.414 22696 Delete type=0 #6
+2025/02/27-02:20:49.443 22696 Compacting 1@1 + 1@2 files
+2025/02/27-02:20:49.452 22696 Generated table #11@1: 3836 keys, 632632 bytes
+2025/02/27-02:20:49.452 22696 Compacted 1@1 + 1@2 files => 632632 bytes
+2025/02/27-02:20:49.452 22696 compacted to: files[ 0 0 1 0 0 0 0 ]
+2025/02/27-02:20:49.453 22696 Delete type=2 #8
+2025/02/27-02:20:49.453 22696 Delete type=2 #10
+2025/02/27-02:20:49.601 22696 Level-0 table #13: started
+2025/02/27-02:20:49.607 22696 Level-0 table #13: 868147 bytes OK
+2025/02/27-02:20:49.608 22696 Delete type=0 #9
+2025/02/27-02:20:49.609 22696 Compacting 1@1 + 1@2 files
+2025/02/27-02:20:49.619 22696 Generated table #14@1: 4371 keys, 827377 bytes
+2025/02/27-02:20:49.619 22696 Compacted 1@1 + 1@2 files => 827377 bytes
+2025/02/27-02:20:49.619 22696 compacted to: files[ 0 0 1 0 0 0 0 ]
+2025/02/27-02:20:49.620 22696 Delete type=2 #11
+2025/02/27-02:20:49.620 22696 Delete type=2 #13
+2025/02/27-02:20:54.309 22696 Level-0 table #16: started
+2025/02/27-02:20:54.319 22696 Level-0 table #16: 1019398 bytes OK
+2025/02/27-02:20:54.321 22696 Delete type=0 #12
+2025/02/27-02:21:53.250 22696 Compacting 1@1 + 1@2 files
+2025/02/27-02:21:53.267 22696 Generated table #17@1: 6192 keys, 1262622 bytes
+2025/02/27-02:21:53.267 22696 Compacted 1@1 + 1@2 files => 1262622 bytes
+2025/02/27-02:21:53.268 22696 compacted to: files[ 0 0 1 0 0 0 0 ]
+2025/02/27-02:21:53.268 22696 Delete type=2 #14
+2025/02/27-02:21:53.268 22696 Delete type=2 #16

@@ -10,6 +10,8 @@ x-scheme-handler/tonsite=org.telegram.desktop.desktop
 text/x-csrc=code-oss.desktop
 image/x-skencil=code-oss.desktop
 application/vnd.ms-publisher=code.desktop
+inode/directory=org.kde.dolphin.desktop
+x-scheme-handler/msteams=teams.desktop
 
 [Added Associations]
 x-scheme-handler/mailto=userapp-Thunderbird-IANTQ2.desktop;
